@@ -1,0 +1,640 @@
+id_dataset;id_kategori;pertanyaan_variasi
+1;1;prosedur pengajuan cuti akademik
+2;1;ketentuan buat cuti semester ini apa saja
+3;1;min saya mau istirahat kuliah dulu caranya
+4;1;apa itu status mahasiswa terminal
+5;1;ketentuan terminal kuliah karena nilai
+6;1;prosedur ngajuin cuti
+7;1;batas waktu pengajuan cuti akademik
+8;1;apakah cuti akademik bayar ukt
+9;1;form permohonan cuti kuliah
+10;1;mau cuti bentar min
+11;1;ketentuan pengunduran diri mahasiswa polinema
+12;1;mau keluar dari kampus prosedur mundurnya
+13;1;prosedur mengundurkan diri buat maba
+14;1;berkas pengunduran diri
+15;1;berkas pernyataan mundur dari polinema
+16;1;prosedur aktif kuliah lagi setelah cuti 2 semester
+17;1;ketentuan aktif kuliah lagi
+18;1;lapor aktif kuliah pasca cuti
+19;1;prosedur mengurus pengaktifan status mengulang ta
+20;1;perpanjang waktu skripsi ngurusnya kemana
+21;1;min mau lapor aktif dari terminal
+22;1;kalau nilai jelek dan kena terminal harus ngapain
+23;1;apakah mahasiswa terminal wajib daftar ulang
+24;1;berkas pengunduran diri diserahkan ke siapa
+25;1;kalau sudah cuti apakah bisa dibatalkan
+26;1;batas maksimal lama cuti akademik polinema
+27;1;maba mau ngundurin diri caranya gmn
+28;1;aktifkan status dari tidak aktif mengulang ta
+29;1;konfirmasi pembayaran ukt mahasiswa mengulang ta
+30;1;alur rekomendasi cuti dari ketua jurusan
+31;1;apakah cuti bisa dibatalkan kalau sudah disetujui
+32;1;cuti akademik maksimal berapa semester sih
+33;1;kalau mau cuti karena sakit keras syaratnya apa
+34;1;prosedur lapor ke kajur kalau mau cuti
+35;1;berkas permohonan cuti diserahkan kemana
+36;1;disposisi direktur untuk cuti itu apa
+37;1;apakah mahasiswa reguler cuti harus daftar ulang
+38;1;cabut berkas dari polinema caranya
+39;1;prosedur ambil ijazah sma kalau mengundurkan diri
+40;1;maba belum dapat nim mau mundur bisa nggak
+41;1;kalau sudah bayar ukt terus mundur uangnya kembali tidak
+42;1;berkas pengunduran diri maba dikirim ke email mana
+43;1;status terminal itu bayar ukt ngga
+44;1;apa bedanya cuti sama terminal
+45;1;kalau ipk jelek apakah langsung diterminalkan
+46;1;berkas keterangan terminal minta kemana
+47;1;aktif kembali setelah terminal satu semester
+48;1;prosedur masuk kelas lagi habis cuti
+49;1;siapa yang ngurusin mahasiswa aktif kembali
+50;1;status di siakad belum aktif padahal udah bayar ukt pasca cuti
+51;1;prosedur lapor pembayaran ukt mahasiswa mengulang tugas akhir
+52;1;mta itu apa min
+53;1;ketentuan mahasiswa mta
+54;1;kapan batas maksimal ngajuin cuti setelah yudisium
+55;1;cuti karena nilai jelek
+56;1;cuti karena absensi alfa banyak
+57;1;apakah cuti dihitung masa studi
+58;1;masa studi maksimal d4 berapa tahun
+59;1;kalau telat daftar ulang 2 minggu statusnya apa
+60;1;rekomendasi cuti dari ketua jurusan itu maksudnya apa
+61;1;kapan kajur bikin berkas rekomendasi cuti
+62;1;mengundurkan diri karena nilai tidak lulus
+63;1;status mengundurkan diri maba di siakad
+64;1;kalau maba mundur sebelum kuliah mulai statusnya apa
+65;1;ketentuan md maba
+66;1;mengulang ta harus bayar ukt full atau tidak
+67;1;kapan mahasiswa mta bisa masuk kelas
+68;1;admin prodi belum masukin ke kelas untuk mta
+69;1;kalau lunas ukt tapi masih status tidak aktif mengulang ta
+70;1;prosedur konfirmasi bayar ukt ke admin akademik pusat
+71;2;cara urus surat keterangan mahasiswa meninggal dunia
+72;2;syarat lapor mahasiswa meninggal
+73;2;berkas surat kematian mahasiswa
+74;2;lapor teman meninggal ke akademik
+75;2;cara urus surat keterangan prodi serumpun untuk cpns
+76;2;minta surat prodi serumpun
+77;2;surat keterangan kesamaan jurusan
+78;2;syarat surat prodi serumpun buat daftar kerja
+79;2;bikin surat serumpun polinema
+80;2;form surat prodi serumpun
+81;2;minta surat keterangan alumni polinema
+82;2;surat bukti alumni
+83;2;cara minta surat keterangan lulusan sini
+84;2;cara minta surat keterangan aktif kuliah skk
+85;2;syarat buat skk di siakad
+86;2;min mau minta surat keterangan mahasiswa buat beasiswa
+87;2;suket aktif kuliah
+88;2;cara download surat aktif kuliah di siakad
+89;2;minta suket aktif
+90;2;surat keterangan kuliah polinema
+91;2;prosedur pembuatan surat model c untuk tunjangan gaji orang tua
+92;2;syarat surat model c pns
+93;2;buat surat model c
+94;2;cara ngurus surat tunjangan anak
+95;2;cetak surat model c siakad
+96;2;syarat surat keterangan pernah kuliah buat pindah kampus
+97;2;surat bukti pernah kuliah disini
+98;2;cara urus surat pindah kampus
+99;2;minta transkrip buat pindah kuliah
+100;2;surat keterangan keluar polinema
+101;2;syarat minta surat berkelakuan baik
+102;2;surat kelakuan baik dari kampus ngurusnya ke mana
+103;2;minta surat kelakuan baik dari kampus
+104;2;syarat skck kampus
+105;2;surat rekomendasi kelakuan baik
+106;2;mau minta surat keterangan tidak sedang menerima beasiswa
+107;2;form surat pernyataan tidak terima beasiswa lain
+108;2;surat bebas beasiswa
+109;2;cara urus surat tidak dapat beasiswa
+110;2;suket tidak nerima beasiswa
+111;2;akta kematian untuk lapor mahasiswa meninggal
+112;2;siapa yang bisa lapor mahasiswa meninggal
+113;2;setting status meninggal dunia di siakad
+114;2;apakah surat prodi serumpun ditandatangani wadir 1
+115;2;surat prodi serumpun fisiknya ada stempel basah ga
+116;2;berapa lama bikin surat prodi serumpun
+117;2;alumni minta surat keterangan serumpun lewat online bisa
+118;2;buat surat keterangan alumni polinema bayar nggak
+119;2;apa itu surat keterangan alumni
+120;2;syarat fotokopi ktp dan ijazah buat surat alumni
+121;2;surat alumni ttd ka bak
+122;2;bikin skk surat keterangan kuliah harus lunas ukt ya
+123;2;maksimal bikin skk berapa kali se semester
+124;2;skk bentuknya pdf atau kertas
+125;2;cara cetak sendiri surat keterangan aktif di siakad
+126;2;menu pengajuan skk di siakad sebelah mana
+127;2;surat model c itu buat apa sih
+128;2;ortu saya tni cara bikin surat model c
+129;2;kalau data ortu di siakad salah bisa bikin surat model c ngga
+130;2;surat model c ditandatangani siapa
+131;2;mahasiswa lulus belum wisuda bisa buat surat model c
+132;2;surat keterangan pernah kuliah buat mahasiswa do
+133;2;khs untuk ngurus surat pernah kuliah
+134;2;cara pindah kampus dan minta surat keterangan dari polinema
+135;2;wadir 1 ttd surat pernah kuliah
+136;2;syarat minta surat kelakuan baik wajib rekomendasi dpa
+137;2;surat kelakuan baik berlaku berapa lama
+138;2;cara minta surat rekomendasi kelakuan baik ke kajur
+139;2;surat kelakuan baik dari wadir 3
+140;2;buat skck kampus untuk daftar kerja
+141;2;suket tidak terima beasiswa dari wadir 3
+142;2;cara buat surat keterangan tidak sedang menerima beasiswa lain
+143;2;pengajuan surat tidak terima beasiswa di kemahasiswaan
+144;2;surat bukti lunas ukt
+145;2;minta surat keterangan ukt maba
+146;2;sku surat keterangan ukt
+147;2;surat buat daftar beasiswa
+148;2;rincian ukt mahasiswa untuk lampiran beasiswa
+149;2;lama proses bikin surat keterangan ukt
+150;2;surat model c sehari jadi ngga
+151;2;min skk saya kok belum di acc
+152;2;cara melengkapi data orang tua untuk surat model c
+153;2;surat pernah kuliah butuh waktu berapa hari
+154;2;ambil surat di gedung aa lantai berapa
+155;2;kirim surat permohonan ke email akademik pusat
+156;2;disposisi surat dari direktur berapa lama
+157;2;nomor dan tanggal surat balasan di siakad
+158;2;surat kematian buat lapor pddikti
+159;2;konfirmasi kajur buat prodi serumpun
+160;2;validasi ipk dan ijazah untuk surat alumni
+161;3;minta lembar tagihan keterangan besaran ukt per semester
+162;3;lembar tagihan rincian ukt buat daftar beasiswa
+163;3;butuh rincian ukt buat beasiswa
+164;3;cetak lembar tagihan ukt
+165;3;lembar tagihan keterangan ukt dari siakad
+166;3;tahapan bayar minta keringanan ukt mahasiswa baru
+167;3;link daftar keringanan ukt maba
+168;3;ketentuan turun ukt maba
+169;3;keringanan ukt maba jalur mandiri
+170;3;berkas keringanan ukt mahasiswa baru
+171;3;ketentuan penurunan kategori ukt mahasiswa lama
+172;3;ketentuan minta turun ukt
+173;3;kalau orang tua di phk bisa ajuin turun ukt nggak
+174;3;tahapan bayar ajuin keringanan ukt semester ini
+175;3;link keringanan ukt polinema
+176;3;tahapan bayar mengajukan angsuran ukt
+177;3;ketentuan biar bisa nyicil bayar ukt semester ini
+178;3;bisa nyicil ukt ga min
+179;3;tahapan bayar ngajuin cicilan ukt
+180;3;batas pembayaran angsuran ukt
+181;3;min maba mandiri bisa nyicil ipi nggak
+182;3;form lembar tagihan pernyataan angsuran ukt
+183;3;slip gaji orang tua untuk ketentuan turun ukt
+184;3;minimal cicilan ukt berapa persen
+185;3;bayar sisa angsuran ukt ke mana
+186;3;apakah maba kipk bisa ajuin keringanan ukt
+187;3;ketentuan maba yatim piatu minta turun ukt
+188;3;dokumen sktm dari desa untuk keringanan ukt
+189;3;foto rumah tampak depan dan dalam buat banding ukt
+190;3;keringanan ukt maba berlaku sampai semester berapa
+191;3;kalau udah lolos keringanan ukt maba bisa ajuin lagi nggak
+192;3;tahapan bayar upload berkas keringanan ukt pakai hp bisa
+193;3;slip gaji orang tua wiraswasta minta kemana
+194;3;bukti rekening listrik dan air pdm untuk ukt
+195;3;pbb dan stnk kendaraan untuk daftar penurunan ukt
+196;3;lembar tagihan phk bapak buat ketentuan keringanan
+197;3;kapan pengumuman lolos keringanan ukt maba
+198;3;lembar tagihan pernyataan penerima keringanan ukt download dimana
+199;3;ketentuan keringanan ukt mahasiswa lama reguler
+200;3;mahasiswa jalur mandiri bisa minta turun ukt nggak
+201;3;ayah meninggal pas kuliah apakah bisa turun ukt mandiri
+202;3;keringanan ukt mahasiswa lama sampai lulus d4
+203;3;menu keringanan ukt di siakad mahasiswa lama
+204;3;ketentuan cicilan ukt maba
+205;3;penundaan ukt maba lewat web mana
+206;3;cicil ipi jalur mandiri
+207;3;minimal bayar angsuran ukt pertama berapa persen
+208;3;tahapan bayar bikin lembar tagihan pernyataan penundaan ukt materai
+209;3;kalau maba telat bayar sisa angsuran ukt
+210;3;cicilan ukt buat mahasiswa lama yang ada tunggakan
+211;3;mahasiswa lama hubungi wa akademik buat cicil ukt
+212;3;jadwal jatuh tempo pelunasan ukt
+213;3;konfirmasi pelunasan cicilan ukt ke subbag akademik
+214;3;bayar angsuran ukt pakai bank apa saja
+215;3;tahapan bayar bayar ukt mandiri bri bni btn
+216;3;setting nominal ukt setelah acc keringanan
+217;3;wadir 2 acc penurunan ukt
+218;3;penilaian skor keringanan ukt
+219;3;pengajuan keringanan ukt ditolak
+220;3;apakah hasil keringanan ukt bisa diganggu gugat
+221;3;sktm kelurahan untuk maba
+222;3;keringanan ukt d3 sampai semester 6
+223;3;lembar tagihan permohonan keringanan ukt
+224;3;bukti bayar pajak kendaraan stnk
+225;3;dokumen medis ayah sakit keras buat banding ukt
+226;4;apa itu skla dan langkah dapatnya
+227;4;berkas wajib mengurus dokumen keterangan lunas administrasi
+228;4;langkah cetak skla di siakad
+229;4;berkas wajib skla polinema
+230;4;mengurus skla buat daftar sidang
+231;4;prosedur bebas tanggungan perpustakaan dan jurusan
+232;4;ngurus bebas tanggungan perpus gmn
+233;4;berkas wajib dokumen bebas tanggungan
+234;4;langkah urus bebas tanggungan akademik
+235;4;minta bukti lunas tanggungan kampus
+236;4;berkas wajib daftar wisuda tahun ini apa saja
+237;4;link pendaftaran wisuda polinema
+238;4;daftar wisuda dmn min
+239;4;jadwal pengambilan toga wisuda
+240;4;langkah ambil undangan wisuda
+241;4;berkas wajib legalisir ijazah dan transkrip nilai
+242;4;berapa lama proses legalisir ijazah
+243;4;legalisir ijazah brp hari jadinya
+244;4;maksimal legalisir ijazah berapa lembar
+245;4;langkah legalisir ijazah ke kampus
+246;4;langkah mengurus ijazah yang salah cetak nama
+247;4;ijazah typo nama langkah gantinya
+248;4;berkas wajib perbaikan transkrip nilai salah
+249;4;form perbaikan ijazah salah
+250;4;urus ijazah salah ketik
+251;4;ijazah saya hilang berkas wajib buat dokumen penggantinya apa
+252;4;ijazahku ilang min langkah gantinya gmn
+253;4;berkas wajib bikin ijazah baru karena hilang
+254;4;urus ijazah hilang ke polisi
+255;4;dokumen keterangan ijazah hilang
+256;4;apa itu ijazah hybrid
+257;4;langkah dapat ijazah hybrid
+258;4;pengiriman ijazah hybrid
+259;4;cetak ijazah hybrid
+260;4;ijazah hybrid polinema
+261;4;langkah minta ijazah digital dikirim ke email
+262;4;download ijazah digital di simfoni
+263;4;ijazah pdf minta dikirim ke email
+264;4;langkah dapat file ijazah asli
+265;4;validasi ijazah digital
+266;4;apa kepanjangan skla
+267;4;berkas wajib skla lunas ukt dan foto ijazah
+268;4;kalau masih ada tunggakan spfp bisa buat skla
+269;4;langkah upload foto ijazah buat skla
+270;4;kenapa foto ijazah tidak valid
+271;4;skla dipakai buat daftar ujian ta
+272;4;langkah download skla di siakad
+273;4;dokumen keterangan bebas tanggungan sub bagian akademik
+274;4;berkas wajib bebas tanggungan harus kumpulin skkm
+275;4;skkm minimal d4 buat bebas tanggungan
+276;4;isi tracer study buat bebas tanggungan
+277;4;dokumen bebas tanggungan dikirim via wa
+278;4;berkas wajib ngambil ijazah dan transkrip
+279;4;pendaftaran wisuda di web alumni
+280;4;kuota wisuda gelombang pertama
+281;4;jadwal wisuda polinema tahun ini
+282;4;lulusan terbaik dapat fasilitas vip wisuda
+283;4;undangan wisuda digital barcode
+284;4;kapan gladi bersih wisuda
+285;4;langkah ambil perlengkapan toga
+286;4;buku panduan wisuda pdf
+287;4;langkah isi tracer study polinema sebelum legalisir
+288;4;legalisir ijazah maksimal berapa lembar
+289;4;bawa ijazah asli buat berkas wajib legalisir
+290;4;batas pengambilan legalisir ijazah setahun
+291;4;tanda tangan wadir 1 untuk legalisir ijazah
+292;4;stempel basah legalisir polinema
+293;4;berkas wajib benerin ijazah salah ketik bawa akta kelahiran
+294;4;dokumen keterangan ijazah salah diproses berapa kali
+295;4;dokumen kuasa buat ambil ijazah orang lain
+296;4;ijazah asli hilang dokumen dari polisi
+297;4;berkas wajib fotokopi ijazah transkrip buat ijazah hilang
+298;4;pengganti ijazah yang hilang
+299;4;dokumen ijazah hilang ttd direktur
+300;4;ijazah hybrid lulusan tahun berapa
+301;4;apa itu stempel tera peruri di ijazah digital
+302;4;langkah cek keaslian ijazah hybrid polinema
+303;4;ijazah digital pakai bahasa inggris
+304;4;ttd elektronik kajur dan direktur di ijazah
+305;4;berkas wajib minta ijazah digital dikirim ke email
+306;4;email gmail buat terima ijazah digital
+307;4;kenapa ijazah digital saya tidak valid pas diubah pdfnya
+308;4;download ijazah digital di simfoni
+309;4;menu sistem ijazah digital
+310;4;konfirmasi alamat email ijazah
+311;4;pengambilan skpi di admin prodi
+312;4;berkas wajib ujian tugas akhir polinema
+313;4;nilai pkl buat daftar ujian ta
+314;4;sertifikat toeic buat berkas wajib skripsi
+315;4;kumpul berkas ujian ta ke panitia
+316;5;ktm saya hilang syarat bikin baru apa
+317;5;ktm hilang
+318;5;prosedur penggantian ktm hilang ke polisi
+319;5;panduan update ngurus ktm ilang
+320;5;bikin ktm baru bayar ga
+321;5;panduan update urus ktm yang patah rusak
+322;5;ktm patah minta ganti baru bisa
+323;5;syarat ganti ktm rusak
+324;5;ktm ku ngelupas panduan update gantinya
+325;5;tukar ktm rusak di akademik
+326;5;panduan update ubah data nama mahasiswa di siakad yang salah
+327;5;syarat perubahan data mahasiswa pdm ke pddikti
+328;5;nama di siakad typo panduan update gantinya gmn
+329;5;panduan update benerin nik di siakad
+330;5;upload dokumen pdm
+331;5;kapan nim mahasiswa baru keluar
+332;5;nim maba kpn kluar
+333;5;arti digit nim polinema
+334;5;panduan update cek nim maba
+335;5;nunggu nim maba
+336;5;ketentuan baju dan background foto untuk ktm
+337;5;baju buat foto ktm warna apa
+338;5;baju foto ktm buat yang berhijab
+339;5;min panduan update upload ulang foto ktm
+340;5;ukuran foto ktm
+341;5;background foto ijazah warnanya apa
+342;5;kenapa foto ijazah saya ditolak tidak valid di siakad
+343;5;ketentuan jas foto ijazah
+344;5;ukuran foto ijazah polinema
+345;5;ganti foto ijazah yang salah
+346;5;panduan update verifikasi data pendaftaran ulang maba
+347;5;berkas untuk validasi data maba apa aja
+348;5;validasi berkas maba kapan
+349;5;konfirmasi data maba
+350;5;cek status verifikasi maba
+351;5;syarat verifikasi data mahasiswa lama di siakad
+352;5;dokumen pernyataan kebenaran data ijazah
+353;5;panduan update update data siakad mahasiswa lama
+354;5;upload ktp ortu di siakad
+355;5;validasi data ijazah mahasiswa lama
+356;5;ktm hilang apakah bisa nyetak lagi
+357;5;bikin dokumen kehilangan ktm di kantor polisi
+358;5;minta form ktm hilang ke admin pusat
+359;5;ttd kajur buat dokumen ktm hilang
+360;5;panduan update upload foto ktm di siakad buat ganti ktm hilang
+361;5;ktm patah atau mengelupas bisa diganti
+362;5;syarat bawa ktm rusak ke akademik
+363;5;berapa lama cetak ktm baru
+364;5;ukuran foto ktm tiga kali empat
+365;5;baju cowok jas hitam dasi foto ktm
+366;5;jas almamater buat foto ijazah
+367;5;cewek berhijab foto ijazah jilbab putih dalam jas
+368;5;foto ijazah tidak boleh pakai kacamata
+369;5;maksimal file foto ijazah 2mb
+370;5;background foto ktm warna biru kode apa
+371;5;syarat verifikasi data maba
+372;5;dokumen akta kk ktp buat daftar ulang maba
+373;5;tes buta warna buat prodi rekayasa
+374;5;dokumen bebas narkoba maba
+375;5;create nim maba oleh verifikator
+376;5;arti dua digit awal nim
+377;5;kode digit prodi di nim
+378;5;nim mahasiswa alih jenjang
+379;5;kalau data kk dan akta beda pas daftar ulang
+380;5;pakai dokumen keterangan lulus sma buat daftar ulang
+381;5;panduan update ganti nik ortu di siakad
+382;5;dokumen pernyataan kebenaran data maba
+383;5;perubahan data mahasiswa pdm siakad
+384;5;download template dokumen pdm
+385;5;rubah data di pddikti lewat kampus
+386;5;berapa lama pddikti acc perubahan data
+387;5;panduan update update biodata mahasiswa lama di siakad
+388;5;dokumen pernyataan kebenaran penulisan ijazah bermaterai
+389;5;verifikasi data ijazah oleh admin prodi
+390;5;panduan update cek nip ayah di siakad
+391;5;kalau bapak sudah meninggal isi nik nya apa
+392;5;nama ayah diganti nama ibu di biodata
+393;5;cek nisn maba kemdikbud
+394;5;validasi foto ktm maba di siakad
+395;5;alasan foto ktm ditolak admin
+396;5;edit foto ktm background merah
+397;5;swa foto buat ktm boleh tidak
+398;5;panduan update cetak form kebenaran data ijazah
+399;5;pengajuan perubahan nama di ijazah sebelum dicetak
+400;5;validasi sepuluh item data siakad mahasiswa lama
+401;5;panduan update lapor salah tanggal lahir di pddikti
+402;5;upload dokumen asli di menu general verifikasi data
+403;5;menunggu validasi perubahan data dari admin pusat
+404;5;status belum divalidasi foto ijazah
+405;5;cetak kartu mahasiswa polinema
+406;6;info pembinaan soft skill dan prestasi
+407;6;pendaftaran daftar ldk mahasiswa baru
+408;6;pendaftaran pk2mb dan ldk
+409;6;kapan dana beasiswa cair
+410;6;pendaftaran upload nomor rekening untuk pencairan beasiswa
+411;6;beasiswa ku kok belum cair
+412;6;kapan pendaftaran beasiswa dibuka
+413;6;syarat daftar beasiswa dari kampus
+414;6;info beasiswa terbaru dong
+415;6;link daftar beasiswa polinema
+416;6;pendaftaran lapor prestasi lomba kompetisi di siakad
+417;6;pendataan juara lomba untuk skkm
+418;6;pendaftaran masukin sertifikat lomba ke siakad
+419;6;batas upload sertifikat juara lomba
+420;6;alur pendaftaran pkm
+421;6;syarat ikut seleksi program kreativitas mahasiswa pkm
+422;6;pendaftaran pkm tahun ini
+423;6;pengumuman lolos pendanaan pkm
+424;6;prosedur klaim asuransi kecelakaan mahasiswa
+425;6;syarat ngurus asuransi mahasiswa meninggal
+426;6;pembinaan soft skill mahasiswa berprestasi
+427;6;syarat ipk buat mahasiswa berprestasi
+428;6;kegiatan ldk dan pk2mb wajib nggak
+429;6;pembiayaan lomba tingkat nasional dari polinema
+430;6;syarat pencairan beasiswa
+431;6;upload nomor rekening bank pencairan beasiswa
+432;6;kapan dana beasiswa ditransfer ke rekening
+433;6;jadwal pendaftaran beasiswa kampus
+434;6;desk evaluasi seleksi beasiswa
+435;6;sk direktur penerima beasiswa
+436;6;pengumuman lolos beasiswa
+437;6;pendaftaran masukin sertifikat lomba ke simkatmawa
+438;6;pendataan kompetisi untuk iku kampus
+439;6;reward atau penghargaan lomba juara satu dari kampus
+440;6;klaim dana penghargaan kompetisi
+441;6;pkm program kreativitas mahasiswa
+442;6;jadwal seleksi pkm internal polinema
+443;6;pendaftaran cari dosen pembimbing pkm
+444;6;upload proposal pkm nasional
+445;6;pencairan dana pkm delapan puluh persen dari diksi
+446;6;laporan kemajuan pkp pkm
+447;6;lolos pimnas pkm
+448;6;syarat asuransi kecelakaan di luar kampus
+449;6;berkas klaim asuransi kematian mahasiswa polinema
+450;6;pengantar kronologis kecelakaan dari polisi untuk asuransi
+451;6;rekening wali untuk terima asuransi mahasiswa
+452;6;asuransi cover biaya rumah sakit nggak
+453;6;syarat ngajuin pengantar tidak terima beasiswa
+454;6;minta pengantar tidak terima beasiswa dari wadir tiga
+455;6;pengantar kelakuan baik untuk syarat pkl
+456;6;pengantar rekomendasi kajur buat kelakuan baik
+457;6;poin skkm d3 minimal tiga belas
+458;6;poin skkm d4 minimal lima belas
+459;6;validasi skkm tingkat dpk
+460;6;laporan akhir pkm pendanaan
+461;6;proposal pkm internal
+462;6;klaim asuransi jiwa mahasiswa
+463;6;beasiswa untuk mahasiswa aktif polinema
+464;6;info beasiswa pokja kemahasiswaan
+465;6;kegiatan himpunan hmj oki soft skill
+466;7;panduan mengajukan pertanyaan lewat helpdesk akademik
+467;7;link helpdesk polinema
+468;7;panduan absen presensi di siakad
+469;7;panduan request tanda tangan khs digital
+470;7;lupa password login web alumni simfoni panduan resetnya
+471;7;web helpdesk akademik polinema
+472;7;jam operasional tanya helpdesk
+473;7;baca faq sebelum nanya admin helpdesk
+474;7;panduan ngirim tiket pertanyaan di helpdesk
+475;7;aturan presensi activity control di siakad
+476;7;siapa yang input absen mahasiswa di siakad
+477;7;panduan lapor absen kalau sakit lebih dari sehari
+478;7;bukti keterangan keterangan dokter untuk absen
+479;7;kalau izin tidak masuk kuliah suratnya dari siapa
+480;7;batas maksimal perubahan absen di siakad tiga hari
+481;7;apa itu khs digital qr code
+482;7;panduan minta ttd khs ke kajur lewat siakad
+483;7;batas waktu request ttd khs per semester
+484;7;kalau telat minta khs digital
+485;7;panduan download khs yang udah di ttd kajur
+486;7;apakah khs harus diprint
+487;7;menu transaksi nilai buat khs
+488;7;lupa password web alumni simfoni
+489;7;panduan reset password simfoni pakai tanggal lahir
+490;7;tracer study wajib diisi alumni
+491;7;update biodata pekerjaan di simfoni
+492;7;ujian tugas akhir syaratnya apa saja
+493;7;nilai pkl minimal c buat daftar skripsi
+494;7;seminar hasil dan sempro wajib buat ta
+495;7;submit jurnal opsional syarat ta
+496;7;masukin mata kuliah skripsi di krs
+497;7;jadwal ujian ta diterbitkan panitia
+498;7;gladi bersih wisuda wajib
+499;7;undangan wisuda ortu barcode
+500;7;pakai bahasa inggris dan indonesia di ijazah hybrid
+501;7;dosen belum isi presensi di siakad jadi statusnya masih kosong
+502;7;panduan cek rekap absen per semester di siakad
+503;7;kalau izin lomba kampus ngurus absennya
+504;7;apakah bukti keterangan keterangan sakit dari puskesmas bisa dipakai
+505;7;prosedur ubah absen dari komti ke dosen
+506;7;absen salah input oleh dosen panduan benarnya
+507;7;khs digital belum di acc sama kajur
+508;7;kenapa tombol request ttd khs di siakad tidak bisa dipencet
+509;7;panduan cetak khs semester lalu yang sudah lewat
+510;7;qr code di bagian bawah khs itu fungsinya untuk apa
+511;7;apakah khs digital wajib di print untuk daftar sempro
+512;7;kalau kajur lama banget acc khs di sistem
+513;7;menu untuk download khs di siakad ada di sebelah mana
+514;7;batas akhir minta ttd khs ke kajur kapan
+515;7;kalau telat minta ttd khs apakah ada denda atau sanksi
+516;7;panduan lihat nilai ipk di khs digital
+517;7;khs digital saya error pas di download
+518;7;tanda tangan kajur di khs bentuknya qr code ya
+519;7;lupa print khs semester kemarin panduan ambilnya lagi
+520;7;harus nunggu berapa lama sampai khs di acc
+521;7;simfoni alumni error gak bisa login pakai nim
+522;7;panduan ngisi tracer study buat lulusan tahun ini
+523;7;lupa password akun simfoni
+524;7;reset password simfoni apakah harus datang ke kampus
+525;7;isi tracer study di simfoni wajib apa sunnah
+526;7;portal simfoni polinema itu fungsinya buat apa aja
+527;7;format penulisan tanggal lahir buat login simfoni
+528;7;gak bisa buka web alumni.polinema.ac.id
+529;7;panduan update data tempat kerja di tracer study
+530;7;kalau belum kerja ngisi tracer study nya
+531;7;pddikti simfoni sinkronisasinya berapa lama
+532;7;admin helpdesk polinema biasanya balas tiket jam berapa
+533;7;panduan bikin tiket komplain di helpdesk akademik
+534;7;jam kerja operasional admin helpdesk
+535;7;helpdesk bisa bantu benerin nama yang salah di data gak
+536;7;nanya urusan ukt ke helpdesk akademik bisa atau tidak
+537;7;link web helpdesk buat lapor masalah siakad
+538;7;tiket di helpdesk belum dibalas dari kemarin
+539;7;panduan cek status laporan di web helpdesk
+540;7;apa bedanya lapor ke admin prodi sama ke helpdesk pusat
+541;7;kalau ada masalah siakad lapornya ke helpdesk mana
+542;7;buku panduan akademik bisa diakses di mana
+543;7;panduan ganti password siakad yang diretas
+544;7;kalau nim tidak ditemukan di sistem harus lapor siapa
+545;7;prosedur komplain nilai ke pusat
+546;7;pusat informasi akademik polinema di gedung apa
+547;7;dosen lupa input absen di siakad
+548;7;panduan komplain absen alpha padahal saya masuk kelas
+549;7;kalau sakit opname lapor ke siapa biar di siakad tidak alpha
+550;7;bukti keterangan izin dokter diserahkan ke admin prodi atau dosen
+551;7;fitur activity control di siakad itu buat apa
+552;7;lupa absen di siakad waktu kuliah daring
+553;7;batas maksimal ngurus komplain absen alpha berapa hari
+554;7;ngubah status alpha jadi izin syaratnya apa saja
+555;7;bisa gak ganti absen setelah seminggu berlalu
+556;3;lupa belum simpan bukti transfer bayar ukt
+557;3;apakah ukt bisa dicicil 3 kali
+558;3;tahapan bayar dapet lembar tagihan keterangan lunas ukt
+559;3;ketentuan bebas ukt untuk mahasiswa yang tinggal skripsi
+560;3;ukt jalur mandiri apakah bisa diturunkan
+561;3;bayar ukt pakai bank mandiri gagal terus
+562;3;lembar tagihan permohonan penundaan ukt dikumpulkan kemana
+563;3;berkas apa saja yang disiapkan buat banding ukt
+564;3;kenapa tagihan ukt di siakad belum muncul
+565;3;apakah anak yatim piatu bisa dapat potongan ukt
+566;3;kalau orang tua phk pengen turunkan ukt
+567;3;sudah bayar ukt tapi status di siakad masih belum lunas
+568;3;kalau salah transfer nominal ukt
+569;3;keringanan ukt khusus mahasiswa tingkat akhir
+570;3;mau lapor ada masalah pembayaran ukt ke bagian keuangan
+571;3;apakah ada bantuan ukt dari kampus
+572;6;pendaftaran daftar ukm kampus polinema
+573;6;syarat ngurus beasiswa ppa apa saja
+574;6;kapan pendaftaran beasiswa bi dibuka
+575;6;apa itu kompen dan pendaftaran ngerjainnya
+576;6;pendaftaran ngecek tanggungan kompen saya berapa jam
+577;6;kalau tidak ikut pkkmb sanksinya apa
+578;6;pendaftaran daftar asuransi mahasiswa polinema
+579;6;pendaftaran lapor sakit ke bagian kemahasiswaan
+580;6;syarat pengajuan dana kegiatan ormawa
+581;6;pendaftaran dapat pengantar keterangan aktif mahasiswa
+582;6;syarat klaim asuransi kecelakaan mahasiswa
+583;6;pendaftaran daftar ikut pomnas mewakili kampus
+584;6;skkm itu wajib apa nggak sih buat lulus
+585;6;pendaftaran input poin skkm di sistem
+586;6;apa saja kegiatan yang bisa nambah poin skkm
+587;6;berapa poin minimal skkm untuk d3 dan d4
+588;6;apakah sertifikat lomba di sma bisa dimasukkan skkm
+589;6;kalau poin skkm kurang tidak bisa ikut wisuda ya
+590;6;pendaftaran validasi sertifikat skkm ke admin
+591;6;kapan pengumuman lolos beasiswa kip kuliah
+592;6;syarat perpanjang beasiswa kipk semester depan
+593;6;pendaftaran minta pengantar pengantar lomba dari kampus
+594;6;ormawa yang ada di polinema apa aja
+595;6;syarat jadi pengurus bem polinema
+596;6;pendaftaran bikin pengantar rekomendasi beasiswa dari kajur
+597;6;sanksi kalau ketahuan melanggar tata tertib kampus
+598;6;pendaftaran lapor kehilangan barang di area kampus
+599;6;jam operasional gedung graha polinema
+600;6;syarat peminjaman fasilitas olahraga kampus
+601;6;apa itu ldk dan apakah maba wajib ikut
+602;3;tahapan bayar minta keringanan ukt semester ini
+603;3;kapan jadwal banding ukt dibuka
+604;3;ketentuan ngajuin cicilan ukt apa saja
+605;3;apakah mahasiswa semester akhir bisa potong ukt
+606;3;bayar ukt telat apakah ada denda
+607;3;kalau telat bayar ukt dan lupa daftar ulang
+608;3;kalau mau bayar ukt lewat bni caranya
+609;3;kode billing pembayaran ukt bisa dilihat dimana
+610;3;tahapan bayar cek histori pembayaran ukt semester lalu
+611;1;cara ngurus cuti akademik online di siakad
+612;1;syarat perpanjang masa cuti kuliah
+613;1;kalau mau terminal kuliah ngurusnya ke bagian mana
+614;1;apakah mahasiswa baru boleh langsung mengajukan cuti
+615;1;biaya pendaftaran daftar ulang untuk aktif kuliah lagi
+616;1;form pengajuan aktif kuliah setelah cuti ambil dimana
+617;1;batas akhir pengumpulan berkas pengunduran diri
+618;1;mau cabut berkas sebagai mahasiswa baru
+619;1;cara membatalkan status pengajuan cuti akademik
+620;1;lapor ke bagian akademik kalau mau berhenti kuliah
+621;1;prosedur minta izin berhenti kuliah sementara
+622;1;apa bedanya status terminal dan cuti akademik
+623;1;maksimal boleh cuti kuliah itu sampai berapa semester
+624;1;panduan daftar ulang untuk mahasiswa aktif pasca cuti
+625;1;syarat mengurus keterangan aktif kuliah lagi ke pusat
+626;1;kalau mahasiswa kena drop out (do) bisa daftar ulang nggak
+627;1;surat peringatan (sp) dari akademik karena nilai jelek
+628;1;apakah lapor ke komti cukup kalau mau cuti semester ini
+629;1;alur pengurusan surat status terminal dari admin prodi
+630;1;cara mengaktifkan kembali nim yang nonaktif
+631;6;cara mengerjakan kompen alpha
+632;6;tugas kompen minta ke siapa
+633;6;prosedur pemenuhan kompen ketidakhadiran
+634;7;cara lihat jadwal kelas semester ini
+635;7;jadwal kuliah bisa dicek di mana
+636;7;hari ini ada kelas atau tidak lihat dimana
+637;7;cara minta nomor wa dosen
+638;7;info kontak dosen pengampu mata kuliah
+639;7;minta nomor telepon dosen ke siapa
