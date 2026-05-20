@@ -34,7 +34,7 @@
         },
         {
             "id_kategori": 9,
-            "nama_kategori": "KONTAK_DOSEN"
+            "nama_kategori": "INFORMASI_DOSEN"
         },
         {
             "id_kategori": 10,
@@ -43,6 +43,10 @@
         {
             "id_kategori": 11,
             "nama_kategori": "MAGANG/PKL"
+        },
+        {
+            "id_kategori": 12,
+            "nama_kategori": "TERIMA_KASIH"
         }
     ],
     "knowledge": [
@@ -417,8 +421,8 @@
             "jawaban": "Pembayaran UKT dapat dilakukan melalui Bank Mandiri, BNI, BRI, atau BTN menggunakan nomor Virtual Account (VA) atau Kode Billing yang bisa di-generate langsung melalui menu Keuangan di SIAKAD masing-masing mahasiswa."
         },
         {
-            "id_kategori": 6,
-            "pertanyaan": "Cara Memenuhi Kompen",
+            "id_kategori": 7,
+            "pertanyaan": "cara melakukan kompen mengerjakan mengurus memenuhi prosedur langkah gimana bagaimana ngerjain kompen alpha tanggungan",
             "jawaban": "Mahasiswa yang memiliki tanggungan alpha (kompen) wajib membayarnya dengan mengerjakan tugas kompen. Silakan melapor ke admin prodi, laboran, atau dosen untuk meminta tugas. Setelah selesai, minta tanda tangan pada form kompen dan serahkan ke admin prodi agar status alpha dihapus dari SIAKAD."
         },
         {
@@ -432,179 +436,39 @@
             "jawaban": "Untuk mengetahui hasil KHS Anda bisa langsung mengakses SIAKAD dan menuju ke menu nilai mahasiswa."
         },
         {
-            "id_kategori": 8,
-            "pertanyaan": "selamat pagi",
-            "jawaban": "Selamat pagi, ada yang perlu saya bantu?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "selamat siang",
-            "jawaban": "Selamat siang, ada yang perlu saya bantu?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Halo",
-            "jawaban": "Halo! ?? Saya AEGIS 2.0, asisten virtual akademik JTI. Ada yang bisa saya bantu terkait informasi kampus?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Hai",
-            "jawaban": "Hai! ?? Selamat datang di layanan asisten AEGIS 2.0. Apa ada yang ingin ditanyakan?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Selamat pagi",
-            "jawaban": "Selamat pagi! ?? Semangat menjalani hari! Ada informasi akademik yang bisa AEGIS bantu cari hari ini?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Selamat siang",
-            "jawaban": "Selamat siang! ??? Semoga harimu menyenangkan. Ada yang bisa saya bantu?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Selamat sore",
-            "jawaban": "Selamat sore! ?? Setelah seharian beraktivitas, ada informasi kampus yang perlu dicek hari ini?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Selamat malam",
-            "jawaban": "Selamat malam! ?? Masih butuh informasi akademik malam-malam begini? Silakan tanyakan saja, AEGIS siap bantu!"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Assalamualaikum",
-            "jawaban": "Waalaikumsalam warahmatullahi wabarakatuh. ?? Halo, saya AEGIS 2.0. Ada informasi akademik yang bisa saya carikan?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "P",
-            "jawaban": "Halo! ?? (Membalas 'P' dengan senyuman). Saya AEGIS 2.0, asisten akademikmu. Ada yang bisa dibantu?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Ping",
-            "jawaban": "Pong! ?? Halo, saya AEGIS 2.0. Silakan ketik pertanyaanmu terkait jadwal, dosen, skripsi, atau info kampus lainnya."
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Permisi",
-            "jawaban": "Iya, silakan. Boleh masuk! ?? Hehe, bercanda. Halo, saya AEGIS 2.0, ada yang bisa saya bantu?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Bot",
-            "jawaban": "Iya, saya bot AEGIS 2.0 siap melayani! ?? Jangan ragu untuk bertanya soal informasi seputar kampus ya."
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Admin",
-            "jawaban": "Halo! Saat ini kamu sedang terhubung dengan AEGIS 2.0 (Asisten Virtual), bukan admin manusia. Tapi tenang, saya bisa bantu jawab berbagai informasi akademik kok!"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Woy",
-            "jawaban": "Halo juga! ?? Walaupun sapanya agak ngegas, AEGIS tetap siap bantu kamu dengan ramah kok. Ada yang mau ditanyakan?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Pagi",
-            "jawaban": "Pagi juga! ?? Ada yang bisa AEGIS bantu hari ini?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Siang",
-            "jawaban": "Siang! ??? Gimana kuliahnya hari ini? Ada informasi yang perlu AEGIS carikan?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Sore",
-            "jawaban": "Sore! ?? Udah waktunya istirahat nih, tapi kalau butuh info akademik, AEGIS tetap stand by kok!"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Malam",
-            "jawaban": "Malam! ?? Jangan tidur larut malam ya. Ada yang bisa dibantu sebelum istirahat?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Test",
-            "jawaban": "Test diterima dengan baik! ?? Sistem AEGIS 2.0 berjalan normal. Ada yang ingin ditanyakan?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Cek",
-            "jawaban": "Cek 1.. 2.. 3.. Masuk! ?? Halo, saya AEGIS. Silakan sampaikan pertanyaanmu."
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Bro",
-            "jawaban": "Halo bro/sis! ?? Gimana kabarnya? Ada info kampus yang mau dicari?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Kak",
-            "jawaban": "Halo Kak! ?? Saya AEGIS, asisten virtual di sini. Mau cari informasi apa nih?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Min",
-            "jawaban": "Halo! Saat ini kamu dilayani oleh asisten pintar AEGIS 2.0. Ada yang bisa saya carikan untukmu?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Kamu siapa",
-            "jawaban": "Perkenalkan, saya AEGIS 2.0! ?? Asisten akademik virtual kebanggaan JTI yang siap menjawab pertanyaanmu seputar jadwal, kontak dosen, magang, skripsi, dan lainnya."
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Aegis",
-            "jawaban": "Iya, dengan AEGIS di sini! ????? Ada yang bisa saya bantu hari ini?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "Help",
-            "jawaban": "Butuh bantuan? Tentu saja! ?? Silakan ketik saja apa yang kamu cari, misalnya: 'Cari kontak kajur', 'Syarat daftar skripsi', atau 'Info UKT'."
+            "id_kategori": 9,
+            "pertanyaan": "minta kontak nomor hp whatsapp wa telepon telp dosen",
+            "jawaban": "Berikut adalah informasi kontak yang berhasil saya temukan:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 Jabatan: [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
         },
         {
             "id_kategori": 9,
-            "pertanyaan": "Bisa minta nomor telepon dosen?",
-            "jawaban": "Berikut adalah informasi kontak yang berhasil saya temukan:<br><br>\ud83d\udc64 <b>[NAMA_GELAR]</b><br>\ud83d\udcbc Jabatan: [JABATAN]<br>\ud83d\udcde WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
-        },
-        {
-            "id_kategori": 9,
-            "pertanyaan": "Tolong carikan kontak staf atau admin",
-            "jawaban": "Tentu, ini dia kontak yang kamu cari:<br><br>\ud83d\udc64 <b>[NAMA_GELAR]</b><br>\ud83d\udcbc [JABATAN]<br>\ud83d\udcde WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a><br><br><i>Jangan lupa ucapkan salam dan perkenalkan diri saat menghubungi ya!</i>"
+            "pertanyaan": "Tolong carikan nomor kontak staf atau admin",
+            "jawaban": "Tentu, ini dia kontak yang kamu cari:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a><br><br><i>Jangan lupa ucapkan salam dan perkenalkan diri saat menghubungi ya!</i>"
         },
         {
             "id_kategori": 9,
             "pertanyaan": "Siapa yang menempati ruang tersebut?",
-            "jawaban": "Data yang kamu cari sudah saya temukan:<br><br>\ud83d\udc64 <b>[NAMA_GELAR]</b><br>\ud83d\udcbc [JABATAN]<br>\ud83d\udcde Hubungi via WA: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-blue-600 font-medium underline\" target=\"_blank\">[NO_TELPON]</a>"
+            "jawaban": "Data yang kamu cari sudah saya temukan:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 [JABATAN]<br>📞 Hubungi via WA: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-blue-600 font-medium underline\" target=\"_blank\">[NO_TELPON]</a>"
         },
         {
             "id_kategori": 9,
             "pertanyaan": "Siapa yang mengurus keperluan ini?",
-            "jawaban": "Untuk keperluan tersebut, kamu bisa menghubungi:<br><br>\ud83d\udc64 <b>[NAMA_GELAR]</b><br>\ud83d\udcbc [JABATAN]<br>\ud83d\udcde WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-medium underline\" target=\"_blank\">[NO_TELPON]</a>"
+            "jawaban": "Untuk keperluan tersebut, kamu bisa menghubungi:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-medium underline\" target=\"_blank\">[NO_TELPON]</a>"
         },
         {
             "id_kategori": 9,
             "pertanyaan": "saya ingin tahu nomer kontak dosen",
-            "jawaban": "Berikut adalah informasi kontak yang berhasil saya temukan:<br><br>\ud83d\udc64 <b>[NAMA_GELAR]</b><br>\ud83d\udcbc Jabatan: [JABATAN]<br>\ud83d\udcde WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
+            "jawaban": "Berikut adalah informasi kontak yang berhasil saya temukan:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 Jabatan: [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
         },
         {
             "id_kategori": 9,
-            "pertanyaan": "Minta kontak admin atau staf",
-            "jawaban": "Tentu, ini dia kontak bagian terkait yang kamu cari:<br><br>\ud83d\udc64 <b>[NAMA_GELAR]</b><br>\ud83d\udcbc [JABATAN]<br>\ud83d\udcde WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a><br><br><i>Jangan lupa gunakan bahasa yang sopan saat menghubungi ya!</i>"
+            "pertanyaan": "Minta nomor kontak admin atau staf",
+            "jawaban": "Tentu, ini dia kontak bagian terkait yang kamu cari:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a><br><br><i>Jangan lupa gunakan bahasa yang sopan saat menghubungi ya!</i>"
         },
         {
             "id_kategori": 9,
             "pertanyaan": "Nomor layanan akademik",
-            "jawaban": "Data yang kamu butuhkan sudah saya temukan. Silakan hubungi kontak di bawah ini pada jam kerja:<br><br>\ud83d\udc64 <b>[NAMA_GELAR]</b><br>\ud83d\udcbc [JABATAN]<br>\ud83d\udcde WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan": "hallo",
-            "jawaban": "hai \ud83d\ude4cada yang bisa aku bantu?"
+            "jawaban": "Data yang kamu butuhkan sudah saya temukan. Silakan hubungi kontak di bawah ini pada jam kerja:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
         },
         {
             "id_kategori": 10,
@@ -638,13 +502,8 @@
         },
         {
             "id_kategori": 10,
-            "pertanyaan": "Alur Pengajuan Judul JTI",
-            "jawaban": "Pengajuan judul skripsi dilakukan melalui web http://simta.sytes.net/. Isi form pengajuan, kumpulkan sebelum batas waktu, dan tunggu pengumuman ACC dari Kaprodi D4 TI/SIB. Jika ditolak, segera ajukan revisi atau judul baru."
-        },
-        {
-            "id_kategori": 10,
-            "pertanyaan": "Aturan Dosen Pembimbing JTI",
-            "jawaban": "Dosen pembimbing skripsi ditentukan oleh Kaprodi JTI. Kamu wajib bimbingan rutin, mengisi logbook, dan meminta tanda tangan (ACC) dosen pembimbing sebelum mendaftar Sempro dan Sidang."
+            "pertanyaan": "Alur Pengajuan Judul skripsi",
+            "jawaban": "Pengajuan judul skripsi dilakukan melalui web http://simta.sytes.net/. Berikut syaratnya, \r\n1. Menentukan topik, baik dengan cara memilih topik yang ditawarkan oleh dosen di SIM-TA maupun mengajukan topik mandiri.  \r\n2. Khusus untuk topik mandiri, mahasiswa dapat membuat draft proposal atau gambaran umum mengenai apa yang ingin dikerjakan terlebih dahulu.  \r\n3. Menghubungi dan berdiskusi dengan dosen yang bersangkutan untuk mendapatkan persetujuan sebagai pembimbing utama.  \r\n4. Melakukan submit data calon pembimbing utama dan topik/judul yang diajukan ke dalam sistem SIM-TA.  \r\n5. Memastikan topik tersebut disetujui pembimbing utama, sesuai dengan keilmuan, berkontribusi pada peta jalan penelitian laboratorium, dan sesuai dengan tingkat kedalamannya."
         },
         {
             "id_kategori": 10,
@@ -654,17 +513,12 @@
         {
             "id_kategori": 10,
             "pertanyaan": "Syarat Bimbingan untuk sempro",
-            "jawaban": "Minimal 6 kali bimbingan dengan dosen pembimbing untuk bisa daftar Sempro. Pastikan kamu rutin bimbingan, mengisi logbook, dan mendapatkan tanda tangan dosen pembimbing sebagai bukti bimbingan."
+            "jawaban": "Minimal 4 kali bimbingan dengan dosen pembimbing untuk bisa daftar Sempro. Pastikan kamu rutin bimbingan, mengisi logbook, dan mendapatkan tanda tangan dosen pembimbing sebagai bukti bimbingan."
         },
         {
             "id_kategori": 10,
             "pertanyaan": "Syarat Seminar Proposal (Sempro) JTI",
-            "jawaban": "Syarat daftar Sempro di JTI meliputi draf proposal yang di-ACC pembimbing dan bukti jumlah minimal bimbingan. Saat Sempro, mahasiswa JTI wajib memakai pakaian formal hitam putih dan jas almamater."
-        },
-        {
-            "id_kategori": 10,
-            "pertanyaan": "Aturan Revisi dan Laporan JTI",
-            "jawaban": "Setelah sidang, kerjakan revisi sesuai masukan dosen penguji. Laporan final dicetak dan dijilid hardcover dengan standar warna sampul program studi D4 TI atau D4 SIB."
+            "jawaban": "Syarat daftar Sempro di JTI meliputi,\r\n1. Sudah memiliki Pembimbing-1 (utama).  \r\n2. Sudah pernah melaksanakan bimbingan sebanyak minimal 4 kali.  \r\n3. Bimbingan tersebut harus sudah disetujui oleh Pembimbing-1 di sistem TA.  \r\n4. Menyelesaikan draf proposal skripsi beserta materi presentasinya.  \r\n5. Melakukan pendaftaran Seminar Proposal di SIMTA."
         },
         {
             "id_kategori": 10,
@@ -733,7 +587,7 @@
         },
         {
             "id_kategori": 11,
-            "pertanyaan": "jadwal timeline waktu pelaksanaan tanggal batas akhir tutup pengumpulan laporan",
+            "pertanyaan": "jadwal timeline waktu pelaksanaan tanggal batas akhir tutup pengumpulan laporan magang/pkl",
             "jawaban": "Jadwal pendaftaran, timeline pelaksanaan, batas pengumpulan proposal, dan laporan PKL biasanya diumumkan setiap awal semester genap/ganjil. Selalu cek grup angkatan untuk tanggal pastinya."
         },
         {
@@ -798,8 +652,8 @@
         },
         {
             "id_kategori": 10,
-            "pertanyaan": "Pendaftaran Sidang Akhir JTI daftar sidang akhir ujian komprehensif skripsi syarat dokumen administrasi sertifikat toeic skor turnitin plagiasi logbook bimbingan transkrip nilai krs sehat kompen ijazah sma skpi publikasi draft jurnal paper",
-            "jawaban": "Untuk mendaftar Sidang Akhir Skripsi, syarat utamanya meliputi:  Persetujuan Dosen Pembimbing, sertifikat TOEIC (skor minimal sesuai angkatan), bukti lolos Turnitin, transkrip nilai, surat bebas kompen, KRS aktif, dan logbook bimbingan. Beberapa prodi juga mensyaratkan draf SKPI dan bukti publikasi/jurnal. Cek selalu pengumuman web jurusan untuk detail kelengkapan berkasnya."
+            "pertanyaan": "Pendaftaran syarat Sidang skripsi Akhir",
+            "jawaban": "Untuk mendaftar Sidang Akhir Skripsi, syarat utamanya meliputi:  \r\n1. Telah mendapatkan ACC Log Bimbingan minimal 8x untuk Dosen Pembimbing 1 dan 4x untuk Dosen Pembimbing 2.  \r\n2. Telah mengikuti dan lulus ujian TOEIC dengan skor minimal 500 (sertifikat harus berlogo ETS).  \r\n3. Memiliki dokumen SKLA (Surat Keterangan Lulus Administrasi) dari helpdesk akademik. Syarat untuk mendapatkan SKLA adalah tidak memiliki tanggungan pembayaran, serta data dan foto ijazah sudah valid.  \r\n4. Memiliki bukti pengisian formulir tracer pra-kelulusan.  Memiliki surat bebas kompen (yang telah ditandatangani oleh admin prodi) dan dilampiri dengan bukti bebas kompen.  \r\n5. Memiliki draft artikel jurnal untuk topik skripsi yang dibuat.  \r\n6. Memiliki Satuan Kredit Kegiatan Mahasiswa (SKKM) , yang mencakup sertifikat LDK, prastudi, mentoring, dan sertifikat selain kegiatan wajib (seperti kepanitiaan)."
         },
         {
             "id_kategori": 10,
@@ -849,7 +703,7 @@
         {
             "id_kategori": 10,
             "pertanyaan": "informasi skripsi info tugas akhir ta daftar alur syarat umum",
-            "jawaban": "Mengenai Informasi Skripsi, AEGIS bisa membantumu menjawab syarat pendaftaran Sempro, syarat Sidang Akhir, hingga template persuratan. Ada hal spesifik tentang skripsi yang ingin kamu tanyakan?"
+            "jawaban": "Mengenai Informasi Skripsi, AEGIS bisa membantumu menjawab syarat pendaftaran sempro, syarat sidang akhir, hingga template persuratan. Ada hal spesifik tentang skripsi yang ingin kamu tanyakan?"
         },
         {
             "id_kategori": 11,
@@ -867,29 +721,379 @@
             "jawaban": "Pembayaran UKT dilakukan setiap menjelang awal semester baru. Jika kamu membutuhkan info terkait syarat keringanan ukt, atau mengajukan keringanan ukt, jurusan biasanya akan membuka pengumuman resmi sebelum masa pembayaran dimulai. Ada yang bisa AEGIS bantu lebih detail terkait UKT?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan": "jadwal kuliah informasi jam masuk kelas siakad jadwal akademik kalender",
             "jawaban": "Jadwal kuliah lengkap dan terbaru selalu dapat kamu cek secara mandiri melalui portal <a href='https://siakad.polinema.ac.id/' target='_blank'style='color: blue;'>Siakad</a> di menu 'Jadwal Mahasiswa', atau kamu bisa lihat jadwal pada link berikut, <a href='https://drive.google.com/file/d/1d6HW_qp1M4UKm8UpGhSg46VNOlaJ-Jsv/view?usp=drive_link' target='_blank'style='color: blue;'>klik disini</a>. Jika ada perubahan jadwal (jam kosong atau ganti hari), biasanya akan dikomunikasikan langsung oleh dosen pengampu melalui perwakilan kelas."
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan": "jadwal ruang kelas dosen perkuliahan d4 ti teknik informatika sib sistem informasi bisnis qr code intip link folder gdrive kosong",
             "jawaban": "Untuk mengecek jadwal perkuliahan, jadwal penggunaan ruang kelas, dan jadwal dosen mengajar (D-IV TI maupun SIB), kamu bisa mengakses folder Drive akademik atau scan QR Code intip (<a href='https://drive.google.com/file/d/1d6HW_qp1M4UKm8UpGhSg46VNOlaJ-Jsv/view?usp=drive_link' target='_blank'style='color: blue;'>klik disini</a>). Berikut tautannya: <a href='https://drive.google.com/drive/folders/1k7zG7pNKjGdcPbumA9vnFPPH5-KOEAAJ?usp=drive_link' target='_blank'style='color: blue;'>Lihat Jadwal Perkuliahan & Ruang</a>"
         },
         {
-            "id_kategori": 4,
-            "pertanyaan": "kontak nomor hp wa whatsapp telepon dosen admin jti file excel daftar hubungi staff tata usaha kaprodi",
+            "id_kategori": 9,
+            "pertanyaan": "kontak nomor hp wa whatsapp telepon dosen admin jti file kontak dosen",
             "jawaban": "Sedang mencari nomor Bapak/Ibu Dosen atau Admin JTI? Kamu bisa mengunduh file Excel daftar kontaknya melalui tautan berikut: <a href='https://docs.google.com/spreadsheets/d/1ePYY8WlMhW_BaJbra13HWml7w0IZzQRx/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>Download Kontak Dosen & Admin JTI</a>"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan": "denah map peta gedung lantai 5 6 7 8 ti ruang kelas posisi letak pdf nyasar lab gambar lokasi toilet",
             "jawaban": "Biar nggak nyasar saat mencari ruang kelas atau lab, kamu bisa mengecek file PDF Denah Gedung TI (Lantai 5-6-7-8). Silakan unduh denahnya di sini: <a href='https://drive.google.com/file/d/186Uy6yDYzpSl35GFwpNBuJpWzpNbPK6Z/view?usp=drive_link' target='_blank' style='color: blue;'>Download Denah Gedung JTI</a>"
         },
         {
             "id_kategori": 8,
-            "pertanyaan": "terima kasih terimakasih makasih thank you thanks matur nuwun",
-            "jawaban": "Oke dengan senang hati AEGIS dapat membantu kamu \ud83d\ude4c\ud83d\ude01, beri tahu aku kalau ada yang ditanyakan lagi!"
+            "pertanyaan": "Assalamualaikum assalamu'alaikum mikum samlekom slmkm assalam salam",
+            "jawaban": "Waalaikumsalam warahmatullah! 👋 AEGIS di sini. Ada yang bisa AEGIS bantu terkait informasi akademik hari ini? Langsung saja ketikkan pertanyaanmu ya!"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan": "Halo hai hei heii hello selamat pagi siang sore malam permisi punten izin mau nanya tanya bro sis kak min ngab cuy guys",
+            "jawaban": "Halo! 👋 AEGIS di sini. Ada yang bisa AEGIS bantu terkait informasi akademik hari ini? Langsung saja ketikkan pertanyaanmu ya!"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan": "Apa kabar aegis gimana kabarnya how are you",
+            "jawaban": "Kabar baik! 🤖 Sistem AEGIS selalu sehat dan siap sedia membantu menjawab pertanyaan seputar akademikmu. Kamu sendiri gimana kabarnya? Ada yang ingin ditanyakan hari ini?"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir permohonan cuti istirahat kuliah akademis",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Permohonan Cuti Kuliah: <a href='https://docs.google.com/document/d/1tRu2jDzuWG_21sci9gk27dylvwAC1wDa/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir pengunduran diri keluar mundur cabut berkas mahasiswa teknik informatika ti",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri khusus mahasiswa Teknik Informatika (TI): <a href='https://docs.google.com/document/d/1dj_u-uxcXk7aJCknCA6rmvXCCoOvOfhA/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir pengunduran diri keluar mundur cabut berkas mahasiswa sistem informasi bisnis sib",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri khusus mahasiswa Sistem Informasi Bisnis (SIB): <a href='https://docs.google.com/document/d/1zdnwgqzB33JGLnHR-EH_difLc7Ey6R-D/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir pengunduran diri keluar mundur cabut berkas mahasiswa lama pls",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri Mahasiswa Lama (PLS): <a href='https://drive.google.com/file/d/1AUGWSklEElX-xtskwwR8P3ijOQOEVWzG/view?usp=drive_link' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir pengunduran diri keluar mundur cabut berkas mahasiswa d2 ppls",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri program D2 PPLS: <a href='https://docs.google.com/document/d/1Ld8gH5Wf5vB1Oa_07aX6ZgCnsmN_T1wO/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir pembatalan batal pengunduran diri tidak jadi keluar mundur",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pembatalan Pengunduran Diri: <a href='https://docs.google.com/document/d/10G9b8rC806oE-h0jA1O-r7W313E440uF/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir ktm hilang kehilangan kartu tanda mahasiswa pengganti ktm",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Kehilangan KTM: <a href='https://docs.google.com/document/d/1b734u2u33QO4K8K8uVItvWp-q4Vn_Jk-/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir permohonan email baru polinema mahasiswa institusi campus",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Permohonan Email Polinema: <a href='https://docs.google.com/document/d/11QvX3fM4wP2wM463Kx42WvQ7YF-qZJro/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat pernyataan perubahan ganti rubah nomor hp whatsapp wa ganti data",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Pernyataan Perubahan Nomor HP/WhatsApp: <a href='https://docs.google.com/document/d/1Q41nZ3qZ92sM6h4p_s19A5958pS0iF32/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir pengganti ijazah salah cetak keliru penulisan ijazah",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengganti Ijazah (Salah Cetak): <a href='https://docs.google.com/document/d/13BvE1vR0lRjP88v21a97lGkM3L3U1uB6/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir pengganti ijazah rusak robek terbakar basah hancur",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengganti Ijazah (Rusak): <a href='https://docs.google.com/document/d/1r99kK0T0sE8W04gL2G1QJjZJ_1KqgWJ3/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir pengganti ijazah hilang surat keterangan kehilangan ijazah",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengganti Ijazah (Hilang): <a href='https://docs.google.com/document/d/1Hk95zWw5s2P78z0g-B9_E12L81P6s8oF/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat pernyataan lulus ujian akhir daftar alih jenjang lulus d3 ke d4",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Pernyataan Lulus Ujian Akhir (Alih Jenjang): <a href='https://drive.google.com/file/d/1_yO8mHwz-kL4g3uN_H-R8i5xG-T_QvG1/view?usp=drive_link' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir izin mahasiswa tidak masuk kuliah sakit acara keterangan teknik informatika ti",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa Teknik Informatika (TI): <a href='https://drive.google.com/file/d/1n8J6Jv4k7V-vV7514yD1mD1kI59CjL2w/view?usp=drive_link' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir izin mahasiswa tidak masuk kuliah sakit acara keterangan sistem informasi bisnis sib",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa Sistem Informasi Bisnis (SIB): <a href='https://drive.google.com/file/d/1W57f3U7M9KxP5R0sT054y4M1WqP7t7M_/view?usp=drive_link' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir izin mahasiswa tidak masuk kuliah sakit acara keterangan mahasiswa pls",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa PLS: <a href='https://drive.google.com/file/d/1tU_5k6G0y4mQ2x1E1hX9i5N6vJ-3lqZ1/view?usp=drive_link' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat form formulir keterangan bebas kompen kompensasi tanggungan jam kompen",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Surat Keterangan Bebas Kompen: <a href='https://docs.google.com/document/d/1T4X8T486D9B6g0_g_W0016yJ_2y0aF_0/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat pernyataan tidak sedang menerima beasiswa murni double funding",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Pernyataan Tidak Sedang Menerima Beasiswa: <a href='https://docs.google.com/document/d/169Y9_y23V0S8h7J8E1Z98w8n2x75k5_y/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat perjanjian mengulangi pelanggaran sp surat peringatan tidak mengulangi kesalahan tata tertib",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Perjanjian Tidak Mengulangi Pelanggaran: <a href='https://docs.google.com/document/d/1E8_4j00xK0-80Q-Z-W_L78_6Y4Y93W0a/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan": "jadwal sidang skripsi",
+            "jawaban": "untuk mengetahui jadwal sidang skripsi, anda diharuskan mendapat persetujuan untuk maju sidang skripsi dengan mendaftar sidang di web SIM TA"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan": "dimana lokasi ruang dosen, ruang dosen ada di mana",
+            "jawaban": "Kamu bisa pergi ke lantai 6 gedung sipil untuk menemukan ruang dosen."
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan": "ruangan di ruang dosen berapa",
+            "jawaban": "[TEMPLATE_CARI_RUANGAN_DOSEN]"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan": "di ruang dosen 2 ada siapa saja",
+            "jawaban": "[TEMPLATE_CARI_PENGHUNI_RUANGAN]"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan": "kapan jadwal batas waktu pengajuan permohonan cuti akademik dan aktif kuliah kembali",
+            "jawaban": "Pengajuan cuti akademik dan permohonan aktif kembali wajib dilakukan sesuai dengan jadwal kalender akademik, selambat-lambatnya 2 minggu sebelum awal perkuliahan semester baru dimulai. Silakan cek Kalender Akademik terbaru di SIAKAD."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "syarat dan cara mengurus surat keterangan aktif kuliah skk untuk tunjangan gaji orang tua",
+            "jawaban": "Untuk mengajukan Surat Keterangan Aktif Kuliah (SKK) guna keperluan tunjangan/gaji instansi orang tua, mahasiswa dapat mengisinya melalui form layanan akademik di Gedung AW atau mengunduh blangko di website resmi akademik."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "syarat dan cara legalisir dokumen kelulusan ijazah dan transkrip nilai",
+            "jawaban": "Layanan legalisir ijazah dan transkrip nilai dapat dilakukan dengan membawa dokumen fotokopi yang akan dilegalisir beserta dokumen aslinya (untuk verifikasi) ke loket layanan akademik pusat di Gedung AW."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "syarat permohonan pengganti ijazah yang hilang atau rusak atau salah cetak",
+            "jawaban": "Jika ijazah hilang atau rusak, kamu harus melaporkannya ke layanan akademik pusat di Gedung AW dengan membawa Surat Keterangan Kehilangan dari Kepolisian dan fotokopi ijazah lama (jika ada) untuk dibuatkan Surat Keterangan Pengganti Ijazah."
+        },
+        {
+            "id_kategori": 4,
+            "pertanyaan": "syarat pengambilan dokumen ijazah kelulusan jika diwakilkan oleh orang tua atau orang lain",
+            "jawaban": "Pengambilan ijazah yang terpaksa diwakilkan WAJIB membawa Surat Kuasa bermeterai Rp10.000 yang ditandatangani oleh mahasiswa bersangkutan, fotokopi KTP pemberi kuasa, dan fotokopi KTP penerima kuasa."
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan": "syarat dan cara mengurus kartu tanda mahasiswa ktm yang hilang atau rusak",
+            "jawaban": "Jika KTM hilang atau rusak, mahasiswa wajib meminta Surat Keterangan Kehilangan dari Kepolisian terlebih dahulu, lalu membawanya ke loket layanan akademik (Gedung AW) beserta pas foto terbaru untuk dicetakkan KTM pengganti."
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan": "cara perbaikan remidi nilai mata kuliah jelek uas uts semester pendek",
+            "jawaban": "Kebijakan perbaikan nilai atau remidi diserahkan sepenuhnya kepada masing-masing dosen pengampu mata kuliah. Beberapa jurusan juga menyediakan program Semester Pendek (SP) antar semester untuk memperbaiki nilai."
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan": "cara mengurus dan kapan surat keterangan lulus skla bisa dicetak setelah sidang",
+            "jawaban": "Surat Keterangan Lulus (SKLA) baru bisa diurus dan dicetak setelah mahasiswa dinyatakan lulus sidang, menyelesaikan seluruh revisi laporan, dan mengurus form bebas tanggungan (perpustakaan, jurusan, dan kompen)."
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan": "cara membuat surat izin observasi dan pengantar riset skripsi tugas akhir ke perusahaan",
+            "jawaban": "Surat pengantar riset atau izin observasi perusahaan untuk Skripsi/Tugas Akhir dapat diajukan ke admin jurusan masing-masing dengan mencantumkan nama perusahaan, alamat tujuan, dan daftar nama anggota (jika berkelompok)."
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan": "syarat membuat surat pengantar permohonan magang pkl ke instansi perusahaan",
+            "jawaban": "Untuk meminta surat pengantar magang/PKL, kamu bisa mengisi form di admin jurusan dengan memasukkan nama instansi perusahaan, alamat lengkap instansi, bagian yang dituju (misal: HRD), serta periode pelaksanaan magang."
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan": "apa itu kompen kompensasi pengertian definisi maksud artinya fungsi",
+            "jawaban": "Kompensasi (Kompen) adalah bentuk sanksi atau tanggung jawab akademik yang diberikan kepada mahasiswa yang memiliki catatan keterlambatan masuk kelas (alpa/tidak hadir) melebihi batas toleransi yang ditentukan, yang harus diselesaikan agar mahasiswa dapat mengikuti ujian atau mencetak kartu hasil studi."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "bagaimana cara menyelesaikan dan mendapatkan surat bebas kompen",
+            "jawaban": "Untuk menyelesaikan kompen, kamu harus mengambil form di layanan akademik (Gedung AW), menemui dosen terkait untuk mendapatkan tugas kompen, mengerjakan tugas tersebut, meminta tanda tangan/ACC dosen, dan mengumpulkan lembar kompen yang sudah selesai ke loket akademik untuk diproses menjadi surat bebas kompen."
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan": "apa konsekuensi jika tidak menyelesaikan tanggungan jam kompen",
+            "jawaban": "Jika tanggungan jam kompen tidak diselesaikan hingga batas waktu yang ditentukan (biasanya sebelum UAS atau masa yudisium), mahasiswa tidak akan bisa mencetak Kartu Hasil Studi (KHS), tidak dapat mengikuti ujian, dan dalam jangka panjang bisa menghambat proses kelulusan atau syarat bebas tanggungan."
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan": "kenapa mahasiswa wajib menyelesaikan kompensasi kompen",
+            "jawaban": "Tujuan utama kewajiban kompensasi adalah untuk mendisiplinkan mahasiswa terkait kehadiran di kelas. Karena perkuliahan di lingkungan vokasi/politeknik bersifat wajib kehadiran secara fisik, maka setiap ketidakhadiran (alpa) yang melebihi batas toleransi dianggap sebagai bentuk pelanggaran kedisiplinan yang harus diganti dengan tugas edukatif atau administratif agar mahasiswa tetap memiliki hak untuk mengikuti ujian."
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan": "terima kasih makasih thanks terimakasih tengkyu tengkyuu thx",
+            "jawaban": "Sama-sama! 😊 Senang bisa membantu. Ada yang bisa AEGIS bantu lagi?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan": "boleh tanya izin bertanya mau nanya numpang tanya bantuan dong aegis itu apa fungsi aegis bot ini bisa apa buatan siapa bot otomatis bot atau manusia kamu ini apa siapa yang buat aegis",
+            "jawaban": "Halo! 👋 AEGIS adalah asisten virtual akademik JTI. Silakan langsung ketikkan pertanyaanmu ya!"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan": "informasi info dosen",
+            "jawaban": "Silakan sebutkan nama dosen yang ingin kamu cari infonya ya, contoh: 'nomor hp Pak/Bu [nama dosen]' atau 'ruangan Pak/Bu [nama dosen]'."
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan": "terminal mahasiswa itu apa syarat ketentuan",
+            "jawaban": "Terminal adalah penundaan masa studi yang diberikan kepada mahasiswa semester V atau VI (D-III) dan semester VII atau VIII (D-IV). Mahasiswa terminal karena: (1) ada mata kuliah selain TA dan PKL yang tidak lulus dan harus diulang, atau (2) nilai kumulatif AIS tidak memenuhi syarat. Selama terminal, mahasiswa tetap wajib daftar ulang. Surat keterangan terminal dibuat oleh Admin Akademik Jurusan dan harus diserahkan ke Admin Akademik Pusat."
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan": "batas absensi alfa presensi ketidakhadiran mahasiswa",
+            "jawaban": "Presensi dan activity control dicatat oleh dosen pengampu setiap pertemuan. Jumlah jam ketidakhadiran mahasiswa yang terlambat masuk perkuliahan dihitung sesuai ketentuan yang berlaku. Jika absensi alfa melebihi batas, mahasiswa bisa dikenai status terminal. Untuk detail batas alfa per prodi, silakan hubungi Admin Jurusan atau cek di SIAKAD."
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan": "syarat cuti akademik prosedur pengajuan ketentuan",
+            "jawaban": "Cuti Akademik adalah penundaan perkuliahan selama 2 semester (1 tahun) atas permohonan mahasiswa. Ketentuan: (a) Surat permohonan ditandatangani mahasiswa, orang tua, dan Koordinator Program Studi, ditujukan ke Direktur. (b) Diserahkan ke Urusan Persuratan (hardfile) dan Akademik Pusat (softfile). (c) Selama cuti, tetap wajib daftar ulang kecuali jalur reguler. (d) Jika tidak aktif kembali dalam 2 minggu awal perkuliahan setelah cuti berakhir, dinyatakan mengundurkan diri. (e) Surat yang sudah disetujui Direktur tidak dapat dibatalkan. Waktu proses: 5–7 hari kerja."
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan": "cara pengaktifan kembali status setelah cuti akademik terminal tidak aktif",
+            "jawaban": "Pengaktifan kembali status mahasiswa setelah Cuti Akademik/Terminal/Tidak Aktif 2 semester dilakukan dengan: (1) Mahasiswa yang sudah menjalani masa cuti/terminal selama 2 semester, (2) Melakukan daftar ulang di semester berikutnya, (3) Melunasi UKT semester yang akan dijalani, (4) Melaporkan ke Admin Akademik untuk setting status aktif kembali di SIAKAD. Pastikan status sudah diperbarui sebelum perkuliahan dimulai."
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan": "pengaktifan status mahasiswa mengulang ta syarat cara lapor",
+            "jawaban": "Mahasiswa yang belum lulus Skripsi/TA dan habis masa studinya harus: (1) Membayar UKT terlebih dahulu, (2) Setelah lunas, lapor ke Bagian Akademik Pusat untuk proses setting status dari 'Tidak Aktif Mengulang TA' menjadi 'Mengulang TA' di SIAKAD. Bawa bukti pembayaran UKT saat melapor."
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan": "activity control presensi pencatatan kehadiran dosen",
+            "jawaban": "Presensi dan activity control adalah pencatatan detail kehadiran mahasiswa dan materi perkuliahan setiap minggu untuk setiap mata kuliah. Ketentuan: (a) Diinputkan oleh dosen pengampu setiap pertemuan, (b) Pencatatan sesuai semester yang sedang berjalan, (c) Mahasiswa yang terlambat, jumlah jam ketidakhadirannya dihitung sesuai ketentuan. Mahasiswa dapat memantau presensi melalui SIAKAD."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "ktm hilang prosedur syarat ganti cetak ulang",
+            "jawaban": "Prosedur KTM Hilang: (1) Ajukan permintaan form surat permohonan ke layanan akademik, (2) Cek status aktif dan UKT lunas, (3) Ambil form, lengkapi dengan TTD Ka BAK dan Admin Prodi, (4) Urus Surat Keterangan Kehilangan dari Kepolisian, (5) Serahkan surat permohonan + surat kehilangan ke layanan akademik, (6) Upload foto KTM di SIAKAD jika belum ada, (7) Setelah validasi, KTM dicetak ulang. Syarat: status aktif, UKT lunas, dan hanya bisa diajukan 1 kali selama menjadi mahasiswa Polinema."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "ktm rusak prosedur ganti penggantian cetak ulang",
+            "jawaban": "Prosedur KTM Rusak: (1) Datang ke layanan akademik dengan membawa KTM rusak, (2) Tunjukkan kerusakan KTM, (3) Cek status aktif dan UKT lunas, (4) Lengkapi form surat permohonan dengan TTD Ka BAK dan Admin Prodi, (5) Serahkan surat permohonan ke layanan akademik, (6) Upload foto KTM di SIAKAD jika belum ada, (7) Setelah validasi, KTM baru dicetak dan KTM rusak diserahkan. Syarat: status aktif, UKT lunas, hanya bisa 1 kali selama kuliah."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat keterangan ukt sku itu apa cara minta",
+            "jawaban": "Surat Keterangan UKT (SKU) adalah surat yang menerangkan nominal UKT mahasiswa. Cara mengajukan: (1) Siapkan surat permohonan, (2) Ajukan permohonan online/offline ke Ka. BAK dengan menyertakan data diri, (3) Request SKK melalui SIAKAD, (4) Admin validasi data, (5) Surat dicetak dan ditandatangani, (6) Surat diberikan ke mahasiswa. Waktu proses sekitar 1 hari kerja."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat bebas tanggungan syarat cara minta prosedur",
+            "jawaban": "Surat Keterangan Bebas Tanggungan adalah surat yang menyatakan mahasiswa tidak memiliki tanggungan di kampus. Cara mengajukan: (1) Siapkan data kelengkapan, (2) Chat WhatsApp nomor layanan petugas akademik, (3) Ajukan permohonan bebas tanggungan, (4) Admin validasi data, (5) Surat dicetak dan ditandatangani, (6) Surat dikirim via WhatsApp dalam bentuk PDF. Proses hanya sekitar 15 menit."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "helpdesk akademik pengaduan pertanyaan online cara akses",
+            "jawaban": "Helpdesk akademik dapat diakses di https://helpakademik.polinema.ac.id/ untuk mengajukan pertanyaan atau pengaduan seputar akademik. Ketentuan: (a) Baca FAQ terlebih dahulu sebelum bertanya, (b) Pilih kategori pertanyaan yang sesuai, (c) Jam layanan Senin–Jumat pukul 07.30–16.00 (di luar jam kerja direspons keesokan hari), (d) Gunakan PC/Laptop, tidak direkomendasikan via HP, (e) Gunakan Bahasa Indonesia yang jelas dan sopan. Pertanyaan di luar akademik akan diarahkan ke unit terkait."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "khs digital cara cetak download kartu hasil studi",
+            "jawaban": "KHS Digital dapat diunduh dan dicetak secara mandiri setelah disetujui Ketua Jurusan di SIAKAD. Caranya: (1) Login SIAKAD, (2) Request KHS melalui menu yang tersedia, (3) Tunggu persetujuan Ketua Jurusan (sekitar 3 hari kerja), (4) Setelah disetujui, unduh KHS dalam format PDF yang sudah dilengkapi QR Code (Tanda Tangan Digital), (5) Cetak secara mandiri."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat model c untuk apa syarat ketentuan",
+            "jawaban": "Surat Model C adalah surat keterangan yang diterbitkan bagi mahasiswa yang orang tuanya merupakan pegawai ASN, POLRI, TNI, atau BUMN. Digunakan untuk mendapatkan tunjangan keluarga atau keperluan lainnya. Syarat: (a) Mahasiswa terdaftar aktif di Polinema, (b) Sudah melakukan daftar ulang semester berjalan dengan membayar UKT, (c) Mengajukan request surat dari SIAKAD Mahasiswa dengan mengisi data yang dibutuhkan."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "pengambilan ambil ijazah dimana",
+            "jawaban": "Pengambilan ijazah dan transkrip dilakukan di Layanan Akademik Pusat, Gedung AA (Gedung Administrasi Akademik) Politeknik Negeri Malang. Pastikan membawa KTM atau identitas diri saat pengambilan. Untuk info jadwal pengambilan, pantau pengumuman resmi dari akademik atau hubungi helpdesk di https://helpakademik.polinema.ac.id/."
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan": "angsuran cicilan ukt cara syarat prosedur",
+            "jawaban": "Pengangsuran UKT (cicilan) bisa diajukan dengan ketentuan berikut: Mahasiswa baru: login di https://penundaanukt.polinema.ac.id/, download dan isi surat pernyataan pembayaran sebagian, tanda tangan di atas materai, upload ke sistem. Mahasiswa lama: hubungi nomor WA layanan akademik, isi surat pernyataan, serahkan langsung atau via chat. Setelah disetujui, mahasiswa dapat melakukan pembayaran sebagian sesuai kesepakatan."
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan": "asuransi mahasiswa polinema klaim kecelakaan sakit syarat prosedur",
+            "jawaban": "Mahasiswa Polinema mendapatkan perlindungan asuransi. Untuk klaim asuransi (kecelakaan/sakit), mahasiswa perlu menyiapkan dokumen yang diperlukan sesuai jenis klaim dan mengajukan melalui Bagian Kemahasiswaan. Hubungi admin kemahasiswaan untuk informasi detail dokumen yang dibutuhkan dan prosedur pengajuan klaim."
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan": "ipi itu apa biaya investasi pendidikan awal masuk",
+            "jawaban": "IPI (Iuran Pengembangan Institusi) adalah biaya yang dibayarkan sekali oleh mahasiswa baru jalur mandiri saat pertama masuk Polinema. IPI berbeda dengan UKT yang dibayarkan setiap semester. Untuk nominal IPI per program studi, hubungi bagian keuangan atau cek pengumuman resmi Polinema saat penerimaan mahasiswa baru."
+        },
+        {
+            "id_kategori": 4,
+            "pertanyaan": "syarat daftar wisuda ketentuan prosedur pendaftaran",
+            "jawaban": "Ketentuan Pendaftaran Wisuda: (a) Pendaftar adalah mahasiswa yang telah berstatus lulus, (b) Pendaftaran dilakukan secara online melalui https://alumni.polinema.ac.id/, (c) Calon wisudawan hanya bisa mendaftar jika jadwal wisuda dan kuota telah dibuka, (d) Wisuda dijadwalkan beberapa kali dalam setahun (beberapa gelombang). Tujuan pendaftaran agar lulusan mendapat kuota, jadwal wisuda, undangan, dan kelengkapan wisuda."
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan": "nik orang tua bapak/ibu meninggal diisi apa verifikasi data mahasiswa",
+            "jawaban": "Jika orang tua (ayah/ibu) telah meninggal dunia, kolom NIK tetap harus diisi dengan NIK dari KTP/KK yang bersangkutan meskipun sudah meninggal. NIK tetap valid dan terdaftar di sistem kependudukan. Jika tidak memiliki data NIK, konsultasikan langsung ke Admin Akademik Jurusan atau helpdesk di https://helpakademik.polinema.ac.id/ dengan membawa dokumen pendukung (akta kematian, KK)."
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan": "perubahan data mahasiswa prosedur cara ubah data diri siakad",
+            "jawaban": "Perubahan data mahasiswa dilakukan melalui Layanan Perubahan Data Mahasiswa di Admin Akademik Jurusan. Data yang dapat diubah meliputi nama, NIK, tempat/tanggal lahir, dan data keluarga. Siapkan dokumen pendukung (KTP, KK, Akta Kelahiran) yang sesuai. Pengajuan dilakukan di Admin Akademik Prodi/Jurusan untuk kemudian diproses ke Admin Akademik Pusat."
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan": "nim baru pembuatan nomor induk mahasiswa prosedur",
+            "jawaban": "Pembuatan NIM baru dilakukan melalui Layanan Pembuatan Nomor Induk Mahasiswa oleh Admin Akademik Pusat. Biasanya diperlukan untuk mahasiswa baru yang datanya belum terdaftar di sistem. Hubungi Admin Akademik Pusat atau admin jurusan untuk proses lebih lanjut."
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan": "validasi foto ktm verifikasi cara upload",
+            "jawaban": "Validasi foto KTM dilakukan melalui SIAKAD. Caranya: (1) Login ke SIAKAD, (2) Upload foto sesuai ketentuan (foto formal, background putih/merah), (3) Admin Akademik Pusat akan melakukan validasi foto KTM, (4) Setelah tervalidasi, foto akan digunakan untuk pencetakan KTM. Jika foto belum tervalidasi, KTM tidak bisa dicetak."
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan": "pencairan dana beasiswa prosedur cara cair kapan",
+            "jawaban": "Layanan Pencairan Dana Beasiswa merupakan layanan lanjutan setelah penetapan hasil seleksi beasiswa. Tahapan: (1) Mahasiswa dinyatakan lolos seleksi beasiswa, (2) Data mahasiswa penerima diserahkan ke lembaga pemberi beasiswa, (3) Pencairan dilakukan sesuai jadwal dari lembaga, (4) Dana masuk ke rekening mahasiswa yang telah didaftarkan. Untuk info jadwal pencairan, pantau pengumuman dari Bagian Kemahasiswaan."
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan": "lupa password simfoni alumni cara reset",
+            "jawaban": "Cara reset password SIMFONI (Sistem Informasi Alumni): (1) Buka https://alumni.polinema.ac.id/, (2) Klik 'Lupa Password', (3) Verifikasi data dengan memasukkan tanggal lahir, (4) Sistem akan memproses password baru, (5) Login dengan password baru, (6) Segera update biodata dan data pekerjaan (tracer study). Syarat: data alumni sudah terdaftar di sistem SIMFONI."
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan": "dospem magang pkl cara cek siapa dosen pembimbing",
+            "jawaban": "Informasi dosen pembimbing (dospem) magang/PKL dapat dilihat melalui SIAKAD atau portal akademik Polinema setelah proses plotting/penugasan dospem dilakukan oleh admin jurusan. Login ke SIAKAD, cek menu PKL/Magang untuk melihat nama dosen pembimbing yang ditugaskan. Jika belum muncul, hubungi Admin Akademik Jurusan."
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan": "masalah darurat saat magang pkl lapor kemana kaprodi admin jurusan",
+            "jawaban": "Jika mengalami masalah darurat saat magang/PKL, segera hubungi: (1) Dosen Pembimbing (Dospem) PKL yang telah ditugaskan sebagai kontak utama, (2) Koordinator Program Studi (Kaprodi) jika dospem tidak bisa dihubungi, (3) Admin Akademik Jurusan untuk masalah administrasi PKL. Untuk pengaduan formal, gunakan helpdesk di https://helpakademik.polinema.ac.id/."
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan": "prosedur pkl magang alur dari awal sampai selesai",
+            "jawaban": "Alur PKL/Magang Polinema secara umum: (1) Mahasiswa memenuhi syarat PKL sesuai kurikulum, (2) Cari dan konfirmasi tempat PKL, (3) Urus surat pengantar PKL dari Admin Jurusan, (4) Pelaksanaan PKL di perusahaan/instansi, (5) Plotting dosen pembimbing oleh admin jurusan, (6) Bimbingan dengan dospem selama PKL, (7) Pembuatan laporan PKL, (8) Pengumpulan laporan sesuai deadline, (9) Nilai PKL dimasukkan ke SIAKAD. Cek info dospem dan timeline di SIAKAD atau portal akademik."
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan": "terima kasih makasih thanks tengkyu thank you suwun",
+            "jawaban": "Sama-sama! 😊 Senang bisa membantu. Ada yang bisa AEGIS bantu lagi?"
         }
     ],
     "dataset_nlu": [
@@ -950,7 +1154,7 @@
             "pertanyaan_variasi": "berkas pengunduran diri"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat pernyataan mundur dari polinema"
         },
         {
@@ -986,7 +1190,7 @@
             "pertanyaan_variasi": "apakah mahasiswa terminal wajib daftar ulang"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat pengunduran diri diserahkan ke siapa"
         },
         {
@@ -1058,7 +1262,7 @@
             "pertanyaan_variasi": "kalau sudah bayar ukt terus mundur uangnya kembali tidak"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat pengunduran diri maba dikirim ke email mana"
         },
         {
@@ -1074,7 +1278,7 @@
             "pertanyaan_variasi": "kalau ipk jelek apakah langsung diterminalkan"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat keterangan terminal minta kemana"
         },
         {
@@ -1134,7 +1338,7 @@
             "pertanyaan_variasi": "rekomendasi cuti dari ketua jurusan itu maksudnya apa"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "kapan kajur bikin surat rekomendasi cuti"
         },
         {
@@ -1791,15 +1995,11 @@
         },
         {
             "id_kategori": 4,
-            "pertanyaan_variasi": "ngurus bebas tanggungan perpus gmn"
+            "pertanyaan_variasi": "ngurus bebas tanggungan perpus untuk syarat wisuda gimana"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 2,
             "pertanyaan_variasi": "syarat surat bebas tanggungan"
-        },
-        {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "cara urus bebas tanggungan akademik"
         },
         {
             "id_kategori": 4,
@@ -1956,10 +2156,6 @@
         {
             "id_kategori": 4,
             "pertanyaan_variasi": "surat keterangan bebas tanggungan sub bagian akademik"
-        },
-        {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "syarat bebas tanggungan harus kumpulin skkm"
         },
         {
             "id_kategori": 4,
@@ -3075,15 +3271,15 @@
         },
         {
             "id_kategori": 4,
-            "pertanyaan_variasi": "prosedur bebas tanggungan perpustakaan dan jurusan"
+            "pertanyaan_variasi": "prosedur bebas tanggungan untuk daftar wisuda perpustakaan dan jurusan"
         },
         {
             "id_kategori": 4,
-            "pertanyaan_variasi": "berkas wajib dokumen bebas tanggungan"
+            "pertanyaan_variasi": "berkas wajib dokumen bebas tanggungan untuk wisuda"
         },
         {
             "id_kategori": 4,
-            "pertanyaan_variasi": "langkah urus bebas tanggungan akademik"
+            "pertanyaan_variasi": "langkah urus bebas tanggungan akademik buat wisuda"
         },
         {
             "id_kategori": 4,
@@ -3155,15 +3351,7 @@
         },
         {
             "id_kategori": 4,
-            "pertanyaan_variasi": "dokumen keterangan bebas tanggungan sub bagian akademik"
-        },
-        {
-            "id_kategori": 4,
             "pertanyaan_variasi": "berkas wajib bebas tanggungan harus kumpulin skkm"
-        },
-        {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "dokumen bebas tanggungan dikirim via wa"
         },
         {
             "id_kategori": 4,
@@ -3710,12 +3898,8 @@
             "pertanyaan_variasi": "kapan pendaftaran beasiswa bi dibuka"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "apa itu kompen dan pendaftaran ngerjainnya"
-        },
-        {
-            "id_kategori": 6,
-            "pertanyaan_variasi": "pendaftaran ngecek tanggungan kompen saya berapa jam"
         },
         {
             "id_kategori": 6,
@@ -3914,7 +4098,7 @@
             "pertanyaan_variasi": "kalau mahasiswa kena drop out (do) bisa daftar ulang nggak"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat peringatan (sp) dari akademik karena nilai jelek"
         },
         {
@@ -3922,7 +4106,7 @@
             "pertanyaan_variasi": "apakah lapor ke komti cukup kalau mau cuti semester ini"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "alur pengurusan surat status terminal dari admin prodi"
         },
         {
@@ -3930,15 +4114,15 @@
             "pertanyaan_variasi": "cara mengaktifkan kembali nim yang nonaktif"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "cara mengerjakan kompen alpha"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "tugas kompen minta ke siapa"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "prosedur pemenuhan kompen ketidakhadiran"
         },
         {
@@ -3954,372 +4138,16 @@
             "pertanyaan_variasi": "hari ini ada kelas atau tidak lihat dimana"
         },
         {
-            "id_kategori": 7,
+            "id_kategori": 9,
             "pertanyaan_variasi": "cara minta nomor wa dosen"
         },
         {
-            "id_kategori": 7,
+            "id_kategori": 9,
             "pertanyaan_variasi": "info kontak dosen pengampu mata kuliah"
         },
         {
-            "id_kategori": 7,
+            "id_kategori": 9,
             "pertanyaan_variasi": "minta nomor telepon dosen ke siapa"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo AEGIS"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat pagi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat siang"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat sore"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat malam"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo admin"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai admin"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo kak"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai kak"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Salam"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Pagi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Siang"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Sore"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Malam"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Haloo"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Haiii"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Pagi kak"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Siang kak"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Malem kak"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Pagi min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamu'alaikum"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum warrahmatullahi wabarakatuh"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum kak"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum wr wb"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Samlekom"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Mikum"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamu'alaikum wr. wb."
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "p"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Ppp"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "ping"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Ping!"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Uy"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Woy"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Oi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Euy"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo ngab"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai banh"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Cuy"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bro"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Sis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Tes"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Test"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Tes bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot aktif?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot nya idup ga?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo, apakah ada orang?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Min aktif?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Kak aktif?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Cek"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Cek bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Cek ombak"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Tes 123"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo, bisa bantu?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Ada yang bisa bantu?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo bot aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Apakah bot ini aktif?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Botnya jalan?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Tes doang"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Apa kabar?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Gimana kabarnya?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Kabar baik?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Apa kabar min?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Gimana kabarnya bot?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Lagi apa?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Sibuk ga?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Min lagi on?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo apa kabar"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai apa kabar"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo aegis apa kabar"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "How are you?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Permisi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Permisi kak"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Permisi min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Maaf mengganggu"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Punten"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Izin bertanya"
         },
         {
             "id_kategori": 9,
@@ -4671,7 +4499,7 @@
         },
         {
             "id_kategori": 4,
-            "pertanyaan_variasi": "cara mendapatkan surat bebas tanggungan"
+            "pertanyaan_variasi": "cara mendapatkan surat bebas tanggungan untuk daftar wisuda"
         },
         {
             "id_kategori": 10,
@@ -4975,11 +4803,11 @@
         },
         {
             "id_kategori": 10,
-            "pertanyaan_variasi": "cara urus bebas tanggungan jurusan"
+            "pertanyaan_variasi": "cara urus bebas tanggungan jurusan untuk syarat skripsi"
         },
         {
             "id_kategori": 10,
-            "pertanyaan_variasi": "syarat bebas tanggungan perpus dan jti"
+            "pertanyaan_variasi": "syarat bebas tanggungan untuk daftar wisuda perpus dan jti"
         },
         {
             "id_kategori": 10,
@@ -5058,35 +4886,35 @@
             "pertanyaan_variasi": "biaya pendaftaran wisuda berapa?"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "cara cek jumlah tanggungan kompen jti"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "di mana bisa lihat tanggungan alfa dan kompen?"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "syarat bebas kompen untuk yudisium"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "apakah bisa bayar denda kompen pakai uang?"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 2,
             "pertanyaan_variasi": "minta surat pengantar kompen ke admin"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "cara lapor kalau sudah selesai ngerjain kompen"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "tugas kompen d4 ti biasanya disuruh ngapain?"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "batas waktu mengerjakan kompen sebelum sidang"
         },
         {
@@ -5116,46 +4944,6 @@
         {
             "id_kategori": 2,
             "pertanyaan_variasi": "pembuatan surat pengantar riset tugas akhir"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "halo min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "permisi admin jti"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "bot mau tanya dong"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "halo aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "selamat pagi min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "assalamualaikum admin"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "ada orang ga?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "test bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "bantuan dong min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "punten min"
         },
         {
             "id_kategori": 4,
@@ -5263,7 +5051,7 @@
         },
         {
             "id_kategori": 11,
-            "pertanyaan_variasi": "min, magang itu wajibnya di semester 6 atau 7 sih?"
+            "pertanyaan_variasi": "\"min, magang itu wajibnya di semester 6 atau 7 sih?\""
         },
         {
             "id_kategori": 11,
@@ -5295,7 +5083,7 @@
         },
         {
             "id_kategori": 11,
-            "pertanyaan_variasi": "min, pengumuman dosen pembimbing pkl kapan keluar?"
+            "pertanyaan_variasi": "\"min, pengumuman dosen pembimbing pkl kapan keluar?\""
         },
         {
             "id_kategori": 11,
@@ -5667,7 +5455,7 @@
         },
         {
             "id_kategori": 11,
-            "pertanyaan_variasi": "min kalau udah dapet tempat dari simagang, tetep harus bikin surat pengantar kampus nggak?"
+            "pertanyaan_variasi": "\"min kalau udah dapet tempat dari simagang, tetep harus bikin surat pengantar kampus nggak?\""
         },
         {
             "id_kategori": 11,
@@ -5691,7 +5479,7 @@
         },
         {
             "id_kategori": 11,
-            "pertanyaan_variasi": "min, simagang itu buat ngurus nilai magang juga atau cuma cari tempat?"
+            "pertanyaan_variasi": "\"min, simagang itu buat ngurus nilai magang juga atau cuma cari tempat?\""
         },
         {
             "id_kategori": 11,
@@ -5759,7 +5547,7 @@
         },
         {
             "id_kategori": 10,
-            "pertanyaan_variasi": "min, pendaftaran sidang skripsi butuh sertifikat apa aja?"
+            "pertanyaan_variasi": "\"min, pendaftaran sidang skripsi butuh sertifikat apa aja?\""
         },
         {
             "id_kategori": 10,
@@ -5831,7 +5619,7 @@
         },
         {
             "id_kategori": 10,
-            "pertanyaan_variasi": "kalau ngumpul hardcopy berkas skripsi, pakai map warna apa min?"
+            "pertanyaan_variasi": "\"kalau ngumpul hardcopy berkas skripsi, pakai map warna apa min?\""
         },
         {
             "id_kategori": 10,
@@ -5879,7 +5667,7 @@
         },
         {
             "id_kategori": 10,
-            "pertanyaan_variasi": "buku skripsi yang sudah dijilid, dikumpulkan ke perpustakaan atau jurusan?"
+            "pertanyaan_variasi": "\"buku skripsi yang sudah dijilid, dikumpulkan ke perpustakaan atau jurusan?\""
         },
         {
             "id_kategori": 10,
@@ -6150,164 +5938,108 @@
             "pertanyaan_variasi": "Info UKT"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "Jadwal kuliah"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "Informasi Jadwal Kuliah"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "min minta link jadwal ruang kuliah dong"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "cara cek jadwal dosen mengajar hari ini gimana?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "jadwal perkuliahan d4 teknik informatika semester ini"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "folder jadwal kuliah anak d4 sib bisa lihat dimana min?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "min ada qr code buat ngecek jadwal ruang kelas nggak?"
         },
         {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "minta link jadwal ruang gedung sipil dong min"
-        },
-        {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "link gdrive jadwal kuliah jti polinema"
         },
         {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "cara tau ruang kelas kosong pakai jadwal ruang gimana?"
-        },
-        {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "min jadwal dosen bimbingan bisa dicek di mana ya?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "minta link folder d4 ti buat cek jadwal min"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "min minta nomor wa dosen jti dong"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "cara hubungi admin jurusan ti gimana?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "punya kontak bapak ibu dosen teknik informatika nggak?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "file excel daftar nomor hp dosen polinema minta dong"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "min minta nomor telepon pak kaprodi atau admin"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "daftar kontak dosen d4 ti dan sib"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "cara chat dosen jurusan ti nomornya dapat dari mana?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "minta file kontak dosen dan admin jti.xlsx dong min"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "min minta kontak staff tata usaha jurusan"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "nomor whatsapp admin jti yang aktif"
         },
         {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "denah gedung ti lantai 5 dimana ya min?"
-        },
-        {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "posisi ruang 7 atau 8 di gedung ti sebelah mana?"
-        },
-        {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "min minta map atau denah ruangan dong biar ga nyasar"
-        },
-        {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "file pdf denah gedung jurusan ti minta min"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "cara baca denah gedung ti lantai 5 sampai 8 gimana?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "lokasi lab di gedung ti lantai 6 sebelah mana min?"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 9,
             "pertanyaan_variasi": "denah lokasi ruang dosen di gedung jti"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "minta gambar denah gedung 5 6 7 8 ti polinema"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 7,
             "pertanyaan_variasi": "posisi toilet di denah gedung ti lantai 7 dimana min?"
-        },
-        {
-            "id_kategori": 4,
-            "pertanyaan_variasi": "min saya maba nyasar cari kelas, ada peta kampus ti nggak?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "terima kasih"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "terimakasih"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "terima kasih min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "terimakasih ya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "terima kasih yaa"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "thank you"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "thanks"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "matur nuwun"
         },
         {
             "id_kategori": 11,
@@ -6324,402 +6056,6 @@
         {
             "id_kategori": 11,
             "pertanyaan_variasi": "alur pendaftaran magang"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Haii"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Helloo"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Heii"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Heyy"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hay"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo semua"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai semuanya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hello bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo ada yang bisa bantu"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai boleh tanya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hello ada orang"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo masuk ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hai aktif ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo bisa bantu saya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hey aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat pagi aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat siang bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat sore aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat malam bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Met pagi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Met siang"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Met sore"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Met malam"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Pagi banget nih"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Sore nih"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Selamat pagi semua"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Pagi aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Malam aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum warahmatullah"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum wr"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Waalaikumsalam"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Slmkm"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Aslmkm"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalam"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum bot aktif"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Salam kenal"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Salam semua"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum ada yang bisa bantu"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Salken"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Assalamualaikum selamat pagi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Salam pagi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Oi bro"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Woi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Oii"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Euy ada ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hei guys"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Nyet aktif ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Gaes"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bro bot ini hidup ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Sis bisa tanya ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Woii aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Hei bang"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo cuy"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bro ada ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Tes tes"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Testing"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Tes 1 2 3"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Coba bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot hidup"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Aktif ga bot ini"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot jalan ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Masih aktif ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Online ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Nyala ga botnya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot lagi on ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Cek sistem"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Tes koneksi"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot ini masih jalan"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Sistem aktif ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Numpang tanya ya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Boleh tanya ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Izin nanya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Mau nanya boleh"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Permisi mau tanya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Maaf ganggu ya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Punten mau nanya dulu"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Izin bertanya sebentar"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Boleh minta info ga"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Mau tanya dikit ya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Permisi ada yang bisa bantu"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Izin kak mau tanya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Maaf ya numpang tanya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Boleh bertanya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Izin nanya min"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Apa kabar aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Kabar baik bot"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Gimana kabar aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Kamu ini bot apa"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Siapa yang buat aegis"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot ini bisa apa aja"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Fungsi aegis itu apa"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Aegis itu siapa"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Kamu bot atau manusia"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Ini bot otomatis ya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Aegis bisa bantu apa"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Halo kenalin dulu dong"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Aegis itu apaan"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Bot ini buatan siapa"
         },
         {
             "id_kategori": 7,
@@ -7462,7 +6798,7 @@
             "pertanyaan_variasi": "mahasiswa raih juara dapat apresiasi apa"
         },
         {
-            "id_kategori": 6,
+            "id_kategori": 7,
             "pertanyaan_variasi": "kompensasi untuk mahasiswa pemenang lomba"
         },
         {
@@ -7512,6 +6848,1774 @@
         {
             "id_kategori": 6,
             "pertanyaan_variasi": "kapan deadline pendaftaran PKM"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "saya ingin mengunduh surat kompen"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apa ada surat kompen"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apakah ada surat izin untuk ti"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apa ada surat izin untuk sib"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ada ada surat izin untuk pls"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cari surat izin dimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apa aku bisa dapat surat disini"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apa aku boleh meminta surat disini"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "bagaimana mendapatkan surat izin"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ijazah aku rusak bagaimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "kalau ijazah rusak gimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "kalau ijazah hilang gimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "aku lupa mengambil ijazah"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "bagaimana kalau ijazah hilang"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "aku mau megambil ijazah dimana?"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "admin bisa mengurus ijazah rusak?"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "aku mau surat bebas kompen"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "kompen itu apa"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "kenapa wajib melakukan kompen"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apa boleh izin waktu kelas"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "kalau sakit izinnya gimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "aku sakit butuh surat izin"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat izin bisa diminta dimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apakah surat izin harus melampirkan surat dokter"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apa kamu menyediakan surat untuk melakukan kompen"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "gimana cara melakukan kompen"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "aku mau kompen tapi bingung"
+        },
+        {
+            "id_kategori": 4,
+            "pertanyaan_variasi": "cara daftar wisuda"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "aku mau tau ruang bu"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "di ruang dosen angka ada siapa saja"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "aku mau tau ruangan pak"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruangan pak dimana ya"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruangan bu dimana ya"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "apa bu ada di ruang dosen angka"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "apa pak ada di ruang dosen angka"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "aku mau tau jadwal kelasku"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "aku mau tau jadwal dosen mengajar"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "apa aku bisa melihat jadwal kelas disini?"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "apa aku bisa lihat jadwal ruang disini?"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "apa kamu menyediakan jadwal ruangan"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "apa kamu menyediakan jadwal kelas"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "apa kamu menyediakan jadwal dosen"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "dimana aku bisa lihat jadwal kelas"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "dimana aku bisa tahu aku kelas apa"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "bagaimana cara mengetahui kelas"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruang dosen ada di mana"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "apakah ada ruang perpustakaan di jti"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "apa ada ruang perpusatakaan di gedung ini"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "admin bukan jam berapa"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "aku mau tanda tangan bu tapi tidak tahu ruangan"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "cara minta tanda tangan kajur"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "apa magang boleh mandiri?"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "apa semester 6 boleh magang?"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "apa boleh ambil topik skripsi dari tempat magang?"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "aku mau tau ruangan bu"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "di mana ruangan pak dosen?"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apa surat izin harus di print?"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat izin harus tanda tangan basah?"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "aku pengen tahu timeline magang"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "kenapa wajib magang"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "apa skripsi dilakukan sendiri"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "beda magang dan pkl"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "bagaimana cara daftar magang mandiri"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "apa jurusan ada mou magang?"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "apa itu mou magang/pkl?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Aegis bisa bantu apa"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Aegis itu apaan"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Aegis itu siapa"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Apa kabar aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Apa kabar min?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Apa kabar?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Aslmkm"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalam"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamu'alaikum"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamu'alaikum wr. wb."
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum bot"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum kak"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum min"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum selamat pagi"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum warahmatullah"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum warrahmatullahi wabarakatuh"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum wr"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Assalamualaikum wr wb"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Boleh bertanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Boleh minta info ga"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Boleh tanya ga"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Bot ini bisa apa aja"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Bot ini buatan siapa"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Bro ada ga"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Fungsi aegis itu apa"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Gimana kabar aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Gimana kabarnya bot?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Gimana kabarnya?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai aegis ada yang online"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai admin"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai aktif ga"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai apa kabar"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai banh"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai boleh tanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai bot aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai kak aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai min aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hai semuanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo AEGIS"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo admin"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "halo semua ada yang bisa bantu?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo aegis apa kabar"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo apa kabar"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo bisa bantu saya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo bot"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo bot aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo cuy"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo kak"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo kenalin dulu dong"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo masuk ga"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo min"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo ngab"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo semua"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Halo semuanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "halo min apa kabar aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Haloo aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hay aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hei aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hei bang"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hei guys"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hei kak"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hei min aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Heii aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hello bot aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Helloo aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Hey aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Heyy aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "How are you?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Ini bot otomatis ya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Izin bertanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Izin bertanya sebentar"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Izin kak mau tanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Izin nanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Izin nanya min"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Kabar baik bot"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Kabar baik?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Kamu bot atau manusia"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Kamu ini bot apa"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Lagi apa?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Maaf ganggu ya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Maaf mengganggu"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Maaf ya numpang tanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Malam"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Malam aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Malem kak"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Mau nanya boleh"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Mau tanya dikit ya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Met malam"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Met pagi"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Met siang"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Met sore"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Mikum"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Numpang tanya ya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Oi bro"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Pagi"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Pagi aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Pagi banget nih"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Pagi kak"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Pagi min"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Permisi"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Permisi kak"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Permisi mau tanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Permisi min"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Punten aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Punten mau nanya dulu"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Punten min"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Salam kenal"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Salam pagi"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Salam semua"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Salken"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Samlekom"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat malam"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat malam bot"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat pagi"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat pagi aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat pagi semua"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat siang"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat siang bot"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat sore"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Selamat sore aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Siang"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Siang kak"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Siapa yang buat aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Sibuk ga?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Sis bisa tanya ga"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Slmkm"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Sore"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Sore nih"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Waalaikumsalam"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "Woii aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "assalamualaikum admin"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "bantuan dong min"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "bot mau tanya dong"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "selamat datang"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "hei min ada?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "permios min boleh tanya?"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "selamat pagi min"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "biaya kuliah semester ini berapa?"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "tagihan kuliah aku bulan ini berapa?"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "berapa biaya yang harus dibayar semester ini?"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara cicil biaya kuliah gimana?"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "bisa minta keringanan biaya kuliah ga?"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "syarat sidang skripsi apa aja"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih banyak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih bgt"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih bot"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih infonya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih kak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih kak udah bantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih responnya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih sudah bantu jawab"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih ya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih ya udah bantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "matur nuwun"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "matur nuwun aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "matur nuwun kak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "matur nuwun min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "matur suwun"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "mksh"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "mksh kak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "mksh min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "mksh ya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "mksih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "ngerti makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke info nya terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke makasih min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke mksh"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke sudah paham makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke terimakasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke thanks"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke thanks kak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke thx"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "paham makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "sudah jelas terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "suwun"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "tengkyu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "tengkyu kak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "tengkyu min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih banyak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih bgt"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih bot"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih infonya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih min udah bantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih responnya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih sudah membantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih sudah menjawab"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih yaa"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terimakasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terimakasih aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terimakasih atas bantuannya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terimakasih banyak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terimakasih bot"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terimakasih sudah membantu saya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terimakasih ya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thank you"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thank you aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thank you so much"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks a lot"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks banget"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks bot"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks infonya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks responnya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks sudah bantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks ya kak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thx"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thx banyak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "tq"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "tq bgt"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "trimakasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "trims"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "udah ketemu makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "udah paham makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "ah oke makasih min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "baik makasih infonya kak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "baik terima kasih kak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "banyak terima kasih min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "dah paham nih makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "info yang berguna makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "infonya lengkap banget makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "jelas banget makasih min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih bgt kak infonya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih ga usah repot"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih infonya sangat membantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih kak sangat membantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih udah mau bantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke dah ngerti makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke info ya terimakasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke makasih banyak min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "sangat membantu terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "siap makasih ya min"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "sudah mengerti terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terimakasih atas penjelasannya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih sudah menjelaskan"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "aku mau tahu jadwal sidang skripsi"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "info jadwal sidang skripsi kapan"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "kapan jadwal sidang tugas akhir d4"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "jadwal pelaksanaan sidang akhir"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "lokasi ruang dosen di lantai berapa"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "aku mau cari ruangan pak dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "di ruang dosen 2 ada siapa saja"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "siapa saja yang menempati ruang dosen 6"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "daftar nama di ruang dosen 1"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "siapa saja yang ada di ruang admin"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "daftar nama di ruang admin"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "format surat perjanjian tidak mengulangi kesalahan tata tertib"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "link download surat pernyataan pelanggaran tata tertib kampus"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "format surat pernyataan tidak sedang menerima beasiswa lain"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat keterangan bebas double funding beasiswa murni"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "link download surat pernyataan untuk daftar beasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara mendapatkan surat bebas kompen kompensasi"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara mengurus surat peringatan sp pelanggaran"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "link download form keterangan bebas tanggungan jam kompen"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "dimana ambil form formulir bebas kompen"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara bikin surat izin tidak masuk kuliah karena sakit"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "link form surat izin absen kuliah prodi teknik informatika ti"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "download form surat izin tidak masuk prodi sistem informasi bisnis sib"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat keterangan izin tidak masuk kuliah karena ada acara keluarga"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "format formulir surat izin sakit mahasiswa"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruangan pak di mana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruangan bu dimana"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "apa itu kompen"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jelaskan tentang kompen"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "apa yang dimaksud dengan kompensasi"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "informasi dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "info dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "cari info dosen"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara lapor aktif setelah terminal"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "prosedur reaktivasi nim nonaktif"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "status terminal mahasiswa itu apa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "nim saya nonaktif gimana caranya aktif lagi"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara legalisir ijazah di polinema"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat pengantar pkl minta ke siapa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat rekomendasi beasiswa butuh stempel mana"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "terminal karena nilai jelek"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "status terminal karena tidak lulus mata kuliah"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "mahasiswa diterminalkan karena apa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "batas alfa agar tidak terminal"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "berapa jam absensi yang diperbolehkan"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara pengaktifan kembali setelah cuti 2 semester"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "syarat aktif kembali setelah cuti akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "lapor aktif setelah terminal"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "reaktivasi nim setelah tidak aktif"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "pengaktifan status mengulang ta syaratnya apa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara lapor aktif mengulang ta"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "status tidak aktif mengulang ta itu gimana"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "syarat cuti akademik dari mahasiswa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cuti akademik berapa lama maksimalnya"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cuti diajukan ke siapa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "absensi presensi dicatat dimana"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "activity control itu apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara urus ktm hilang"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ktm saya hilang minta ganti gimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "syarat penggantian ktm hilang"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ktm rusak bisa diganti nggak"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "prosedur ganti ktm rusak"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ktm saya rusak minta cetak ulang"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat keterangan ukt itu apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "minta surat keterangan ukt gimana caranya"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat bebas tanggungan untuk apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara minta surat bebas tanggungan"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "pengaduan layanan akademik kemana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "mau lapor pelayanan yang tidak baik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "helpdesk akademik itu apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara ajukan pertanyaan ke helpdesk"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "khs digital cara cetaknya gimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat model c itu untuk apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "syarat minta surat model c"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat keterangan model c buat apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ijazah bisa diambil di gedung mana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "dimana tempat pengambilan ijazah"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara cicil ukt"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "angsuran ukt bisa nggak"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "syarat pengajuan angsuran ukt"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara daftar cicilan ukt online"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "asuransi mahasiswa polinema itu apa"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara klaim asuransi kalau kecelakaan"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "syarat klaim asuransi mahasiswa"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ipi itu biaya apa"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ipi polinema berapa jumlahnya"
+        },
+        {
+            "id_kategori": 4,
+            "pertanyaan_variasi": "syarat daftar wisuda"
+        },
+        {
+            "id_kategori": 4,
+            "pertanyaan_variasi": "cara daftar wisuda polinema"
+        },
+        {
+            "id_kategori": 4,
+            "pertanyaan_variasi": "kapan bisa daftar wisuda"
+        },
+        {
+            "id_kategori": 4,
+            "pertanyaan_variasi": "daftar wisuda online dimana"
+        },
+        {
+            "id_kategori": 4,
+            "pertanyaan_variasi": "gelombang wisuda polinema berapa kali setahun"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "orang tua meninggal nik diisi apa di siakad"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "ayah sudah wafat nik diisi bagaimana"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara perubahan data mahasiswa di siakad"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "mau ubah data diri di siakad gimana"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "prosedur pembuatan nim baru"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara validasi foto ktm"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "foto ktm belum tervalidasi gimana"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "pencairan beasiswa cair kapan"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "prosedur pencairan dana beasiswa"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "lupa password simfoni gimana"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara reset password akun simfoni alumni"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara klaim asuransi mahasiswa"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "info dospem magang bisa dilihat di siakad atau portal"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "dospem magang saya siapa"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "cara cek dosen pembimbing magang di siakad"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "lapor masalah darurat magang ke siapa"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "ada masalah saat magang lapor kemana"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "prosedur lengkap pkl di polinema"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "alur pkl dari awal sampai selesai"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih banyak ya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih banyak aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thx min udah bantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "suwun ya"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "aku mau mengambil ijazah dimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "tempat pengambilan ijazah polinema dimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ijazah bisa diambil dimana lokasinya"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "mau ambil ijazah ke gedung mana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "pengambilan ijazah di gedung apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ambil ijazah harus ke mana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "lokasi pengambilan ijazah polinema"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ijazah diambil di mana gedung aa"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "orang tua meninggal nik diisi apa"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "ayah meninggal kolom nik dikosongkan atau tetap diisi"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "ibu sudah meninggal nik ibu isi apa di siakad"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara isi nik orang tua yang sudah wafat"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "verifikasi data nik ayah meninggal diisi bagaimana"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "data nik orang tua sudah meninggal bagaimana mengisinya"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "kalau ibu sudah meninggal isi nik nya apa"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "bebas tanggungan jurusan untuk daftar ujian ta"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "bebas tanggungan perpus syarat daftar sidang skripsi"
         }
     ]
 }

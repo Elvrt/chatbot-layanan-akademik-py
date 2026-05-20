@@ -2,9 +2,16 @@ kata_typo,kata_baku
 terimakasih,terima kasih
 makasih,terima kasih
 mksih,terima kasih
+mksh,terima kasih
 trmksh,terima kasih
+trimakasih,terima kasih
+trims,terima kasih
 thx,terima kasih
 thanks,terima kasih
+tq,terima kasih
+tengkyu,terima kasih
+suwun,terima kasih
+maturnuwun,terima kasih
 dospem,dosen pembimbing
 sempro,seminar proposal
 semhas,seminar hasil
@@ -20,11 +27,28 @@ sib,sistem informasi bisnis
 bbt,bebas tanggungan
 ktm,kartu tanda mahasiswa
 siakad,sistem informasi akademik
+krs,kartu rencana studi
+khs,kartu hasil studi
+ipk,indeks prestasi kumulatif
+skla,surat keterangan lunas administrasi
+skl,surat keterangan lulus
+skk,surat keterangan aktif
+suket,surat keterangan
+skck,surat kelakuan baik
+jti,jurusan teknik informatika
+mta,mahasiswa terminal
+do,drop out
+kompre,komprehensif
+skrpsi,skripsi
+maba,mahasiswa baru
+kating,kakak tingkat
+ortu,orang tua
+matkul,mata kuliah
 gmana,bagaimana
 gimana,bagaimana
+gmn,bagaimana
 kalo,kalau
 klo,kalau
-buat,untuk
 utk,untuk
 yg,yang
 dgn,dengan
@@ -32,13 +56,50 @@ nggak,tidak
 ga,tidak
 gak,tidak
 tdk,tidak
-bikin,buat
-ngurus,urus
-batalin,batalkan
+ndak,tidak
+bikin,membuat
+buat,membuat
+ngurus,mengurus
+ngurusin,mengurus
+ngajuin,mengajukan
+batalin,membatalkan
+nyicil,mencicil
+ilang,hilang
+benerin,memperbaiki
+nyetak,mencetak
+ngumpulin,mengumpulkan
+ngecek,mengecek
+nyasar,tersesat
+cariin,carikan
+bagiin,bagikan
+ngelupas,mengelupas
+dapet,dapat
 wa,whatsapp
 nomer,nomor
 no,nomor
 ingfo,informasi
 info,informasi
-trimakasih,terima kasih
-trmksh,terima kasih
+kpn,kapan
+brp,berapa
+dr,dari
+krn,karena
+jd,jadi
+pake,pakai
+bgt,sangat
+banget,sangat
+udah,sudah
+udh,sudah
+blm,belum
+biar,agar
+kayak,seperti
+kek,seperti
+ttd,tanda tangan
+acc,persetujuan
+extend,perpanjang
+ploting,penempatan
+apply,mendaftar
+jobdesc,pekerjaan
+aslmkm,assalamualaikum
+samlekom,assalamualaikum
+mikum,assalamualaikum
+slmkm,assalamualaikum
