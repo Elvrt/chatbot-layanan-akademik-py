@@ -42,7 +42,7 @@ _WHITELIST_SAPAAN: set = {
     'halo', 'hai', 'hei', 'hey', 'hello', 'hi',
     'permisi', 'punten', 'assalamualaikum', 'waalaikumsalam',
     'salam', 'pagi', 'siang', 'sore', 'malam',
-    'selamat', 'kabar', 'maaf', 'izin', 'nanya',
+    'selamat', 'kabar', 'maaf', 'nanya',
     'bertanya', 'tanya', 'bantuan', 'aktif', 'online',
 }
 
