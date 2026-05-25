@@ -92,7 +92,7 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan": "Cara Aktif Kembali Pasca Cuti atau Terminal",
+            "pertanyaan": "Cara lapor aktif Kembali Pasca Cuti atau Terminal",
             "jawaban": "Mahasiswa wajib membayar UKT sesuai jadwal. Setelah lunas, status di SIAKAD akan diaktifkan oleh Admin Akademik Pusat, kemudian mahasiswa melapor ke Admin Prodi untuk dimasukkan ke dalam kelas perkuliahan."
         },
         {
@@ -122,22 +122,17 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "Syarat Surat Keterangan Aktif Kuliah SKK",
+            "pertanyaan": "Syarat Surat Keterangan Kuliah SKK",
             "jawaban": "SKK hanya bisa diajukan 1 kali per semester. Syarat utamanya adalah mahasiswa berstatus aktif, sedang cuti, terminal, atau Mengulang TA, serta TIDAK memiliki tunggakan UKT atau SPFP."
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "Cara Cetak Surat Keterangan Aktif Kuliah SKK",
+            "pertanyaan": "Cara minta Surat Keterangan Kuliah SKK",
             "jawaban": "Pengajuan SKK dilakukan mandiri melalui SIAKAD pada menu Surat dan Kuesioner lalu pilih Permintaan Surat. Dokumen akan di-generate otomatis dalam bentuk PDF yang bisa langsung diunduh dan dicetak mahasiswa."
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "Definisi dan Syarat Surat Model C",
-            "jawaban": "Surat Model C digunakan untuk syarat tunjangan gaji orang tua (khusus anak PNS/TNI/POLRI/BUMN). Syaratnya: mahasiswa aktif tidak lebih dari 25 tahun, belum bekerja, belum menikah, dan lunas UKT semester berjalan."
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan": "Prosedur Pembuatan Surat Model C",
+            "pertanyaan": "prosedur cara langkah buat cetak ajukan request surat model c siakad menu permintaan",
             "jawaban": "Mahasiswa melengkapi data pekerjaan orang tua (NIP/NRP, Pangkat, Golongan) di SIAKAD. Setelah data lengkap, ajukan Surat Model C di menu Permintaan Surat. Surat akan ditandatangani oleh Ka BAK."
         },
         {
@@ -156,34 +151,19 @@
             "jawaban": "Mahasiswa mengajukan permohonan ke Bagian Kemahasiswaan pusat. Data akan diverifikasi oleh Pokja Kemahasiswaan untuk memastikan tidak ada pencairan beasiswa berjalan. Surat ditandatangani oleh Wakil Direktur III."
         },
         {
-            "id_kategori": 3,
+            "id_kategori": 2,
             "pertanyaan": "Layanan Surat Keterangan Rincian UKT",
             "jawaban": "Surat Keterangan Besaran UKT (untuk lampiran daftar beasiswa) dapat diminta dengan mengajukan form permohonan ke Ka BAK atau mencetaknya langsung melalui menu layanan surat di SIAKAD."
         },
         {
             "id_kategori": 3,
-            "pertanyaan": "Kriteria Penerima Keringanan UKT Mahasiswa Baru",
-            "jawaban": "Keringanan UKT Maba hanya untuk jalur Reguler/Mandiri non-KIPK dengan kondisi: Yatim Piatu, Yatim/Piatu, Ayah kandung kena PHK, atau Ayah kandung sakit keras permanen terhitung sejak masa pendaftaran seleksi."
+            "pertanyaan": "kriteria syarat siapa berhak dapat keringanan ukt maba mahasiswa lama kipk beasiswa yatim piatu phk sakit permanen",
+            "jawaban": "Maba: Bukan penerima KIP-K, jalur reguler/mandiri, dengan kasus khusus: yatim/piatu, orang tua di-PHK, atau orang tua sakit keras permanen (terjadi saat periode pendaftaran hingga daftar ulang).\r\n\r\nMahasiswa lama: Bukan penerima beasiswa apapun, jalur reguler (mandiri hanya kasus khusus: yatim/piatu, orang tua di-PHK, atau orang tua sakit keras permanen — kondisi harus terjadi setelah menjadi mahasiswa Polinema)."
         },
         {
             "id_kategori": 3,
-            "pertanyaan": "Berkas Pengajuan Keringanan UKT Mahasiswa Baru",
-            "jawaban": "Kamu dapat mengajukan keringanan UKT dengan mengumpulkan dokumen wajib meliputi: SKTM Kelurahan, Kartu Keluarga, Slip Gaji/Surat Keterangan Penghasilan, Rekening Listrik, PBB, STNK Kendaraan, Foto Rumah (depan dan dalam), dan dokumen pendukung (Surat PHK/Surat Medis/Akta Kematian)."
-        },
-        {
-            "id_kategori": 3,
-            "pertanyaan": "Alur Pendaftaran Keringanan UKT Mahasiswa Baru",
-            "jawaban": "Pendaftaran dilakukan terpusat melalui web keringananukt.polinema.ac.id. Tim Verifikator (Wadir II dan Pokja) akan melakukan skoring dan desk evaluasi. Keputusan penurunan kategori UKT bersifat mutlak."
-        },
-        {
-            "id_kategori": 3,
-            "pertanyaan": "Syarat Keringanan UKT Mahasiswa Lama",
-            "jawaban": "Keringanan ukt diperuntukkan bagi mahasiswa reguler semester 3 ke atas yang tidak menerima beasiswa. Mahasiswa Mandiri bisa mengajukan jika status orang tua meninggal, PHK, atau sakit keras di tengah masa perkuliahan berjalan."
-        },
-        {
-            "id_kategori": 3,
-            "pertanyaan": "Alur Keringanan UKT Mahasiswa Lama",
-            "jawaban": "Pengajuan dilakukan di SIAKAD pada menu UKT lalu Keringanan UKT. Mahasiswa mengunggah berkas SKTM, tagihan air/listrik, dan foto rumah. Jika disetujui, nominal UKT di SIAKAD akan otomatis berubah sebelum masa pembayaran."
+            "pertanyaan": "dokumen berkas wajib upload keringanan ukt",
+            "jawaban": "Berkas yang wajib di-upload untuk pengajuan keringanan UKT: (1) SKTM dari Desa/Kelurahan, (2) Kartu Keluarga (KK), (3) Slip Gaji/Surat Keterangan Penghasilan Ayah & Ibu, (4) Rekening Listrik 1 bulan terakhir, (5) Bukti Pembayaran PBB, (6) STNK Mobil & Motor, (7) Foto Rumah (tampak depan, ruang tamu, dapur, kamar tidur, kamar mandi), (8) Dokumen pendukung (Surat PHK, rekam medis, akta kematian, kartu KIP-K, dll)."
         },
         {
             "id_kategori": 3,
@@ -192,16 +172,11 @@
         },
         {
             "id_kategori": 3,
-            "pertanyaan": "Prosedur Pengajuan Angsuran UKT Mahasiswa Baru",
-            "jawaban": "Mahasiswa baru mengajukan angsuran melalui web penundaanukt.polinema.ac.id. Wajib mencetak dan menandatangani Surat Pernyataan Kesanggupan Melunasi di atas materai 10000 sesuai tanggal jatuh tempo yang disepakati."
+            "pertanyaan": "Prosedur Pengajuan Angsuran UKT Mahasiswa Baru dan Lama",
+            "jawaban": "Mahasiswa Baru: Mahasiswa baru mengajukan angsuran melalui web penundaanukt.polinema.ac.id. Wajib mencetak dan menandatangani Surat Pernyataan Kesanggupan Melunasi di atas materai 10000 sesuai tanggal jatuh tempo yang disepakati.\r\n\r\nMahasiswa Lama: Mahasiswa lama dapat menghubungi layanan WA Admin Akademik untuk meminta form angsuran UKT. Bukti pembayaran sisa angsuran wajib dikonfirmasikan kembali ke Subbag Akademik sebelum masa ujian akhir semester."
         },
         {
-            "id_kategori": 3,
-            "pertanyaan": "Prosedur Pengajuan Angsuran UKT Mahasiswa Lama",
-            "jawaban": "Mahasiswa lama dapat menghubungi layanan WA Admin Akademik untuk meminta form angsuran UKT. Bukti pembayaran sisa angsuran wajib dikonfirmasikan kembali ke Subbag Akademik sebelum masa ujian akhir semester."
-        },
-        {
-            "id_kategori": 4,
+            "id_kategori": 2,
             "pertanyaan": "Fungsi Surat Keterangan Lunas Administrasi SKLA",
             "jawaban": "SKLA wajib dimiliki mahasiswa tingkat akhir sebagai syarat untuk mendaftar Sidang/Ujian Tugas Akhir (Skripsi). SKLA membuktikan bahwa mahasiswa bebas tunggakan UKT dan data ijazahnya telah divalidasi."
         },
@@ -211,7 +186,7 @@
             "jawaban": "Syarat mendapatkan SKLA: Lunas UKT, Lunas SPFP/IPI, Foto Ijazah telah tervalidasi, dan Data Ijazah telah tervalidasi Admin. SKLA dapat diunduh mandiri di SIAKAD menu Surat & Kuesioner."
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 2,
             "pertanyaan": "Surat Keterangan Bebas Tanggungan",
             "jawaban": "Surat ini diurus setelah mahasiswa dinyatakan lulus Yudisium. Syaratnya: Poin SKKM terpenuhi, validasi tracer study, dan mengumpulkan Hardcover Tugas Akhir ke perpustakaan pusat serta ruang baca prodi."
         },
@@ -228,7 +203,7 @@
         {
             "id_kategori": 4,
             "pertanyaan": "Syarat Legalisir Ijazah dan Transkrip Nilai",
-            "jawaban": "Alumni wajib mengisi Tracer Study di https://alumni.polinema.ac.id/front/alumni. Untuk mengajukan legalisir ijazah dan transkrip nilai, silakan login ke portal resmi di https://alumni.polinema.ac.id/front/login_legalisasi."
+            "jawaban": "Alumni wajib mengisi Tracer Study di web alumni polinema  <a href='https://alumni.polinema.ac.id/front/alumni' target='_blank'style='color: blue;'>klik disini</a> . Untuk mengajukan legalisir ijazah dan transkrip nilai, silakan login ke portal resmi berikut <a href='https://alumni.polinema.ac.id/front/login_legalisasi' target='_blank'style='color: blue;'>klik disini</a>."
         },
         {
             "id_kategori": 4,
@@ -342,8 +317,8 @@
         },
         {
             "id_kategori": 6,
-            "pertanyaan": "Pendataan Prestasi dan Juara Lomba",
-            "jawaban": "Mahasiswa yang menjuarai perlombaan tingkat Regional, Nasional, atau Internasional WAJIB melapor ke SIAKAD dengan mengunggah sertifikat, surat tugas, dan dokumentasi foto untuk dimasukkan ke sistem SIMKATMAWA."
+            "pertanyaan": "unggah input upload tambah daftarkan data prestasi di siakad cara memasukkan menginput prestasi mahasiswa lomba kompetisi",
+            "jawaban": "Untuk melaporkan prestasi lomba ke SIAKAD Polinema, ikuti langkah berikut:\r\n\r\n1. Login ke SIAKAD di https://siakad.polinema.ac.id\r\n2. Klik menu Akademik di sidebar kiri\r\n3. Pilih Kompetisi Mahasiswa — isi data kompetisi terlebih dahulu (nama lomba, tingkat, tanggal, peringkat)\r\n4. Setelah data kompetisi tersimpan, kembali ke menu Akademik\r\n5. Pilih Prestasi Mahasiswa — data prestasi akan muncul setelah kompetisi diisi\r\n6. Upload dokumen pendukung: sertifikat juara, surat tugas, dan dokumentasi foto\r\n\r\nCatatan: Menu Prestasi Mahasiswa tidak bisa diisi langsung. Harus mengisi Menu Kompetisi terlebih dahulu, baru data prestasi akan otomatis terhubung."
         },
         {
             "id_kategori": 6,
@@ -402,11 +377,6 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan": "Cara Download KHS Digital Semester",
-            "jawaban": "Setelah status request KHS disetujui oleh Ketua Jurusan di SIAKAD, mahasiswa dapat mengunduh Kartu Hasil Studi (KHS) tersebut dalam format PDF yang sudah dilengkapi dengan QR Code (Tanda Tangan Digital). KHS ini dapat dicetak secara mandiri."
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan": "Prosedur Lupa Password Web Alumni SIMFONI",
             "jawaban": "Alumni yang tidak bisa login ke sistem alumni.polinema.ac.id dapat mengeklik menu Lupa Password. Pemulihan akun dilakukan dengan mencocokkan NIM dan Tanggal Lahir (Format: YYYY-MM-DD) yang terdaftar di database PDDIKTI."
         },
@@ -432,7 +402,7 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan": "cara mengetahui atau melihat KHS Mahasiswa",
+            "pertanyaan": "cara mengetahui atau melihat KHS kartu hasil studi Mahasiswa",
             "jawaban": "Untuk mengetahui hasil KHS Anda bisa langsung mengakses SIAKAD dan menuju ke menu nilai mahasiswa."
         },
         {
@@ -652,7 +622,7 @@
         },
         {
             "id_kategori": 10,
-            "pertanyaan": "Pendaftaran syarat Sidang skripsi Akhir",
+            "pertanyaan": "syarat Pendaftaran Sidang skripsi Akhir",
             "jawaban": "Untuk mendaftar Sidang Akhir Skripsi, syarat utamanya meliputi:  \r\n1. Telah mendapatkan ACC Log Bimbingan minimal 8x untuk Dosen Pembimbing 1 dan 4x untuk Dosen Pembimbing 2.  \r\n2. Telah mengikuti dan lulus ujian TOEIC dengan skor minimal 500 (sertifikat harus berlogo ETS).  \r\n3. Memiliki dokumen SKLA (Surat Keterangan Lulus Administrasi) dari helpdesk akademik. Syarat untuk mendapatkan SKLA adalah tidak memiliki tanggungan pembayaran, serta data dan foto ijazah sudah valid.  \r\n4. Memiliki bukti pengisian formulir tracer pra-kelulusan.  Memiliki surat bebas kompen (yang telah ditandatangani oleh admin prodi) dan dilampiri dengan bukti bebas kompen.  \r\n5. Memiliki draft artikel jurnal untuk topik skripsi yang dibuat.  \r\n6. Memiliki Satuan Kredit Kegiatan Mahasiswa (SKKM) , yang mencakup sertifikat LDK, prastudi, mentoring, dan sertifikat selain kegiatan wajib (seperti kepanitiaan)."
         },
         {
@@ -671,14 +641,9 @@
             "jawaban": "Saat hari H sidang, mahasiswa wajib membawa form penilaian untuk para penguji. Setelah lulus, selesaikan revisi dan minta TTD lembar revisi. Buku skripsi yang sudah dijilid (hardcover) dan dokumen bebas tanggungan perpus wajib diserahkan ke perpustakaan serta loket jurusan sebagai syarat mendaftar Yudisium."
         },
         {
-            "id_kategori": 10,
+            "id_kategori": 2,
             "pertanyaan": "surat pengantar izin observasi penelitian perusahaan ganti judul perubahan form dospem dosen pembimbing pergantian",
             "jawaban": "Untuk pengurusan surat pengantar izin penelitian/observasi ke perusahaan, pengajuan perubahan judul skripsi, maupun form pergantian dosen pembimbing, kamu bisa mengunduh formulirnya <a href=\"https://devel-jti.polinema.ac.id/profil/dokumen-resmi/\" target=\"_blank\" style=\"color: blue;\">\r\n    klik disini\r\n</a> lalu menyerahkannya ke loket persuratan di Gedung AA."
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan": "surat form formulir permohonan cuti istirahat kuliah pengunduran diri cabut berkas pembatalan batal mundur teknik informatika ti sib ppls lama",
-            "jawaban": "Berikut adalah tautan untuk mengunduh form Cuti dan Pengunduran Diri:\r\n- Permohonan Cuti: <a href=\"https://docs.google.com/document/d/1tRu2jDzuWG_21sci9gk27dylvwAC1wDa/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true\" target=\"_blank\" style=\"color: blue;\">klik disini</a>\r\n- Pengunduran Diri (TI): <a href=\"https://docs.google.com/document/d/1dj_u-uxcXk7aJCknCA6rmvXCCoOvOfhA/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true\" target=\"_blank\" style=\"color: blue;\">klik disini</a>\r\n- Pengunduran Diri (SIB): <a href=\"https://docs.google.com/document/d/1zdnwgqzB33JGLnHR-EH_difLc7Ey6R-D/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true\" target=\"_blank\" style=\"color: blue;\">klik disini</a>\r\n- Pengunduran diri Mahasiswa Lama (PLS): <a href=\"https://drive.google.com/file/d/1AUGWSklEElX-xtskwwR8P3ijOQOEVWzG/view?usp=drive_link\" target=\"_blank\" style=\"color: blue;\">klik disini</a>\r\n- Pembatalan Pengunduran Diri: <a href=\"https://docs.google.com/document/d/1unCmTWXPvm5kEpwD__2qnJlAmNrGYw_d/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true\" target=\"_blank\">klik disini</a>"
         },
         {
             "id_kategori": 2,
@@ -692,11 +657,6 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "surat form formulir izin mahasiswa tidak masuk kuliah sakit acara keterangan ti sib pls",
-            "jawaban": "Untuk form izin tidak masuk kuliah, silakan unduh sesuai dengan program studi kamu:\r\n- Izin Mahasiswa TI: <a href='https://drive.google.com/file/d/1J2T-kWitfkuaNOAyQzfkSe9WJsf2XN6k/view?usp=drive_link' target='_blank' style='color: blue;'>klik disini</a>\r\n- Izin Mahasiswa SIB: <a href='https://drive.google.com/file/d/1ADPWWkPOuXEiJRx2sOO4jGs6D5Z-xrlE/view?usp=drive_link' target='_blank' style='color: blue;'>klik disini</a>\r\n- Izin Mahasiswa PLS: <a href='https://drive.google.com/file/d/1obsQN0GjxhmcLzpDZkaLdwR27yqaNje5/view?usp=drive_link' target='_blank' style='color: blue;'>klik disini</a>"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan": "surat form formulir keterangan bebas kompen kompensasi pernyataan tidak sedang menerima beasiswa perjanjian mengulangi pelanggaran sp",
             "jawaban": "Berikut adalah tautan untuk mengunduh form pernyataan khusus:\r\n- Form Surat Keterangan Bebas Kompen: <a href='https://docs.google.com/document/d/1BLrGl85UzJlbAArto_qrOOMmuLATf0zE/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>\r\n- Pernyataan Tidak Sedang Menerima Beasiswa: <a href='https://docs.google.com/document/d/1o-VYyysbWmFu_qcUAOjeK6oN5vIW3qK4/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>\r\n- Perjanjian Tidak Mengulangi Pelanggaran: <a href='https://docs.google.com/document/d/1X0CFW3q5i6sVZUaZ-2G99Uv959ZJnMuL/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>"
         },
@@ -707,7 +667,7 @@
         },
         {
             "id_kategori": 11,
-            "pertanyaan": "informasi magang info pkl daftar alur syarat tempat logbook umum",
+            "pertanyaan": "informasi magang info pkl",
             "jawaban": "Terkait Informasi PKL / Magang, AEGIS siap membantu menjelaskan alur pendaftaran, syarat SKS, pengurusan surat pengantar, pencarian tempat via Simagang, hingga pengisian logbook. Bagian mana yang ingin kamu ketahui lebih lanjut?"
         },
         {
@@ -717,12 +677,12 @@
         },
         {
             "id_kategori": 3,
-            "pertanyaan": "pembayaran ukt info penurunan uang kuliah tunggal",
-            "jawaban": "Pembayaran UKT dilakukan setiap menjelang awal semester baru. Jika kamu membutuhkan info terkait syarat keringanan ukt, atau mengajukan keringanan ukt, jurusan biasanya akan membuka pengumuman resmi sebelum masa pembayaran dimulai. Ada yang bisa AEGIS bantu lebih detail terkait UKT?"
+            "pertanyaan": "pembayaran ukt info umum jadwal bayar ukt",
+            "jawaban": "Pembayaran UKT dilakukan setiap menjelang awal semester baru. Jurusan biasanya membuka pengumuman resmi jadwal pembayaran sebelum masa pembayaran dimulai. Pembayaran dapat dilakukan melalui Bank Mandiri, BNI, BRI, atau BTN."
         },
         {
             "id_kategori": 7,
-            "pertanyaan": "jadwal kuliah informasi jam masuk kelas siakad jadwal akademik kalender",
+            "pertanyaan": "jadwal kuliah informasi jam",
             "jawaban": "Jadwal kuliah lengkap dan terbaru selalu dapat kamu cek secara mandiri melalui portal <a href='https://siakad.polinema.ac.id/' target='_blank'style='color: blue;'>Siakad</a> di menu 'Jadwal Mahasiswa', atau kamu bisa lihat jadwal pada link berikut, <a href='https://drive.google.com/file/d/1d6HW_qp1M4UKm8UpGhSg46VNOlaJ-Jsv/view?usp=drive_link' target='_blank'style='color: blue;'>klik disini</a>. Jika ada perubahan jadwal (jam kosong atau ganti hari), biasanya akan dikomunikasikan langsung oleh dosen pengampu melalui perwakilan kelas."
         },
         {
@@ -748,7 +708,7 @@
         {
             "id_kategori": 8,
             "pertanyaan": "Halo hai hei heii hello selamat pagi siang sore malam permisi punten izin mau nanya tanya bro sis kak min ngab cuy guys",
-            "jawaban": "Halo! 👋 AEGIS di sini. Ada yang bisa AEGIS bantu terkait informasi akademik hari ini? Langsung saja ketikkan pertanyaanmu ya!"
+            "jawaban": "Halo! 👋 AEGIS di sini. Ada yang bisa AEGIS bantu terkait informasi akademik hari ini? Langsung saja ketikkan pertanyaanmu ya! jika bingung kamu bisa ketik \"menu\" dan kirim ke AEGIS 😁"
         },
         {
             "id_kategori": 8,
@@ -757,48 +717,48 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "surat form formulir permohonan cuti istirahat kuliah akademis",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Permohonan Cuti Kuliah: <a href='https://docs.google.com/document/d/1tRu2jDzuWG_21sci9gk27dylvwAC1wDa/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "pertanyaan": "surat dan formulir pengajuan cuti akademik",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Permohonan Cuti Kuliah atau Akademik: <a href='https://docs.google.com/document/d/15Hfrzq_w2izeGb_HW5I17jrrpO8gUoTK/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat form formulir pengunduran diri keluar mundur cabut berkas mahasiswa teknik informatika ti",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri khusus mahasiswa Teknik Informatika (TI): <a href='https://docs.google.com/document/d/1dj_u-uxcXk7aJCknCA6rmvXCCoOvOfhA/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri khusus mahasiswa Teknik Informatika (TI): <a href='https://docs.google.com/document/d/1dj_u-uxcXk7aJCknCA6rmvXCCoOvOfhA/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat form formulir pengunduran diri keluar mundur cabut berkas mahasiswa sistem informasi bisnis sib",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri khusus mahasiswa Sistem Informasi Bisnis (SIB): <a href='https://docs.google.com/document/d/1zdnwgqzB33JGLnHR-EH_difLc7Ey6R-D/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri khusus mahasiswa Sistem Informasi Bisnis (SIB): <a href='https://docs.google.com/document/d/1zdnwgqzB33JGLnHR-EH_difLc7Ey6R-D/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat form formulir pengunduran diri keluar mundur cabut berkas mahasiswa lama pls",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri Mahasiswa Lama (PLS): <a href='https://drive.google.com/file/d/1AUGWSklEElX-xtskwwR8P3ijOQOEVWzG/view?usp=drive_link' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri Mahasiswa Lama (PLS): <a href='https://drive.google.com/file/d/1AUGWSklEElX-xtskwwR8P3ijOQOEVWzG/view?usp=drive_link' target='_blank' style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat form formulir pengunduran diri keluar mundur cabut berkas mahasiswa d2 ppls",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri program D2 PPLS: <a href='https://docs.google.com/document/d/1Ld8gH5Wf5vB1Oa_07aX6ZgCnsmN_T1wO/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengunduran Diri program D2 PPLS: <a href='https://docs.google.com/document/d/1Ld8gH5Wf5vB1Oa_07aX6ZgCnsmN_T1wO/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat form formulir pembatalan batal pengunduran diri tidak jadi keluar mundur",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pembatalan Pengunduran Diri: <a href='https://docs.google.com/document/d/10G9b8rC806oE-h0jA1O-r7W313E440uF/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Pembatalan Pengunduran Diri: <a href='https://docs.google.com/document/d/10G9b8rC806oE-h0jA1O-r7W313E440uF/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat form formulir ktm hilang kehilangan kartu tanda mahasiswa pengganti ktm",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Kehilangan KTM: <a href='https://docs.google.com/document/d/1b734u2u33QO4K8K8uVItvWp-q4Vn_Jk-/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Kehilangan KTM: <a href='https://docs.google.com/document/d/1b734u2u33QO4K8K8uVItvWp-q4Vn_Jk-/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank' style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat form formulir permohonan email baru polinema mahasiswa institusi campus",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Permohonan Email Polinema: <a href='https://docs.google.com/document/d/11QvX3fM4wP2wM463Kx42WvQ7YF-qZJro/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Permohonan Email Polinema: <a href='https://docs.google.com/document/d/11QvX3fM4wP2wM463Kx42WvQ7YF-qZJro/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat pernyataan perubahan ganti rubah nomor hp whatsapp wa ganti data",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Pernyataan Perubahan Nomor HP/WhatsApp: <a href='https://docs.google.com/document/d/1Q41nZ3qZ92sM6h4p_s19A5958pS0iF32/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Pernyataan Perubahan Nomor HP/WhatsApp: <a href='https://docs.google.com/document/d/1Q41nZ3qZ92sM6h4p_s19A5958pS0iF32/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
@@ -811,7 +771,7 @@
             "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengganti Ijazah (Rusak): <a href='https://docs.google.com/document/d/1r99kK0T0sE8W04gL2G1QJjZJ_1KqgWJ3/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan": "surat form formulir pengganti ijazah hilang surat keterangan kehilangan ijazah",
             "jawaban": "Berikut adalah tautan untuk mengunduh Form Pengganti Ijazah (Hilang): <a href='https://docs.google.com/document/d/1Hk95zWw5s2P78z0g-B9_E12L81P6s8oF/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
         },
@@ -822,33 +782,33 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "surat form formulir izin mahasiswa tidak masuk kuliah sakit acara keterangan teknik informatika ti",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa Teknik Informatika (TI): <a href='https://drive.google.com/file/d/1n8J6Jv4k7V-vV7514yD1mD1kI59CjL2w/view?usp=drive_link' target='_blank'>klik disini</a>"
+            "pertanyaan": "surat izin tidak masuk kuliah mahasiswa ti",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa Teknik Informatika (TI): <a href='https://drive.google.com/file/d/1J2T-kWitfkuaNOAyQzfkSe9WJsf2XN6k/view?usp=drive_link' target='_blank'style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "surat form formulir izin mahasiswa tidak masuk kuliah sakit acara keterangan sistem informasi bisnis sib",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa Sistem Informasi Bisnis (SIB): <a href='https://drive.google.com/file/d/1W57f3U7M9KxP5R0sT054y4M1WqP7t7M_/view?usp=drive_link' target='_blank'>klik disini</a>"
+            "pertanyaan": "surat izin tidak masuk kuliah mahasiswa sib",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa Sistem Informasi Bisnis (SIB): <a href='https://drive.google.com/file/d/1ADPWWkPOuXEiJRx2sOO4jGs6D5Z-xrlE/view?usp=drive_link' target='_blank'style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "surat form formulir izin mahasiswa tidak masuk kuliah sakit acara keterangan mahasiswa pls",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa PLS: <a href='https://drive.google.com/file/d/1tU_5k6G0y4mQ2x1E1hX9i5N6vJ-3lqZ1/view?usp=drive_link' target='_blank'>klik disini</a>"
+            "pertanyaan": "surat izin tidak masuk kuliah mahasiswa PLS",
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Izin Tidak Masuk Kuliah khusus mahasiswa PLS: <a href='https://drive.google.com/file/d/1obsQN0GjxhmcLzpDZkaLdwR27yqaNje5/view?usp=drive_link' target='_blank'style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat form formulir keterangan bebas kompen kompensasi tanggungan jam kompen",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Form Surat Keterangan Bebas Kompen: <a href='https://docs.google.com/document/d/1T4X8T486D9B6g0_g_W0016yJ_2y0aF_0/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Form Surat Keterangan Bebas Kompen: <a href='https://docs.google.com/document/d/1BLrGl85UzJlbAArto_qrOOMmuLATf0zE/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat pernyataan tidak sedang menerima beasiswa murni double funding",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Pernyataan Tidak Sedang Menerima Beasiswa: <a href='https://docs.google.com/document/d/169Y9_y23V0S8h7J8E1Z98w8n2x75k5_y/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Pernyataan Tidak Sedang Menerima Beasiswa: <a href='https://docs.google.com/document/d/1o-VYyysbWmFu_qcUAOjeK6oN5vIW3qK4/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "surat perjanjian mengulangi pelanggaran sp surat peringatan tidak mengulangi kesalahan tata tertib",
-            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Perjanjian Tidak Mengulangi Pelanggaran: <a href='https://docs.google.com/document/d/1E8_4j00xK0-80Q-Z-W_L78_6Y4Y93W0a/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'>klik disini</a>"
+            "jawaban": "Berikut adalah tautan untuk mengunduh Surat Perjanjian Tidak Mengulangi Pelanggaran: <a href='https://docs.google.com/document/d/1X0CFW3q5i6sVZUaZ-2G99Uv959ZJnMuL/edit?usp=drive_link&ouid=109867506043337937496&rtpof=true&sd=true' target='_blank'style='color: blue;'>klik disini</a>"
         },
         {
             "id_kategori": 10,
@@ -877,16 +837,16 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "syarat dan cara mengurus surat keterangan aktif kuliah skk untuk tunjangan gaji orang tua",
-            "jawaban": "Untuk mengajukan Surat Keterangan Aktif Kuliah (SKK) guna keperluan tunjangan/gaji instansi orang tua, mahasiswa dapat mengisinya melalui form layanan akademik di Gedung AW atau mengunduh blangko di website resmi akademik."
+            "pertanyaan": "syarat cetak cara mengurus Surat Keterangan Kuliah skk",
+            "jawaban": "Untuk mengajukan Surat Keterangan Kuliah dapat diajukan di SIAKAD masing masing mahasiswa. Ketentuan: \r\na. Pengajuan SKK hanya bisa diajukan bagi mahasiswa dengan status aktif, cuti \r\nakademik, terminal, dan Mengulang TA yang tidak memiliki tunggakan UKT/IPI \r\nb. Pengajuan SKK hanya bisadilakukan1 (satu) kali dalam 1 (satu) Semester.  \r\nc. SKK diberikan dalam bentuk softfile PDF dan bisadicetak sendiri oleh mahasiswa \r\ntersebut \r\nd. Waktu yang dibutuhkan untuk menyelesaikan layanan ini sekitar 2 - 3 hari"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan": "syarat dan cara legalisir dokumen kelulusan ijazah dan transkrip nilai",
             "jawaban": "Layanan legalisir ijazah dan transkrip nilai dapat dilakukan dengan membawa dokumen fotokopi yang akan dilegalisir beserta dokumen aslinya (untuk verifikasi) ke loket layanan akademik pusat di Gedung AW."
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan": "syarat permohonan pengganti ijazah yang hilang atau rusak atau salah cetak",
             "jawaban": "Jika ijazah hilang atau rusak, kamu harus melaporkannya ke layanan akademik pusat di Gedung AW dengan membawa Surat Keterangan Kehilangan dari Kepolisian dan fotokopi ijazah lama (jika ada) untuk dibuatkan Surat Keterangan Pengganti Ijazah."
         },
@@ -997,12 +957,12 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "surat keterangan ukt sku itu apa cara minta",
+            "pertanyaan": "surat keterangan ukt sku itu apa cara minta prosedur pengajuan nominal ukt keterangan biaya kuliah",
             "jawaban": "Surat Keterangan UKT (SKU) adalah surat yang menerangkan nominal UKT mahasiswa. Cara mengajukan: (1) Siapkan surat permohonan, (2) Ajukan permohonan online/offline ke Ka. BAK dengan menyertakan data diri, (3) Request SKK melalui SIAKAD, (4) Admin validasi data, (5) Surat dicetak dan ditandatangani, (6) Surat diberikan ke mahasiswa. Waktu proses sekitar 1 hari kerja."
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "surat bebas tanggungan syarat cara minta prosedur",
+            "pertanyaan": "syarat cara minta prosedur surat bebas tanggungan",
             "jawaban": "Surat Keterangan Bebas Tanggungan adalah surat yang menyatakan mahasiswa tidak memiliki tanggungan di kampus. Cara mengajukan: (1) Siapkan data kelengkapan, (2) Chat WhatsApp nomor layanan petugas akademik, (3) Ajukan permohonan bebas tanggungan, (4) Admin validasi data, (5) Surat dicetak dan ditandatangani, (6) Surat dikirim via WhatsApp dalam bentuk PDF. Proses hanya sekitar 15 menit."
         },
         {
@@ -1011,17 +971,17 @@
             "jawaban": "Helpdesk akademik dapat diakses di https://helpakademik.polinema.ac.id/ untuk mengajukan pertanyaan atau pengaduan seputar akademik. Ketentuan: (a) Baca FAQ terlebih dahulu sebelum bertanya, (b) Pilih kategori pertanyaan yang sesuai, (c) Jam layanan Senin–Jumat pukul 07.30–16.00 (di luar jam kerja direspons keesokan hari), (d) Gunakan PC/Laptop, tidak direkomendasikan via HP, (e) Gunakan Bahasa Indonesia yang jelas dan sopan. Pertanyaan di luar akademik akan diarahkan ke unit terkait."
         },
         {
-            "id_kategori": 2,
-            "pertanyaan": "khs digital cara cetak download kartu hasil studi",
+            "id_kategori": 7,
+            "pertanyaan": "cara download khs cara cetak khs kartu hasil studi di siakad",
             "jawaban": "KHS Digital dapat diunduh dan dicetak secara mandiri setelah disetujui Ketua Jurusan di SIAKAD. Caranya: (1) Login SIAKAD, (2) Request KHS melalui menu yang tersedia, (3) Tunggu persetujuan Ketua Jurusan (sekitar 3 hari kerja), (4) Setelah disetujui, unduh KHS dalam format PDF yang sudah dilengkapi QR Code (Tanda Tangan Digital), (5) Cetak secara mandiri."
         },
         {
             "id_kategori": 2,
-            "pertanyaan": "surat model c untuk apa syarat ketentuan",
-            "jawaban": "Surat Model C adalah surat keterangan yang diterbitkan bagi mahasiswa yang orang tuanya merupakan pegawai ASN, POLRI, TNI, atau BUMN. Digunakan untuk mendapatkan tunjangan keluarga atau keperluan lainnya. Syarat: (a) Mahasiswa terdaftar aktif di Polinema, (b) Sudah melakukan daftar ulang semester berjalan dengan membayar UKT, (c) Mengajukan request surat dari SIAKAD Mahasiswa dengan mengisi data yang dibutuhkan."
+            "pertanyaan": "ketentuan surat model c lulus belum wisuda tidak bisa mahasiswa aktif ukt maksimal satu kali semester dua hari kerja",
+            "jawaban": "Surat Model C adalah surat keterangan yang diterbitkan bagi mahasiswa yang orang tuanya merupakan pegawai ASN, POLRI, TNI, atau BUMN. Digunakan untuk mendapatkan tunjangan keluarga atau keperluan lainnya. Ketentuan Layanan surat Model C sebagai berikut: \r\na. Mahasiswa masih terdaftar sebagai mahasiswa Polinema dan berstatus aktif \r\nb. Mahasiswa sudah melakukan daftar ulang semester berjalan dengan melakukan \r\npembayaran UKT \r\nc. Mahasiswa melakukan pengajuan (request) surat dari SIAKAD Mahasiswa dengan \r\nmengisi dan melengkapi data orang tua yang ada di menu pengajuan surat Model C. \r\nApabila data mahasiswa dan orang tua sudah valid surat Model C dapat diproses oleh \r\nadmin akademik pusat, namun jika data orang tua tidak lengkap maka admin akan \r\nmemberikan notifikasi ke SIAKAD mahasiswa untuk melengkapi data orang tua. \r\nd. Surat akan diproses oleh admin akademik pusat apabila terdapat pengajuan surat dari \r\nmahasiswa pada SIAKAD admin. \r\ne. Mahasiswa berstatus Lulus tetapi belum mengikuti Wisuda, pengajuan surat Model C \r\ntidak dapat diproses. \r\nf. Proses pembuatan surat Model C dilakukan kurang lebih 2 (dua) hari kerja terhitung sejak \r\npengajuan \r\ng. Pengajuan surat Model C hanya dapat dilakukan 1 (satu) kali dalam 1 (satu) semester."
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan": "pengambilan ambil ijazah dimana",
             "jawaban": "Pengambilan ijazah dan transkrip dilakukan di Layanan Akademik Pusat, Gedung AA (Gedung Administrasi Akademik) Politeknik Negeri Malang. Pastikan membawa KTM atau identitas diri saat pengambilan. Untuk info jadwal pengambilan, pantau pengumuman resmi dari akademik atau hubungi helpdesk di https://helpakademik.polinema.ac.id/."
         },
@@ -1087,6 +1047,46 @@
         },
         {
             "id_kategori": 11,
+            "pertanyaan": "prosedur pkl magang alur dari awal",
+            "jawaban": "Alur PKL/Magang Polinema secara umum: (1) Mahasiswa memenuhi syarat PKL sesuai kurikulum, (2) Cari dan konfirmasi tempat PKL, (3) Urus surat pengantar PKL dari Admin Jurusan, (4) Pelaksanaan PKL di perusahaan/instansi, (5) Plotting dosen pembimbing oleh admin jurusan, (6) Bimbingan dengan dospem selama PKL, (7) Pembuatan laporan PKL, (8) Pengumpulan laporan sesuai deadline, (9) Nilai PKL dimasukkan ke SIAKAD. Cek info dospem dan timeline di SIAKAD atau portal akademik."
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan": "terima kasih makasih thanks tengkyu thank you suwun matur nuwun",
+            "jawaban": "Sama-sama! 😊 Senang bisa membantu. Ada yang bisa AEGIS bantu lagi?"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan": "kalender akademik perkuliahan mahasiswa",
+            "jawaban": "Berikut adalah tautan untuk mengunduh kalender akademik: <a href='https://drive.google.com/file/d/1gO6fbugDQm3xd0R_OxfU02PrDPovZff-/view?usp=drive_link' target='_blank'style='color: blue;'>klik disini</a>"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat keterangan ukt sku itu apa cara minta",
+            "jawaban": "Surat Keterangan UKT (SKU) adalah surat yang menerangkan nominal UKT mahasiswa. Cara mengajukan: (1) Siapkan surat permohonan, (2) Ajukan permohonan online/offline ke Ka. BAK dengan menyertakan data diri, (3) Request SKK melalui SIAKAD, (4) Admin validasi data, (5) Surat dicetak dan ditandatangani, (6) Surat diberikan ke mahasiswa. Waktu proses sekitar 1 hari kerja."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat bebas tanggungan syarat cara minta prosedur",
+            "jawaban": "Surat Keterangan Bebas Tanggungan adalah surat yang menyatakan mahasiswa tidak memiliki tanggungan di kampus. Cara mengajukan: (1) Siapkan data kelengkapan, (2) Chat WhatsApp nomor layanan petugas akademik, (3) Ajukan permohonan bebas tanggungan, (4) Admin validasi data, (5) Surat dicetak dan ditandatangani, (6) Surat dikirim via WhatsApp dalam bentuk PDF. Proses hanya sekitar 15 menit."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "surat model c untuk apa syarat ketentuan",
+            "jawaban": "Surat Model C adalah surat keterangan yang diterbitkan bagi mahasiswa yang orang tuanya merupakan pegawai ASN, POLRI, TNI, atau BUMN. Digunakan untuk mendapatkan tunjangan keluarga atau keperluan lainnya. Syarat: (a) Mahasiswa terdaftar aktif di Polinema, (b) Sudah melakukan daftar ulang semester berjalan dengan membayar UKT, (c) Mengajukan request surat dari SIAKAD Mahasiswa dengan mengisi data yang dibutuhkan."
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan": "ijazah diambil dimana gedung lokasi pengambilan",
+            "jawaban": "Pengambilan ijazah dan transkrip dilakukan di Layanan Akademik Pusat, Gedung AA (Gedung Administrasi Akademik) Politeknik Negeri Malang. Pastikan membawa KTM atau identitas diri saat pengambilan. Untuk info jadwal pengambilan, pantau pengumuman resmi dari akademik atau hubungi helpdesk di https://helpakademik.polinema.ac.id/."
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan": "nik orang tua meninggal diisi apa verifikasi data mahasiswa",
+            "jawaban": "Jika orang tua (ayah/ibu) telah meninggal dunia, kolom NIK tetap harus diisi dengan NIK dari KTP/KK yang bersangkutan meskipun sudah meninggal. NIK tetap valid dan terdaftar di sistem kependudukan. Jika tidak memiliki data NIK, konsultasikan langsung ke Admin Akademik Jurusan atau helpdesk di https://helpakademik.polinema.ac.id/ dengan membawa dokumen pendukung (akta kematian, KK)."
+        },
+        {
+            "id_kategori": 11,
             "pertanyaan": "prosedur pkl magang alur dari awal sampai selesai",
             "jawaban": "Alur PKL/Magang Polinema secara umum: (1) Mahasiswa memenuhi syarat PKL sesuai kurikulum, (2) Cari dan konfirmasi tempat PKL, (3) Urus surat pengantar PKL dari Admin Jurusan, (4) Pelaksanaan PKL di perusahaan/instansi, (5) Plotting dosen pembimbing oleh admin jurusan, (6) Bimbingan dengan dospem selama PKL, (7) Pembuatan laporan PKL, (8) Pengumpulan laporan sesuai deadline, (9) Nilai PKL dimasukkan ke SIAKAD. Cek info dospem dan timeline di SIAKAD atau portal akademik."
         },
@@ -1094,6 +1094,36 @@
             "id_kategori": 12,
             "pertanyaan": "terima kasih makasih thanks tengkyu thank you suwun",
             "jawaban": "Sama-sama! 😊 Senang bisa membantu. Ada yang bisa AEGIS bantu lagi?"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan": "skkm singkatan pengertian definisi apa itu",
+            "jawaban": "Satuan Kredit Kegiatan Mahasiswa (SKKM) adalah program monitoring dan standar ukur dalam pengembangan keahlian bidang soft skill mahasiswa Politeknik Negeri Malang. Program ini bersifat WAJIB bagi seluruh mahasiswa Polinema selama masa studi."
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan": "kegiatan skkm akademik non akademik lomba organisasi kepanitiaan komunitas pornas pkm",
+            "jawaban": "Kegiatan yang dapat diikuti berupa kegiatan Akademik (Kompetisi Akademik, PKM, Mahasiswa Berprestasi, dll) dan kegiatan Non-Akademik (PORNAS, Kepanitian Event, Peserta Event, Fungsionaris OKI, Keanggotaan komunitas, dll), yang dilaksanakan di kampus maupun di luar kampus."
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan": "sertifikat wajib skkm ldk prastudy mentoring keagamaan bukti keikutsertaan",
+            "jawaban": "Ada 3 sertifikat asli dan wajib yang harus dimiliki mahasiswa yaitu sertifikat LDK, Prastudy, dan Mentoring Keagamaan. Selain itu mahasiswa diminta menunjukkan bukti keikutsertaan kegiatan berupa sertifikat yang dimiliki."
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan": "poin minimal skkm kurang cara nambah d3 d4 wisuda lulus kelulusan",
+            "jawaban": "Untuk mahasiswa D-III minimal memenuhi 13 poin, sedangkan untuk D-IV minimal memenuhi 15 poin. Jika poin kurang, mahasiswa perlu mengikuti kegiatan tambahan (akademik maupun non-akademik) dan mengumpulkan sertifikat sebagai bukti untuk divalidasi."
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan": "cara ajukan mengajukan daftar mendaftar keringanan ukt siakad",
+            "jawaban": "Keringanan UKT — Mahasiswa Baru & Mahasiswa Lama\r\n\r\nSyarat Umum:\r\n\r\nMaba: Bukan penerima KIP-K, jalur reguler/mandiri\r\nMahasiswa lama: Bukan penerima beasiswa apapun, jalur reguler (mandiri hanya kasus khusus)\r\nKasus Khusus (berlaku untuk keduanya):\r\nYatim/piatu, orang tua di-PHK, atau orang tua sakit keras permanen. Khusus mahasiswa lama, kondisi ini harus terjadi setelah menjadi mahasiswa Polinema, bukan sebelumnya.\r\n\r\nCara Pengajuan:\r\n\r\nMaba: https://keringananukt.polinema.ac.id/ (setelah dapat akses dari Sub. Bagian Akademik)\r\nMahasiswa lama: SIAKAD → menu UKT → Keringanan UKT\r\n\r\nBerkas yang wajib di-upload (sama untuk keduanya):\r\n\r\nSurat Permohonan Keringanan UKT\r\nSKTM dari Desa/Kelurahan\r\nSurat Keterangan Penghasilan Ayah & Ibu (slip gaji / surat dari Desa untuk wiraswasta)\r\nKartu Keluarga (KK)\r\nRekening Listrik (1 bulan terakhir)\r\nRekening Air PDAM / surat keterangan air sumur\r\nBukti Pembayaran PBB\r\nSTNK Mobil & Motor\r\nFoto Rumah (tampak depan, ruang tamu, dapur, kamar tidur, kamar mandi)\r\nDokumen pendukung (akta kematian, rekam medis, surat PHK, kartu KIP-K, dll)\r\n\r\nKetentuan penting:\r\n\r\nWajib menggunakan PC/Laptop, bukan HP\r\nKeringanan berlaku s.d. semester 6 (D-III) atau semester 8 (D-IV) termasuk cuti akademik jalur mandiri. Khusus mahasiswa lama, berlaku mulai semester pengajuan dinyatakan lolos\r\nJika sudah lolos, tidak bisa mengajukan keringanan lagi di semester berikutnya\r\nHasil seleksi bersifat mutlak dan tidak dapat diganggu gugat"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan": "minimal bimbingan untuk maju sidang akhir",
+            "jawaban": "Syarat minimal bimbingan untuk maju sidang akhir (Skripsi/TA) di JTI Polinema:\r\n\r\n- Dosen Pembimbing 1 : minimal 8 kali bimbingan\r\n- Dosen Pembimbing 2 : minimal 4 kali bimbingan\r\n\r\nBimbingan wajib tercatat dan di-ACC oleh dosen pembimbing di web SIM-TA untuk bida mendaftar sidang akhir."
         }
     ],
     "dataset_nlu": [
@@ -1104,10 +1134,6 @@
         {
             "id_kategori": 1,
             "pertanyaan_variasi": "syarat buat cuti semester ini apa saja"
-        },
-        {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "min saya mau istirahat kuliah dulu caranya gimana"
         },
         {
             "id_kategori": 1,
@@ -1126,11 +1152,11 @@
             "pertanyaan_variasi": "batas waktu pengajuan cuti akademik"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 3,
             "pertanyaan_variasi": "apakah cuti akademik bayar ukt"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "form permohonan cuti kuliah"
         },
         {
@@ -1150,7 +1176,7 @@
             "pertanyaan_variasi": "cara mengundurkan diri buat maba"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "berkas pengunduran diri"
         },
         {
@@ -1203,14 +1229,14 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan_variasi": "maba mau ngundurin diri caranya gmn"
+            "pertanyaan_variasi": "mahasiswa baru mau mengundurkan diri dari polinema prosedurnya"
         },
         {
             "id_kategori": 1,
             "pertanyaan_variasi": "aktifkan status dari tidak aktif mengulang ta"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 3,
             "pertanyaan_variasi": "konfirmasi pembayaran ukt mahasiswa mengulang ta"
         },
         {
@@ -1235,10 +1261,6 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan_variasi": "berkas permohonan cuti diserahkan kemana"
-        },
-        {
-            "id_kategori": 1,
             "pertanyaan_variasi": "disposisi direktur untuk cuti itu apa"
         },
         {
@@ -1246,11 +1268,11 @@
             "pertanyaan_variasi": "apakah mahasiswa reguler cuti harus daftar ulang"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "cabut berkas dari polinema gimana caranya"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 4,
             "pertanyaan_variasi": "cara ambil ijazah sma kalau mengundurkan diri"
         },
         {
@@ -1258,7 +1280,7 @@
             "pertanyaan_variasi": "maba belum dapat nim mau mundur bisa nggak"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 3,
             "pertanyaan_variasi": "kalau sudah bayar ukt terus mundur uangnya kembali tidak"
         },
         {
@@ -1266,7 +1288,7 @@
             "pertanyaan_variasi": "surat pengunduran diri maba dikirim ke email mana"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 3,
             "pertanyaan_variasi": "status terminal itu bayar ukt ngga"
         },
         {
@@ -1298,7 +1320,7 @@
             "pertanyaan_variasi": "status di siakad belum aktif padahal udah bayar ukt pasca cuti"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 3,
             "pertanyaan_variasi": "cara lapor pembayaran ukt mahasiswa mengulang tugas akhir"
         },
         {
@@ -1326,7 +1348,7 @@
             "pertanyaan_variasi": "apakah cuti dihitung masa studi"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 7,
             "pertanyaan_variasi": "masa studi maksimal d4 berapa tahun"
         },
         {
@@ -1358,7 +1380,7 @@
             "pertanyaan_variasi": "syarat md maba"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 3,
             "pertanyaan_variasi": "mengulang ta harus bayar ukt full atau tidak"
         },
         {
@@ -1374,7 +1396,7 @@
             "pertanyaan_variasi": "kalau lunas ukt tapi masih status tidak aktif mengulang ta"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 3,
             "pertanyaan_variasi": "cara konfirmasi bayar ukt ke admin akademik pusat"
         },
         {
@@ -1391,15 +1413,11 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "lapor teman meninggal ke akademik"
+            "pertanyaan_variasi": "lapor teman meninggal dunia kemana?"
         },
         {
             "id_kategori": 2,
             "pertanyaan_variasi": "cara urus surat keterangan prodi serumpun untuk cpns"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "minta surat prodi serumpun"
         },
         {
             "id_kategori": 2,
@@ -1411,23 +1429,11 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "bikin surat serumpun polinema"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "form surat prodi serumpun"
         },
         {
             "id_kategori": 2,
             "pertanyaan_variasi": "minta surat keterangan alumni polinema"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "surat bukti alumni"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "cara minta surat keterangan lulusan sini"
         },
         {
             "id_kategori": 2,
@@ -1447,14 +1453,6 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "cara download surat aktif kuliah di siakad"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "minta suket aktif"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "surat keterangan kuliah polinema"
         },
         {
@@ -1464,10 +1462,6 @@
         {
             "id_kategori": 2,
             "pertanyaan_variasi": "syarat surat model c pns"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "buat surat model c"
         },
         {
             "id_kategori": 2,
@@ -1483,23 +1477,7 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "surat bukti pernah kuliah disini"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "cara urus surat pindah kampus"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "minta transkrip buat pindah kuliah"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "surat keterangan keluar polinema"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "syarat minta surat berkelakuan baik"
         },
         {
             "id_kategori": 2,
@@ -1507,15 +1485,7 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "minta surat kelakuan baik dari kampus"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "syarat skck kampus"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "surat rekomendasi kelakuan baik"
         },
         {
             "id_kategori": 2,
@@ -1527,23 +1497,11 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "surat bebas beasiswa"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "cara urus surat tidak dapat beasiswa"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "suket tidak nerima beasiswa"
         },
         {
             "id_kategori": 2,
             "pertanyaan_variasi": "akta kematian untuk lapor mahasiswa meninggal"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "siapa yang bisa lapor mahasiswa meninggal"
         },
         {
             "id_kategori": 2,
@@ -1559,10 +1517,6 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "berapa lama bikin surat prodi serumpun"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "alumni minta surat keterangan serumpun lewat online bisa"
         },
         {
@@ -1570,24 +1524,16 @@
             "pertanyaan_variasi": "buat surat keterangan alumni polinema bayar nggak"
         },
         {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "apa itu surat keterangan alumni"
-        },
-        {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "syarat fotokopi ktp dan ijazah buat surat alumni"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "surat alumni ttd ka bak"
         },
         {
             "id_kategori": 2,
             "pertanyaan_variasi": "bikin skk surat keterangan kuliah harus lunas ukt ya"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "maksimal bikin skk berapa kali se semester"
         },
         {
             "id_kategori": 2,
@@ -1600,10 +1546,6 @@
         {
             "id_kategori": 2,
             "pertanyaan_variasi": "menu pengajuan skk di siakad sebelah mana"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "surat model c itu buat apa sih"
         },
         {
             "id_kategori": 2,
@@ -1671,10 +1613,6 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "surat bukti lunas ukt"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "minta surat keterangan ukt maba"
         },
         {
@@ -1715,10 +1653,6 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "kirim surat permohonan ke email akademik pusat"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "disposisi surat dari direktur berapa lama"
         },
         {
@@ -1734,7 +1668,7 @@
             "pertanyaan_variasi": "konfirmasi kajur buat prodi serumpun"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "validasi ipk dan ijazah untuk surat alumni"
         },
         {
@@ -2254,7 +2188,7 @@
             "pertanyaan_variasi": "pengganti ijazah yang hilang"
         },
         {
-            "id_kategori": 4,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat ijazah hilang ttd direktur"
         },
         {
@@ -2699,10 +2633,6 @@
         },
         {
             "id_kategori": 6,
-            "pertanyaan_variasi": "beasiswa ku kok belum cair"
-        },
-        {
-            "id_kategori": 6,
             "pertanyaan_variasi": "kapan pendaftaran beasiswa dibuka"
         },
         {
@@ -2919,14 +2849,6 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "cara mengajukan pertanyaan lewat helpdesk akademik"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "link helpdesk polinema"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "bagaimana cara absen presensi di siakad"
         },
         {
@@ -2951,10 +2873,6 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "cara ngirim tiket pertanyaan di helpdesk"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "aturan presensi activity control di siakad"
         },
         {
@@ -2966,12 +2884,8 @@
             "pertanyaan_variasi": "cara lapor absen kalau sakit lebih dari sehari"
         },
         {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "surat keterangan dokter untuk absen"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "kalau izin tidak masuk kuliah suratnya dari siapa"
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat keterangan dokter untuk surat sakit"
         },
         {
             "id_kategori": 7,
@@ -3023,10 +2937,6 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "ujian tugas akhir syaratnya apa saja"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "nilai pkl minimal c buat daftar skripsi"
         },
         {
@@ -3067,7 +2977,7 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan_variasi": "min saya mau istirahat kuliah dulu caranya"
+            "pertanyaan_variasi": "istirahat kuliah satu semester prosedur cuti akademik"
         },
         {
             "id_kategori": 1,
@@ -3090,7 +3000,7 @@
             "pertanyaan_variasi": "prosedur mengundurkan diri buat maba"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "berkas pernyataan mundur dari polinema"
         },
         {
@@ -3110,7 +3020,7 @@
             "pertanyaan_variasi": "min mau lapor aktif dari terminal"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "berkas pengunduran diri diserahkan ke siapa"
         },
         {
@@ -3118,19 +3028,15 @@
             "pertanyaan_variasi": "prosedur lapor ke kajur kalau mau cuti"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "cabut berkas dari polinema caranya"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 4,
             "pertanyaan_variasi": "prosedur ambil ijazah sma kalau mengundurkan diri"
         },
         {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "berkas pengunduran diri maba dikirim ke email mana"
-        },
-        {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "berkas keterangan terminal minta kemana"
         },
         {
@@ -3138,7 +3044,7 @@
             "pertanyaan_variasi": "prosedur masuk kelas lagi habis cuti"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 3,
             "pertanyaan_variasi": "prosedur lapor pembayaran ukt mahasiswa mengulang tugas akhir"
         },
         {
@@ -3146,7 +3052,7 @@
             "pertanyaan_variasi": "ketentuan mahasiswa mta"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "kapan kajur bikin berkas rekomendasi cuti"
         },
         {
@@ -3639,7 +3545,7 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "panduan cetak khs semester lalu yang sudah lewat"
+            "pertanyaan_variasi": "cara cetak khs di siakad bagaimana?"
         },
         {
             "id_kategori": 7,
@@ -3723,23 +3629,11 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "kalau belum kerja ngisi tracer study nya"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "pddikti simfoni sinkronisasinya berapa lama"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "admin helpdesk polinema biasanya balas tiket jam berapa"
         },
         {
             "id_kategori": 7,
             "pertanyaan_variasi": "panduan bikin tiket komplain di helpdesk akademik"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "jam kerja operasional admin helpdesk"
         },
         {
             "id_kategori": 7,
@@ -3822,10 +3716,6 @@
             "pertanyaan_variasi": "ngubah status alpha jadi izin syaratnya apa saja"
         },
         {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "bisa gak ganti absen setelah seminggu berlalu"
-        },
-        {
             "id_kategori": 3,
             "pertanyaan_variasi": "lupa belum simpan bukti transfer bayar ukt"
         },
@@ -3866,7 +3756,7 @@
             "pertanyaan_variasi": "kalau orang tua phk pengen turunkan ukt"
         },
         {
-            "id_kategori": 3,
+            "id_kategori": 1,
             "pertanyaan_variasi": "sudah bayar ukt tapi status di siakad masih belum lunas"
         },
         {
@@ -3896,14 +3786,6 @@
         {
             "id_kategori": 6,
             "pertanyaan_variasi": "kapan pendaftaran beasiswa bi dibuka"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "apa itu kompen dan pendaftaran ngerjainnya"
-        },
-        {
-            "id_kategori": 6,
-            "pertanyaan_variasi": "kalau tidak ikut pkkmb sanksinya apa"
         },
         {
             "id_kategori": 6,
@@ -3971,10 +3853,6 @@
         },
         {
             "id_kategori": 6,
-            "pertanyaan_variasi": "ormawa yang ada di polinema apa aja"
-        },
-        {
-            "id_kategori": 6,
             "pertanyaan_variasi": "syarat jadi pengurus bem polinema"
         },
         {
@@ -4027,19 +3905,11 @@
         },
         {
             "id_kategori": 3,
-            "pertanyaan_variasi": "kode billing pembayaran ukt bisa dilihat dimana"
-        },
-        {
-            "id_kategori": 3,
             "pertanyaan_variasi": "tahapan bayar cek histori pembayaran ukt semester lalu"
         },
         {
             "id_kategori": 1,
             "pertanyaan_variasi": "cara ngurus cuti akademik online di siakad"
-        },
-        {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "syarat perpanjang masa cuti kuliah"
         },
         {
             "id_kategori": 1,
@@ -4054,15 +3924,15 @@
             "pertanyaan_variasi": "biaya pendaftaran daftar ulang untuk aktif kuliah lagi"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "form pengajuan aktif kuliah setelah cuti ambil dimana"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "batas akhir pengumpulan berkas pengunduran diri"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 2,
             "pertanyaan_variasi": "mau cabut berkas sebagai mahasiswa baru"
         },
         {
@@ -4099,7 +3969,7 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "surat peringatan (sp) dari akademik karena nilai jelek"
+            "pertanyaan_variasi": "surat peringatan (sp) karena nilai jelek"
         },
         {
             "id_kategori": 1,
@@ -4115,27 +3985,11 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "cara mengerjakan kompen alpha"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "tugas kompen minta ke siapa"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "prosedur pemenuhan kompen ketidakhadiran"
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "cara lihat jadwal kelas semester ini"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "jadwal kuliah bisa dicek di mana"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "hari ini ada kelas atau tidak lihat dimana"
         },
         {
             "id_kategori": 9,
@@ -4336,10 +4190,6 @@
         {
             "id_kategori": 9,
             "pertanyaan_variasi": "minta kontak kaprodi d4 sib"
-        },
-        {
-            "id_kategori": 9,
-            "pertanyaan_variasi": "berapa nomor telepon untuk legalisir ijazah"
         },
         {
             "id_kategori": 9,
@@ -4891,10 +4741,6 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "di mana bisa lihat tanggungan alfa dan kompen?"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "syarat bebas kompen untuk yudisium"
         },
         {
@@ -4926,16 +4772,16 @@
             "pertanyaan_variasi": "kapan skl bisa dicetak setelah sidang"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 11,
             "pertanyaan_variasi": "syarat membuat surat pengantar magang atau pkl"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 10,
             "pertanyaan_variasi": "cara bikin surat izin observasi skripsi ke perusahaan"
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "minta surat keterangan aktif kuliah untuk tunjangan orang tua"
+            "pertanyaan_variasi": "minta surat keterangan aktif kuliah"
         },
         {
             "id_kategori": 2,
@@ -5743,10 +5589,6 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "min ada form untuk permohonan cuti akademik semester ini nggak?"
-        },
-        {
-            "id_kategori": 2,
             "pertanyaan_variasi": "min kalau ktm hilang ngurus surat permohonannya pakai form apa?"
         },
         {
@@ -5806,7 +5648,7 @@
             "pertanyaan_variasi": "minta template surat perbaikan nama di ijazah"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "form pengajuan ijazah baru karena ijazah lama hilang"
         },
         {
@@ -5838,7 +5680,7 @@
             "pertanyaan_variasi": "surat keterangan tidak masuk kelas untuk prodi sib"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 7,
             "pertanyaan_variasi": "form izin acara keluarga buat mahasiswa pls"
         },
         {
@@ -5858,7 +5700,7 @@
             "pertanyaan_variasi": "download surat izin mahasiswa d4 ti"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 7,
             "pertanyaan_variasi": "form izin tidak ikut perkuliahan prodi sib"
         },
         {
@@ -5923,11 +5765,7 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan_variasi": "Cuti Akademik"
-        },
-        {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "Info Cuti Akademik"
+            "pertanyaan_variasi": "informasi lengkap prosedur cuti akademik polinema"
         },
         {
             "id_kategori": 3,
@@ -5936,14 +5774,6 @@
         {
             "id_kategori": 3,
             "pertanyaan_variasi": "Info UKT"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "Jadwal kuliah"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "Informasi Jadwal Kuliah"
         },
         {
             "id_kategori": 7,
@@ -6063,23 +5893,7 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "kapan bisa hubungi helpdesk kampus"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "jam operasional helpdesk JTI"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "helpdesk tutup jam berapa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "helpdesk bisa dihubungi sampai jam berapa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "kapan helpdesk akademik online"
         },
         {
             "id_kategori": 7,
@@ -6087,23 +5901,7 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "helpdesk buka hari apa saja"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "apakah helpdesk buka hari sabtu"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "di luar jam kerja bisa lapor helpdesk"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "jam layanan helpdesk akademik berapa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "helpdesk tersedia kapan saja"
         },
         {
             "id_kategori": 7,
@@ -6111,55 +5909,7 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "helpdesk bisa dihubungi malam hari"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "jam berapa helpdesk mulai melayani"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "gimana cara pakai helpdesk akademik"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "langkah lapor masalah ke helpdesk"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "cara kirim tiket ke helpdesk"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "cara penggunaan helpdesk online akademik"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "helpdesk diakses lewat apa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "cara buat laporan di helpdesk"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "langkah menggunakan layanan helpdesk"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "helpdesk bisa diakses lewat website mana"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "sebelum pakai helpdesk harus baca apa dulu"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "cara submit keluhan ke helpdesk"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "helpdesk bisa dipakai untuk lapor apa saja"
         },
         {
             "id_kategori": 7,
@@ -6167,35 +5917,7 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "apakah harus baca FAQ dulu sebelum helpdesk"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "cara hubungi helpdesk jika ada masalah sistem"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "formulir helpdesk diisi gimana"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "cara input presensi di SIAKAD"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "siapa yang input absensi mahasiswa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "activity control itu diisi oleh siapa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "dosen input absensi lewat apa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "absensi kuliah diinput gimana caranya"
         },
         {
             "id_kategori": 7,
@@ -6204,14 +5926,6 @@
         {
             "id_kategori": 7,
             "pertanyaan_variasi": "aturan pengisian activity control gimana"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "input kehadiran mahasiswa dilakukan kapan"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "apakah mahasiswa bisa input presensi sendiri"
         },
         {
             "id_kategori": 7,
@@ -6239,14 +5953,10 @@
         },
         {
             "id_kategori": 7,
-            "pertanyaan_variasi": "cara izin tidak masuk kuliah karena sakit"
-        },
-        {
-            "id_kategori": 7,
             "pertanyaan_variasi": "prosedur izin sakit mahasiswa ke kampus"
         },
         {
-            "id_kategori": 7,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat sakit dikumpulkan ke mana"
         },
         {
@@ -6254,11 +5964,7 @@
             "pertanyaan_variasi": "izin sakit mahasiswa butuh dokumen apa"
         },
         {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "kalau sakit lebih dari sehari harus apa"
-        },
-        {
-            "id_kategori": 7,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat keterangan sakit dari dokter dikumpul ke mana"
         },
         {
@@ -6270,19 +5976,15 @@
             "pertanyaan_variasi": "prosedur tidak masuk kuliah akibat sakit"
         },
         {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "surat sakit diserahkan ke siapa"
-        },
-        {
-            "id_kategori": 7,
+            "id_kategori": 2,
             "pertanyaan_variasi": "izin tidak hadir kuliah sakit harus pakai surat"
         },
         {
-            "id_kategori": 7,
+            "id_kategori": 2,
             "pertanyaan_variasi": "batas waktu kumpulkan surat sakit berapa hari"
         },
         {
-            "id_kategori": 7,
+            "id_kategori": 2,
             "pertanyaan_variasi": "surat dokter untuk izin sakit kuliah berlaku berapa hari"
         },
         {
@@ -6292,10 +5994,6 @@
         {
             "id_kategori": 7,
             "pertanyaan_variasi": "cara lapor sakit ke dosen dan jurusan"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "mahasiswa sakit perlu surat dari dokter mana"
         },
         {
             "id_kategori": 7,
@@ -6320,10 +6018,6 @@
         {
             "id_kategori": 7,
             "pertanyaan_variasi": "salah input presensi harus lapor ke siapa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "koreksi absensi bisa dilakukan sampai kapan"
         },
         {
             "id_kategori": 7,
@@ -6855,62 +6549,46 @@
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "apa ada surat kompen"
+            "pertanyaan_variasi": "apakah ada surat izin sakit untuk ti"
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "apakah ada surat izin untuk ti"
+            "pertanyaan_variasi": "apa ada surat izin sakit untuk sib"
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "apa ada surat izin untuk sib"
+            "pertanyaan_variasi": "ada ada surat sakit izin untuk pls"
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "ada ada surat izin untuk pls"
+            "pertanyaan_variasi": "cari surat izin sakit dimana"
         },
         {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "cari surat izin dimana"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "apa aku bisa dapat surat disini"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "apa aku boleh meminta surat disini"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "bagaimana mendapatkan surat izin"
-        },
-        {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "ijazah aku rusak bagaimana"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "kalau ijazah rusak gimana"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "kalau ijazah hilang gimana"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "aku lupa mengambil ijazah"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "bagaimana kalau ijazah hilang"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "aku mau megambil ijazah dimana?"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "admin bisa mengurus ijazah rusak?"
         },
         {
@@ -6918,44 +6596,16 @@
             "pertanyaan_variasi": "aku mau surat bebas kompen"
         },
         {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "kompen itu apa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "kenapa wajib melakukan kompen"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "apa boleh izin waktu kelas"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "kalau sakit izinnya gimana"
-        },
-        {
             "id_kategori": 2,
             "pertanyaan_variasi": "aku sakit butuh surat izin"
         },
         {
             "id_kategori": 2,
-            "pertanyaan_variasi": "surat izin bisa diminta dimana"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "apakah surat izin harus melampirkan surat dokter"
+            "pertanyaan_variasi": "apakah surat izin sakit harus melampirkan surat dokter"
         },
         {
             "id_kategori": 2,
             "pertanyaan_variasi": "apa kamu menyediakan surat untuk melakukan kompen"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "gimana cara melakukan kompen"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "aku mau kompen tapi bingung"
         },
         {
             "id_kategori": 4,
@@ -6990,20 +6640,8 @@
             "pertanyaan_variasi": "apa pak ada di ruang dosen angka"
         },
         {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "aku mau tau jadwal kelasku"
-        },
-        {
             "id_kategori": 9,
             "pertanyaan_variasi": "aku mau tau jadwal dosen mengajar"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "apa aku bisa melihat jadwal kelas disini?"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "apa aku bisa lihat jadwal ruang disini?"
         },
         {
             "id_kategori": 7,
@@ -7022,14 +6660,6 @@
             "pertanyaan_variasi": "dimana aku bisa lihat jadwal kelas"
         },
         {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "dimana aku bisa tahu aku kelas apa"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "bagaimana cara mengetahui kelas"
-        },
-        {
             "id_kategori": 9,
             "pertanyaan_variasi": "ruang dosen ada di mana"
         },
@@ -7040,10 +6670,6 @@
         {
             "id_kategori": 7,
             "pertanyaan_variasi": "apa ada ruang perpusatakaan di gedung ini"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "admin bukan jam berapa"
         },
         {
             "id_kategori": 9,
@@ -7072,14 +6698,6 @@
         {
             "id_kategori": 9,
             "pertanyaan_variasi": "di mana ruangan pak dosen?"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "apa surat izin harus di print?"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "surat izin harus tanda tangan basah?"
         },
         {
             "id_kategori": 11,
@@ -8202,18 +7820,6 @@
             "pertanyaan_variasi": "ruangan bu dimana"
         },
         {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "apa itu kompen"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "jelaskan tentang kompen"
-        },
-        {
-            "id_kategori": 7,
-            "pertanyaan_variasi": "apa yang dimaksud dengan kompensasi"
-        },
-        {
             "id_kategori": 9,
             "pertanyaan_variasi": "informasi dosen"
         },
@@ -8242,11 +7848,11 @@
             "pertanyaan_variasi": "nim saya nonaktif gimana caranya aktif lagi"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "cara legalisir ijazah di polinema"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 11,
             "pertanyaan_variasi": "surat pengantar pkl minta ke siapa"
         },
         {
@@ -8270,7 +7876,7 @@
             "pertanyaan_variasi": "batas alfa agar tidak terminal"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 7,
             "pertanyaan_variasi": "berapa jam absensi yang diperbolehkan"
         },
         {
@@ -8314,12 +7920,8 @@
             "pertanyaan_variasi": "cuti diajukan ke siapa"
         },
         {
-            "id_kategori": 1,
+            "id_kategori": 7,
             "pertanyaan_variasi": "absensi presensi dicatat dimana"
-        },
-        {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "activity control itu apa"
         },
         {
             "id_kategori": 2,
@@ -8362,28 +7964,8 @@
             "pertanyaan_variasi": "cara minta surat bebas tanggungan"
         },
         {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "pengaduan layanan akademik kemana"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "mau lapor pelayanan yang tidak baik"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "helpdesk akademik itu apa"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "cara ajukan pertanyaan ke helpdesk"
-        },
-        {
-            "id_kategori": 2,
+            "id_kategori": 7,
             "pertanyaan_variasi": "khs digital cara cetaknya gimana"
-        },
-        {
-            "id_kategori": 2,
-            "pertanyaan_variasi": "surat model c itu untuk apa"
         },
         {
             "id_kategori": 2,
@@ -8394,11 +7976,11 @@
             "pertanyaan_variasi": "surat keterangan model c buat apa"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "ijazah bisa diambil di gedung mana"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "dimana tempat pengambilan ijazah"
         },
         {
@@ -8550,35 +8132,35 @@
             "pertanyaan_variasi": "suwun ya"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "aku mau mengambil ijazah dimana"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "tempat pengambilan ijazah polinema dimana"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "ijazah bisa diambil dimana lokasinya"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "mau ambil ijazah ke gedung mana"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "pengambilan ijazah di gedung apa"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "ambil ijazah harus ke mana"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "lokasi pengambilan ijazah polinema"
         },
         {
-            "id_kategori": 2,
+            "id_kategori": 4,
             "pertanyaan_variasi": "ijazah diambil di mana gedung aa"
         },
         {
@@ -8616,6 +8198,1358 @@
         {
             "id_kategori": 10,
             "pertanyaan_variasi": "bebas tanggungan perpus syarat daftar sidang skripsi"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "aku mau izin cuti apa ada suratnya?"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apakah ada surat untuk cuti?"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "aku mau surat izin sakit untuk ti"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat permohonan cuti akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "minta surat pengajuan cuti akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara download form surat cuti"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "link form surat cuti kuliah polinema"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat cuti akademik diurus dimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "aku mau izin cuti apakah ada suratnya?"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat cuti akademik diurus ke siapa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "minta surat permohonan cuti perkuliahan"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat cuti kuliah bisa diambil dimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "form surat cuti polinema link downloadnya"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara dapat surat izin cuti kuliah"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara request surat keterangan kuliah di siakad"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat bebas kompen minta ke admin prodi"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara cetak surat model c dari siakad"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "skk surat keterangan kuliah syaratnya apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "prosedur minta surat pengantar dari jurusan"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat keterangan lulus administrasi skla"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "pengajuan ktm hilang ke helpdesk atau prodi"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "minta surat rekomendasi dari kajur"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat permohonan ganti nomor hp mahasiswa di siakad"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "form perubahan nomor telepon untuk data mahasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "prosedur mengurus surat ganti nomor handphone di jurusan"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat pernyataan perubahan kontak mahasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "update nomor hp di siakad butuh surat apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "request sku di siakad caranya gimana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "sku diajukan lewat siakad atau langsung ke bak"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat permohonan sku minta ke admin prodi atau bak"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara request surat keterangan ukt ke bak polinema"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "sku di siakad ada di menu mana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "berapa lama proses pembuatan sku"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "sku itu surat apa fungsinya untuk apa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "kapan butuh surat sku dari akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat sku dipakai untuk keperluan apa saja"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "sku surat keterangan ukt untuk lampiran beasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat ukt untuk lampiran daftar beasiswa minta ke mana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "butuh surat keterangan nominal ukt buat lampiran"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "prosedur pengajuan surat keterangan biaya kuliah ke bak"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat keterangan besaran ukt diurus ke mana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "urus kartu tanda mahasiswa hilang"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "cara membuat surat izin observasi skripsi"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "cara mengajukan surat riset tugas akhir"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat pengantar penelitian skripsi dimana"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "izin observasi perusahaan untuk ta"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "cara minta surat pengantar skripsi"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat penelitian untuk perusahaan"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "pengajuan surat observasi tugas akhir"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "cara buat surat riset ke perusahaan"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat izin penelitian mahasiswa"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat observasi skripsi diajukan kemana"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat pengantar ta untuk perusahaan"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "minta surat observasi penelitian"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "izin riset skripsi ke industri"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat pengantar penelitian kampus"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat izin observasi perusahaan"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "cara mengurus surat observasi skripsi"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "bagaimana membuat surat penelitian ta"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "pengajuan surat riset mahasiswa"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat izin penelitian untuk skripsi"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat observasi perusahaan untuk tugas akhir"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "cara mendapatkan surat pengantar penelitian"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "admin pengajuan surat observasi skripsi"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "syarat membuat surat observasi perusahaan"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat pengantar observasi industri untuk skripsi"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "pengajuan surat izin riset ke perusahaan"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "cara membuat surat pengantar tugas akhir"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "surat penelitian mahasiswa diajukan kemana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "apakah kamu menyediakan info dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "aku mau info dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "aku mau informasi dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "cari informasi dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "data dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "detail dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "profil dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "informasi tentang dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "lihat info dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "mau cari dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "cari data pengajar"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "informasi pengajar"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "info pengajar"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "data pengajar kampus"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "detail pengajar"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "informasi tenaga pengajar"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "nomor dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "kontak dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruangan dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "jadwal dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "nomor hp dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "email dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "alamat email dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "lokasi ruangan dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "info kontak dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "minta informasi dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "saya ingin mencari dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "informasi staf pengajar"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "lihat kontak pengajar"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "nomor telepon dosen"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "dimana ruangan dosen"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "info kalender akademik"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jadwal kalender akademik"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "kalender akademik semester ini"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "kalender akademik terbaru"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "kalender kegiatan akademik"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jadwal akademik kampus"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jadwal perkuliahan semester"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "download kalender akademik"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "kalender pendidikan kampus"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "agenda akademik kampus"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "informasi kalender perkuliahan"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat keterangan besaran ukt diurus ke bagian akademik mana"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "lapor mahasiswa meninggal dunia"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara melaporkan mahasiswa meninggal"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "pelaporan mahasiswa meninggal ke akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "lapor status meninggal mahasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "bagaimana melapor mahasiswa meninggal dunia"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "syarat pelaporan mahasiswa meninggal"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "prosedur laporan mahasiswa meninggal"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "lapor kematian mahasiswa aktif"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "pelaporan mahasiswa wafat ke siakad"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cara mengurus status mahasiswa meninggal"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat pengajuan cuti akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "formulir cuti kuliah"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "download form cuti akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara mengajukan cuti kuliah"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "form permohonan cuti mahasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat cuti mahasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "form pengajuan cuti akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "pengajuan cuti semester"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "prosedur cuti akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "pengajuan nonaktif sementara kuliah"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "form pengajuan cuti semester"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara pengaktifan kembali setelah cuti akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "aktif kembali setelah cuti kuliah"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "prosedur aktif kembali mahasiswa nonaktif"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara mengaktifkan status mahasiswa kembali"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "pengajuan aktif kembali setelah terminal"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "status aktif kembali setelah cuti"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "mahasiswa nonaktif ingin aktif kembali"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "syarat aktif kembali kuliah setelah cuti"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara reaktivasi mahasiswa di siakad"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "pengaktifan status mahasiswa setelah tidak aktif"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "syarat cuti akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "ketentuan cuti kuliah mahasiswa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara mengajukan cuti semester"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "aturan cuti akademik kampus"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "berapa lama masa cuti akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "syarat mahasiswa cuti kuliah"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cuti akademik wajib daftar ulang tidak"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "proses pengajuan cuti mahasiswa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "kapan batas pengajuan cuti akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "jadwal pengajuan cuti kuliah"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "batas waktu aktif kembali setelah cuti"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "kapan pengajuan aktif kembali dibuka"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "jadwal reaktivasi mahasiswa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "batas akhir permohonan cuti akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "kapan harus aktif kembali setelah cuti"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "jadwal pengajuan mahasiswa nonaktif"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "aktif kembali kuliah sesuai kalender akademik"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "deadline pengajuan cuti semester"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "formulir cuti akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "download form cuti kuliah"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat permohonan cuti mahasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "template surat cuti akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "cetak formulir cuti kuliah"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "dokumen pengajuan cuti mahasiswa"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "file surat cuti akademik"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "form permohonan nonaktif kuliah"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "prosedur cuti akademik mahasiswa aktif polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "alur pengajuan cuti ke direktur polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cuti akademik batas maksimal berapa semester"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "ketentuan cuti akademik mahasiswa jti polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "pengunduran diri mahasiswa aktif prosedur lengkap"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "terminal mahasiswa jti polinema aturan ketentuannya"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "status terminal akibat ipk rendah polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "lapor aktif kembali setelah cuti ke bagian mana"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "reaktivasi status mahasiswa setelah terminal polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "daftar ulang setelah cuti semester mahasiswa polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "ipk jelek bisa kena terminal semester berapa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "syarat reaktivasi nim mahasiswa tidak aktif polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "masa studi maksimal d4 polinema berapa tahun"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "status mengulang ta tidak aktif itu artinya apa"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "batas cuti akademik maksimal berapa kali"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "prosedur lapor aktif setelah selesai terminal"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "nim nonaktif karena tidak daftar ulang gimana cara aktifkan"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "ketentuan terminal mahasiswa karena ipk di polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara pengaktifan status kuliah setelah cuti dua semester"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "status akademik mahasiswa aktif terminal cuti perbedaannya"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "mahasiswa terminal bisa aktif kembali semester depan"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "perbedaan status cuti terminal tidak aktif mengulang ta"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "berapa semester maksimal cuti akademik di polinema"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "syarat daftar ulang setelah masa cuti berakhir"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "cara konfirmasi aktif kuliah ke akademik setelah terminal"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "sku prosesnya berapa hari kerja"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "kalender akademik"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "lihat kalender akademik"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "tanggal penting akademik"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "kapan kalender akademik keluar"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara bayar ukt lewat bank mana saja"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "batas waktu pembayaran ukt semester ini"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ukt saya belum lunas apakah bisa kuliah"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ukt polinema bisa dicicil tidak"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "angsuran ukt syaratnya apa saja"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "golongan ukt ditentukan berdasarkan apa"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara banding penetapan golongan ukt"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "formulir keberatan ukt ada dimana"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ukt maba semester pertama berapa"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara konfirmasi bayar ukt sudah masuk sistem"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ukt tidak berubah meski orang tua pensiun gimana"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "perbedaan ukt dan spp di polinema"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ukt semester akhir harus tetap bayar penuh"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara lapor kesalahan nominal ukt"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "beasiswa yang menanggung ukt penuh di polinema"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ukt bisa dibayar pakai virtual account bank apa"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara daftar keringanan ukt online di siakad"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "syarat pengajuan keringanan ukt polinema"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "jadwal pembayaran ukt semester genap"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "denda ukt telat bayar ada tidak"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara cek tagihan ukt di siakad"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "ukt mahasiswa transfer berapa"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "bukti bayar ukt hilang cara minta ulang"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara update data orang tua di siakad"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "data mahasiswa salah di pddikti cara lapor"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "nim mahasiswa baru dapat dari mana"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara cek data diri di portal akademik"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "biodata mahasiswa bisa diedit sendiri tidak"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "salah input tanggal lahir di siakad gimana"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara ganti email aktif di akun siakad"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "foto profil siakad bisa diganti tidak"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "data mahasiswa tidak muncul di pddikti kenapa"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "nomor telepon orang tua bisa diubah di sistem"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "nik ibu di siakad salah cara betulkan"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "data mahasiswa belum terverifikasi artinya apa"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara sinkronisasi data siakad ke pddikti"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "nisn tidak terdaftar di sistem kemdikbud"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "perubahan program studi tercermin di data mana"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "data mahasiswa pindahan diinput siapa"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara cek apakah data sudah masuk pddikti"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "nik orang tua wajib diisi tidak di siakad"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "cara lapor perbedaan data antara siakad dan pddikti"
+        },
+        {
+            "id_kategori": 5,
+            "pertanyaan_variasi": "foto untuk ktm ukurannya berapa"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "halo aegis apa kabar"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "hai bot ada yang bisa dibantu"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "selamat pagi minta bantuan"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "assalamualaikum aegis"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "hei aegis masih online"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "permisi mau nanya sebentar"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "selamat siang ada yang bisa dibantu"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "halo selamat sore"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "punten mau tanya"
+        },
+        {
+            "id_kategori": 8,
+            "pertanyaan_variasi": "selamat malam aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih banyak ya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks aegis sudah membantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih atas penjelasannya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "okay makasih udah dijawab"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thx bro sudah membantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks ya informasinya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih sudah menjawab pertanyaan saya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "tengkyu aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih sudah membantu saya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke makasih infonya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thanks banyak ya aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasi ya udah bantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih informasinya berguna sekali"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "okay thanks"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "siap terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "baik makasih ya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "noted terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "thank you so much aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih banyak banget"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih sudah sabar menjawab"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "mantap terima kasih infonya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "iya terima kasih sudah dibantu"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oke sudah paham terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "sudah jelas makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "oh begitu makasih ya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "ngerti deh makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "paham sudah terima kasih aegis"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "wah makasih infonya lengkap"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih atas responnya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih cepat sekali dijawab"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih aegis sudah membantu hari ini"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "good job aegis makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "helpful banget makasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih sudah menjelaskan dengan jelas"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "iya udah ngerti makasih banyak"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "siip makasih infonya"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "sudah cukup jelas terima kasih"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "makasih aegis semoga bermanfaat"
+        },
+        {
+            "id_kategori": 12,
+            "pertanyaan_variasi": "terima kasih atas bantuannya hari ini"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jadwal kuliah"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jadwal kelas"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jadwal perkuliahan"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "info jadwal kuliah"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "lihat jadwal kuliah"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "cek jadwal kelas"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jadwal kuliah hari ini"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "jadwal mata kuliah semester ini"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "info pkl magang"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "informasi magang"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "tentang pkl"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "tentang magang"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "mau tanya soal magang"
+        },
+        {
+            "id_kategori": 11,
+            "pertanyaan_variasi": "mau tanya soal pkl"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "mahasiswa lulus belum wisuda bisa request surat model c"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "status lulus belum wisuda bisa ajukan surat model c tidak"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat model c bisa diproses kalau sudah lulus belum wisuda"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "apakah mahasiswa lulus bisa minta surat model c"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat model c berlaku berapa kali dalam satu semester"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat model c bisa diajukan berberapa kali"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "berapa lama proses surat model c selesai"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "surat model c diproses berapa hari"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "ketentuan pengajuan surat model c"
+        },
+        {
+            "id_kategori": 2,
+            "pertanyaan_variasi": "syarat surat model c apa saja"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "cara cetak kwitansi pembayaran ukt"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "syarat dokumen keringanan ukt mahasiswa"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "dokumen keringanan ukt lengkap apa saja"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "dokumen keringanan ukt maba mahasiswa baru"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "dokumen pengajuan keringanan ukt mahasiswa lama"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "dokumen yang diperlukan untuk keringanan ukt apa saja"
+        },
+        {
+            "id_kategori": 3,
+            "pertanyaan_variasi": "berkas yang disiapkan untuk keringanan ukt apa saja"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara input prestasi di SIAKAD"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "unggah data prestasi di SIAKAD"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara tambah data prestasi di SIAKAD"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara input prestasi di siakad kemahasiswaan"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara upload prestasi lomba di siakad"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "tambah data prestasi mahasiswa di siakad"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara masukin data lomba ke siakad kemahasiswaan"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "input sertifikat lomba ke portal siakad"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "daftarkan prestasi ke siakad caranya gimana"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara klaim prestasi di siakad mahasiswa"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "unggah prestasi kompetisi ke siakad polinema"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "cara memasukkan prestasi lomba ke sistem siakad"
+        },
+        {
+            "id_kategori": 6,
+            "pertanyaan_variasi": "prestasi lomba sudah diinput ke siakad belum"
+        },
+        {
+            "id_kategori": 7,
+            "pertanyaan_variasi": "aku mau cetak khs tapi tidak tau caranya"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "minimal bimbingan sebelum sidang berapa kali"
+        },
+        {
+            "id_kategori": 10,
+            "pertanyaan_variasi": "berapa kali minimal bimbingan sebelum sidang akhir"
         }
     ]
 }
