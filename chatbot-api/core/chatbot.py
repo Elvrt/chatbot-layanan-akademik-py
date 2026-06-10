@@ -138,6 +138,15 @@ _FALLBACK_KATEGORI: dict = {
         "🤖 Sama-sama! 😊 Senang bisa membantu. "
         "Ada yang bisa AEGIS bantu lagi?"
     ),
+    'UNDUHAN_FORM': (
+    "🤖 AEGIS mengenali kamu sedang mencari formulir unduhan, "
+    "namun belum menemukan link spesifik yang kamu cari.\n\n"
+    "Coba tanyakan dengan menyebut nama formulirnya, contoh:\n"
+    "• 'link download form cuti akademik'\n"
+    "• 'unduh formulir pengunduran diri TI'\n\n"
+    "Atau kunjungi helpdesk akademik: "
+    "<a href='https://helpakademik.polinema.ac.id/' target='_blank' style='color:blue'>klik disini</a>"
+     ),
 }
 
 # Pesan fallback global jika kategori tidak dikenal

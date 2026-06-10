@@ -51,7 +51,7 @@ def build_index(df_knowledge: pd.DataFrame):
     print("[retriever] Membangun TF-IDF index dari seluruh knowledge base...")
 
     _vectorizer = TfidfVectorizer(
-        ngram_range=(1, 2),
+        ngram_range=(1, 1),
         sublinear_tf=True,
         min_df=1
     )
