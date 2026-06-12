@@ -216,7 +216,7 @@ def get_response(user_input: str) -> dict:
     if kemungkinan_sapaan and jumlah_kata <= 2:
         threshold = 0.30
     else:
-        threshold = 0.50
+        threshold = 0.60
 
     id_kategori, confidence = predict(clean_input, threshold=threshold)
 

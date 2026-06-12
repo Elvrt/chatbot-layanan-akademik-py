@@ -38,12 +38,12 @@ _custom_stopwords: set  = set()
 # dan dari Sastrawi stopword removal — berlaku untuk training maupun inferensi.
 # Tanpa ini: 'hai', 'halo', 'salam', 'permisi' hilang → data SAPAAN jadi
 # kosong → model bocor ke AKADEMIK_UMUM.
-_WHITELIST_SAPAAN: set = {
+_CHAT_TRIGGER_WORDS: set = {
     'halo', 'hai', 'hei', 'hey', 'hello', 'hi',
     'permisi', 'punten', 'assalamualaikum', 'waalaikumsalam',
     'salam', 'pagi', 'siang', 'sore', 'malam',
     'selamat', 'kabar', 'maaf', 'nanya',
-    'bertanya', 'tanya', 'bantuan', 'aktif', 'online',
+    'bertanya', 'tanya', 'bantuan', 'aktif', 'online', 'tidak',
 }
 
 # ==========================================================
@@ -132,11 +132,11 @@ def preprocess(text: str, pakai_fuzzy: bool = True, skip_custom_sw: bool = False
     1. Lowercase + hapus tanda baca
     2. Normalisasi typo (normalization.csv)
     3. Fuzzy fallback           — hanya jika pakai_fuzzy=True
-    4. Simpan whitelist sapaan  — SELALU aktif (training & inferensi)
+    4. Simpan chat trigger words  — SELALU aktif (training & inferensi)
     5. Hapus custom stopwords   — dilewati jika skip_custom_sw=True
     6. Stopword removal Sastrawi
     7. Stemming Sastrawi
-    8. Kembalikan whitelist sapaan yang hilang di langkah 5/6/7
+    8. Kembalikan chat trigger words yang hilang di langkah 5/6/7
     9. Guard kosong             — kembalikan teks lowercase minimal
     """
 
@@ -153,10 +153,10 @@ def preprocess(text: str, pakai_fuzzy: bool = True, skip_custom_sw: bool = False
     if pakai_fuzzy:
         text = _koreksi_typo_fuzzy(text)
 
-    # 4. Simpan whitelist sapaan SEBELUM apapun dihapus.
+    # 4. Simpan chat trigger words SEBELUM apapun dihapus.
     #    Sengaja tidak dibatasi pakai_fuzzy agar data training SAPAAN
     #    juga terlindungi — 'hai', 'halo', 'salam' tidak hilang saat training.
-    whitelist_saved = [w for w in text.split() if w in _WHITELIST_SAPAAN]
+    text_saved = [w for w in text.split() if w in _CHAT_TRIGGER_WORDS]
 
     # 5. Hapus custom stopwords
     #    Di-skip untuk NLU SAPAAN agar token sapaan tetap ada
@@ -173,9 +173,9 @@ def preprocess(text: str, pakai_fuzzy: bool = True, skip_custom_sw: bool = False
     # 8. Kembalikan whitelist yang dihapus di langkah 5, 6, atau 7.
     #    Ini yang menyelamatkan 'hai', 'halo', 'salam', 'permisi'
     #    yang dihapus Sastrawi meski tidak ada di custom_stopwords.
-    if whitelist_saved:
+    if text_saved:
         existing = set(text.split())
-        tambahan = [w for w in whitelist_saved if w not in existing]
+        tambahan = [w for w in text_saved if w not in existing]
         if tambahan:
             text = (text + ' ' + ' '.join(tambahan)).strip()
 

@@ -101,8 +101,8 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan": "Kewajiban atau ketentuan apa saja yang harus dipenuhi mahasiswa berstatus terminal?",
-            "jawaban": "Kewajiban mahasiswa terminal:\n- Tetap wajib daftar ulang setiap awal semester (kecuali jalur reguler).\n- Jika tidak daftar ulang hingga 2 minggu awal perkuliahan -> dinyatakan mengundurkan diri.\n- Terminal dihitung sebagai masa studi. Hanya diberikan 1x selama kuliah di Polinema.\n- Masa studi maks: D3 = 5 tahun, D4 = 7 tahun.\n\nSurat Keterangan Terminal dibuat oleh Admin Akademik Jurusan dan diserahkan ke Admin Akademik Pusat (softfile/hardfile) untuk dimasukkan nomor dan tanggal surat di SIAKAD."
+            "pertanyaan": "apa saja kewajiban mahasiswa berstatus terminal?",
+            "jawaban": "Kewajiban mahasiswa terminal:\r\n- Tetap wajib daftar ulang setiap awal semester (kecuali jalur reguler).\r\n- Jika tidak daftar ulang hingga 2 minggu awal perkuliahan -> dinyatakan mengundurkan diri.\r\n- Terminal dihitung sebagai masa studi. Hanya diberikan 1x selama kuliah di Polinema.\r\n- Masa studi maks: D3 = 5 tahun, D4 = 7 tahun.\r\n\r\nSurat Keterangan Terminal dibuat oleh Admin Akademik Jurusan dan diserahkan ke Admin Akademik Pusat (softfile/hardfile) untuk dimasukkan nomor dan tanggal surat di SIAKAD."
         },
         {
             "id_kategori": 1,
@@ -131,8 +131,8 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan": "Apa syarat lulus semester dan apa itu lulus percobaan?",
-            "jawaban": "Syarat lulus semester:\n\nLULUS SEMESTER (L):\n- IPS minimal 2,00\n- Nilai Agama, Pancasila, Kewarganegaraan tidak kurang dari C\n- Jumlah nilai D tidak lebih dari 1 untuk mata kuliah praktek/praktikum\n- Tidak terdapat nilai E\n\nLULUS PERCOBAAN (L**):\nMahasiswa lulus percobaan jika memenuhi syarat IPS minimal 2,00 namun juga memenuhi salah satu kondisi berikut:\n- Mendapat Surat Peringatan III (SP III)\n- Jumlah nilai D lebih dari 3 mata kuliah\n\nTIDAK LULUS SEMESTER:\n- IPS kurang dari 2,00\n- Terdapat nilai E\n- Nilai Agama, Pancasila, Kewarganegaraan, Bahasa Indonesia kurang dari C\n- Jumlah nilai D lebih dari 1 untuk mata kuliah praktek/praktikum\n- Dua kali berturut-turut lulus semester dengan status lulus percobaan\n- Tidak mengajukan cuti akademik"
+            "pertanyaan": "Apa syarat nilai untuk lulus semester dan apa itu lulus percobaan?",
+            "jawaban": "Syarat lulus semester:\r\n\r\nLULUS SEMESTER (L):\r\n- IPS minimal 2,00\r\n- Nilai Agama, Pancasila, Kewarganegaraan tidak kurang dari C\r\n- Jumlah nilai D tidak lebih dari 1 untuk mata kuliah praktek/praktikum\r\n- Tidak terdapat nilai E\r\n\r\nLULUS PERCOBAAN (L**):\r\nMahasiswa lulus percobaan jika memenuhi syarat IPS minimal 2,00 namun juga memenuhi salah satu kondisi berikut:\r\n- Mendapat Surat Peringatan III (SP III)\r\n- Jumlah nilai D lebih dari 3 mata kuliah\r\n\r\nTIDAK LULUS SEMESTER:\r\n- IPS kurang dari 2,00\r\n- Terdapat nilai E\r\n- Nilai Agama, Pancasila, Kewarganegaraan, Bahasa Indonesia kurang dari C\r\n- Jumlah nilai D lebih dari 1 untuk mata kuliah praktek/praktikum\r\n- Dua kali berturut-turut lulus semester dengan status lulus percobaan\r\n- Tidak mengajukan cuti akademik"
         },
         {
             "id_kategori": 1,
@@ -151,8 +151,8 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan": "Berapa masa studi maksimum mahasiswa D-III dan D-IV di Polinema?",
-            "jawaban": "Masa studi maksimum mahasiswa Polinema:\n\n- D-III  : Maksimal 5 tahun (10 semester)\n- D-IV / Sarjana Terapan: Maksimal 7 tahun (14 semester)\n\nCatatan: Cuti akademik dihitung sebagai masa studi sehingga mengurangi sisa masa studi yang tersedia."
+            "pertanyaan": "Berapa lama batas waktu dan masa studi maksimum mahasiswa D-III dan D-IV di Polinema?",
+            "jawaban": "Masa studi maksimum mahasiswa Polinema:\r\n\r\n- D-III  : Maksimal 5 tahun (10 semester)\r\n- D-IV / Sarjana Terapan: Maksimal 7 tahun (14 semester)\r\n\r\nCatatan: Cuti akademik dihitung sebagai masa studi sehingga mengurangi sisa masa studi yang tersedia."
         },
         {
             "id_kategori": 1,
@@ -172,7 +172,7 @@
         {
             "id_kategori": 1,
             "pertanyaan": "Berapa batas waktu pengajuan pengunduran diri karena nilai tidak lulus?",
-            "jawaban": "Ketentuan batas waktu pengajuan pengunduran diri karena nilai akhir semester tidak lulus:\n\n- Batas waktu pengajuan surat pengunduran diri maksimal 2 minggu setelah Yudisium Akhir Semester\n- Jika melewati batas waktu tersebut, surat tidak dapat diproses dan status mahasiswa ditetapkan sesuai Berita Acara Yudisium\n- Surat pengunduran diri yang sudah diajukan tidak dapat dibatalkan dengan alasan apapun\n- Waktu proses: 5–7 hari kerja"
+            "jawaban": "Ketentuan batas waktu pengajuan pengunduran diri karena nilai akhir semester tidak lulus:\n\n- Batas waktu pengajuan surat pengunduran diri maksimal 2 minggu setelah Yudisium Akhir Semester\n- Jika melewati batas waktu tersebut, surat tidak dapat diproses dan status mahasiswa ditetapkan sesuai Berita Acara Yudisium\n- Surat pengunduran diri yang sudah diajukan tidak dapat dibatalkan dengan alasan apapun\n- Waktu proses: 5â€“7 hari kerja"
         },
         {
             "id_kategori": 1,
@@ -182,7 +182,7 @@
         {
             "id_kategori": 2,
             "pertanyaan": "Bagaimana prosedur pengajuan surat keterangan pernah kuliah?",
-            "jawaban": "Prosedur pengajuan Surat Keterangan Pernah Kuliah (SKPK):\n\n1. Pastikan status mahasiswa: Mengundurkan Diri, Putus Studi, atau Keluar\n2. Ajukan surat permohonan ditujukan kepada Direktur Polinema\n3. Lampirkan KHS (Kartu Hasil Studi) selama menempuh perkuliahan di Polinema\n4. Admin memproses surat dan ditandatangani oleh Wakil Direktur I\n5. Semester yang diakui sesuai dengan lama semester yang ditempuh di Polinema\n6. Waktu proses: 2–3 hari kerja\n\nCatatan: SKPK dapat digunakan sebagai dokumen pendukung untuk melanjutkan perkuliahan ke Perguruan Tinggi lain."
+            "jawaban": "Prosedur pengajuan Surat Keterangan Pernah Kuliah (SKPK):\n\n1. Pastikan status mahasiswa: Mengundurkan Diri, Putus Studi, atau Keluar\n2. Ajukan surat permohonan ditujukan kepada Direktur Polinema\n3. Lampirkan KHS (Kartu Hasil Studi) selama menempuh perkuliahan di Polinema\n4. Admin memproses surat dan ditandatangani oleh Wakil Direktur I\n5. Semester yang diakui sesuai dengan lama semester yang ditempuh di Polinema\n6. Waktu proses: 2â€“3 hari kerja\n\nCatatan: SKPK dapat digunakan sebagai dokumen pendukung untuk melanjutkan perkuliahan ke Perguruan Tinggi lain."
         },
         {
             "id_kategori": 1,
@@ -282,12 +282,12 @@
         {
             "id_kategori": 2,
             "pertanyaan": "Apa syarat dan prosedur penggantian cetak ulang KTM hilang",
-            "jawaban": "Syarat:\n- Mahasiswa berstatus aktif\n- UKT lunas\n- Pengajuan hanya bisa dilakukan 1 kali selama menjadi mahasiswa Polinema\n\nDokumen yang Harus Dibawa:\n- Surat Permohonan sesuai format yang telah ditandatangani oleh Ka BAK, Admin Jurusan/Prodi, dan mahasiswa\n- Surat Kehilangan dari Kepolisian\n\nProsedur:\n- Siapkan dokumen persyaratan\n- Ajukan permohonan KTM hilang ke layanan akademik\n- Berkas diverifikasi — jika valid, KTM dicetak ulang\n- Jika berkas tidak valid, mahasiswa harus mengajukan permohonan ulang"
+            "jawaban": "Syarat:\n- Mahasiswa berstatus aktif\n- UKT lunas\n- Pengajuan hanya bisa dilakukan 1 kali selama menjadi mahasiswa Polinema\n\nDokumen yang Harus Dibawa:\n- Surat Permohonan sesuai format yang telah ditandatangani oleh Ka BAK, Admin Jurusan/Prodi, dan mahasiswa\n- Surat Kehilangan dari Kepolisian\n\nProsedur:\n- Siapkan dokumen persyaratan\n- Ajukan permohonan KTM hilang ke layanan akademik\n- Berkas diverifikasi â€” jika valid, KTM dicetak ulang\n- Jika berkas tidak valid, mahasiswa harus mengajukan permohonan ulang"
         },
         {
             "id_kategori": 2,
             "pertanyaan": "Apa syarat dan prosedur penggantian cetak ulang KTM rusak?",
-            "jawaban": "Syarat:\n- Mahasiswa berstatus aktif\n- UKT lunas\n- Pengajuan hanya bisa dilakukan 1 kali selama menjadi mahasiswa Polinema\n\nProsedur:\n- Datang ke layanan akademik dengan membawa KTM yang rusak\n- Ajukan permohonan penggantian KTM rusak\n- Berkas diverifikasi — jika valid, KTM baru dicetak dan KTM rusak diserahkan\nJika berkas tidak valid, mahasiswa harus mengajukan permohonan ulang"
+            "jawaban": "Syarat:\n- Mahasiswa berstatus aktif\n- UKT lunas\n- Pengajuan hanya bisa dilakukan 1 kali selama menjadi mahasiswa Polinema\n\nProsedur:\n- Datang ke layanan akademik dengan membawa KTM yang rusak\n- Ajukan permohonan penggantian KTM rusak\n- Berkas diverifikasi â€” jika valid, KTM baru dicetak dan KTM rusak diserahkan\nJika berkas tidak valid, mahasiswa harus mengajukan permohonan ulang"
         },
         {
             "id_kategori": 2,
@@ -302,7 +302,7 @@
         {
             "id_kategori": 2,
             "pertanyaan": "Apa syarat mengajukan surat keterangan bebas tanggungan?",
-            "jawaban": "Syarat Surat Keterangan Bebas Tanggungan: \n- Mahasiswa telah diyudisium dan dinyatakan lulus serta sudah disetting lulus di SIAKAD. \n- Lunas UKT/SPFP/IPI.  \n- Foto dan data ijazah telah valid di SIAKAD. \n- SKKM telah memenuhi poin wajib: 13 poin untuk D-III dan 15 poin untuk D-IV, serta telah divalidasi sampai level DPK. \n-Telah mengisi data alumni di alumni.polinema.ac.id dan data dinyatakan valid. Waktu proses: 1–2 hari kerja."
+            "jawaban": "Syarat Surat Keterangan Bebas Tanggungan: \n- Mahasiswa telah diyudisium dan dinyatakan lulus serta sudah disetting lulus di SIAKAD. \n- Lunas UKT/SPFP/IPI.  \n- Foto dan data ijazah telah valid di SIAKAD. \n- SKKM telah memenuhi poin wajib: 13 poin untuk D-III dan 15 poin untuk D-IV, serta telah divalidasi sampai level DPK. \n-Telah mengisi data alumni di alumni.polinema.ac.id dan data dinyatakan valid. Waktu proses: 1â€“2 hari kerja."
         },
         {
             "id_kategori": 2,
@@ -317,7 +317,7 @@
         {
             "id_kategori": 2,
             "pertanyaan": "Berapa kali SKK surat keterangan kuliah bisa diajukan dalam satu semester?",
-            "jawaban": "Pengajuan Surat Keterangan Kuliah (SKK) hanya bisa dilakukan 1 kali dalam 1 semester. SKK diberikan dalam bentuk softfile PDF dan bisa dicetak sendiri oleh mahasiswa. Waktu proses: 2–3 hari kerja."
+            "jawaban": "Pengajuan Surat Keterangan Kuliah (SKK) hanya bisa dilakukan 1 kali dalam 1 semester. SKK diberikan dalam bentuk softfile PDF dan bisa dicetak sendiri oleh mahasiswa. Waktu proses: 2â€“3 hari kerja."
         },
         {
             "id_kategori": 2,
@@ -327,12 +327,12 @@
         {
             "id_kategori": 2,
             "pertanyaan": "Apa yang terjadi jika berkas KTM hilang dinyatakan tidak valid?",
-            "jawaban": "Jika berkas permohonan KTM hilang dinyatakan tidak valid oleh admin:\n\n- Proses cetak KTM tidak dapat dilanjutkan\n- Mahasiswa harus mengulang pengajuan permohonan KTM hilang dari awal\n- Pastikan semua berkas lengkap dan valid sebelum mengajukan:\n  - Surat permohonan yang sudah ditandatangani Ka BAK, Admin Jurusan/Prodi, dan mahasiswa\n  - Surat Kehilangan dari Kepolisian\n\nCatatan: Pengajuan KTM hilang hanya bisa dilakukan 1 kali selama menjadi mahasiswa Polinema — pastikan berkas sudah benar sebelum diajukan."
+            "jawaban": "Jika berkas permohonan KTM hilang dinyatakan tidak valid oleh admin:\n\n- Proses cetak KTM tidak dapat dilanjutkan\n- Mahasiswa harus mengulang pengajuan permohonan KTM hilang dari awal\n- Pastikan semua berkas lengkap dan valid sebelum mengajukan:\n  - Surat permohonan yang sudah ditandatangani Ka BAK, Admin Jurusan/Prodi, dan mahasiswa\n  - Surat Kehilangan dari Kepolisian\n\nCatatan: Pengajuan KTM hilang hanya bisa dilakukan 1 kali selama menjadi mahasiswa Polinema â€” pastikan berkas sudah benar sebelum diajukan."
         },
         {
             "id_kategori": 2,
             "pertanyaan": "Berapa lama masa berlaku surat keterangan berkelakuan baik?",
-            "jawaban": "Surat Keterangan Berkelakuan Baik hanya berlaku untuk 1 semester saja.\n\nKetentuan lain:\n- Mahasiswa harus meminta surat rekomendasi dari Dosen Pembina Akademik (DPA) dan Ketua Jurusan\n- Surat rekomendasi ditujukan kepada Wakil Direktur III sebagai dasar penerbitan surat\n- Waktu proses: 1–2 hari kerja\n- Surat dapat digunakan untuk pendaftaran beasiswa, PKL, pengembangan minat dan bakat"
+            "jawaban": "Surat Keterangan Berkelakuan Baik hanya berlaku untuk 1 semester saja.\n\nKetentuan lain:\n- Mahasiswa harus meminta surat rekomendasi dari Dosen Pembina Akademik (DPA) dan Ketua Jurusan\n- Surat rekomendasi ditujukan kepada Wakil Direktur III sebagai dasar penerbitan surat\n- Waktu proses: 1â€“2 hari kerja\n- Surat dapat digunakan untuk pendaftaran beasiswa, PKL, pengembangan minat dan bakat"
         },
         {
             "id_kategori": 2,
@@ -342,7 +342,7 @@
         {
             "id_kategori": 3,
             "pertanyaan": "informasi UKT",
-            "jawaban": "Pembayaran UKT dilakukan setiap menjelang awal semester baru. Jurusan biasanya membuka pengumuman resmi jadwal pembayaran sebelum masa pembayaran dimulai. Pembayaran dapat dilakukan melalui Bank Mandiri, BNI, BRI, atau BTN.\n\ninfo lain terkait UKT, berikut hal yang bisa AEGIS bantu:\n• \"cara mengajukan keringanan UKT mahasiswa\"\n• \"syarat angsuran UKT\"\n• \"berkas keringanan UKT\"\n\nAtau bisa hubungi Admin Akademik Jurusan secara langsung."
+            "jawaban": "Pembayaran UKT dilakukan setiap menjelang awal semester baru. Jurusan biasanya membuka pengumuman resmi jadwal pembayaran sebelum masa pembayaran dimulai. Pembayaran dapat dilakukan melalui Bank Mandiri, BNI, BRI, atau BTN.\n\ninfo lain terkait UKT, berikut hal yang bisa AEGIS bantu:\nâ€¢ \"cara mengajukan keringanan UKT mahasiswa\"\nâ€¢ \"syarat angsuran UKT\"\nâ€¢ \"berkas keringanan UKT\"\n\nAtau bisa hubungi Admin Akademik Jurusan secara langsung."
         },
         {
             "id_kategori": 3,
@@ -352,12 +352,12 @@
         {
             "id_kategori": 3,
             "pertanyaan": "Apa ketentuan keringanan UKT untuk mahasiswa baru?",
-            "jawaban": "Ketentuan Keringanan UKT Mahasiswa Baru:\n\n- Bukan penerima KIP-K\n- Jalur reguler atau mandiri — jalur mandiri hanya untuk kasus khusus:\n  - Yatim/piatu\n  - Orang tua di-PHK\n  - Orang tua sakit keras permanen (kondisi terjadi saat periode pendaftaran hingga daftar ulang)\n- Pengajuan melalui https://keringananukt.polinema.ac.id/\n- Keringanan berlaku mulai semester 1 hingga semester 6 (D-III) atau semester 8 (D-IV)\n- Hanya bisa mengajukan 1 kali — tidak bisa mengajukan lagi jika sudah lolos\n- Wajib menggunakan PC/Laptop saat upload berkas"
+            "jawaban": "Ketentuan Keringanan UKT Mahasiswa Baru:\n\n- Bukan penerima KIP-K\n- Jalur reguler atau mandiri â€” jalur mandiri hanya untuk kasus khusus:\n  - Yatim/piatu\n  - Orang tua di-PHK\n  - Orang tua sakit keras permanen (kondisi terjadi saat periode pendaftaran hingga daftar ulang)\n- Pengajuan melalui https://keringananukt.polinema.ac.id/\n- Keringanan berlaku mulai semester 1 hingga semester 6 (D-III) atau semester 8 (D-IV)\n- Hanya bisa mengajukan 1 kali â€” tidak bisa mengajukan lagi jika sudah lolos\n- Wajib menggunakan PC/Laptop saat upload berkas"
         },
         {
             "id_kategori": 3,
             "pertanyaan": "Apa ketentuan keringanan UKT untuk mahasiswa lama?",
-            "jawaban": "Ketentuan Keringanan UKT Mahasiswa Lama:\n\n- Bukan penerima beasiswa dari pihak manapun\n- Jalur reguler atau mandiri — jalur mandiri hanya untuk kasus khusus:\n  - Yatim/piatu\n  - Orang tua di-PHK\n  - Orang tua sakit keras permanen (kondisi terjadi setelah menjadi mahasiswa Polinema)\n- Pengajuan melalui SIAKAD -> menu UKT -> Keringanan UKT\n- Hanya bisa mengajukan 1 kali\n- Wajib menggunakan PC/Laptop saat upload berkas"
+            "jawaban": "Ketentuan Keringanan UKT Mahasiswa Lama:\n\n- Bukan penerima beasiswa dari pihak manapun\n- Jalur reguler atau mandiri â€” jalur mandiri hanya untuk kasus khusus:\n  - Yatim/piatu\n  - Orang tua di-PHK\n  - Orang tua sakit keras permanen (kondisi terjadi setelah menjadi mahasiswa Polinema)\n- Pengajuan melalui SIAKAD -> menu UKT -> Keringanan UKT\n- Hanya bisa mengajukan 1 kali\n- Wajib menggunakan PC/Laptop saat upload berkas"
         },
         {
             "id_kategori": 3,
@@ -367,7 +367,7 @@
         {
             "id_kategori": 3,
             "pertanyaan": "Apa syarat mengajukan angsuran atau cicilan UKT?",
-            "jawaban": "Syarat pengajuan angsuran UKT:\n\n- Mahasiswa kurang mampu dan belum bisa melunasi UKT pada jadwal daftar ulang\n- Tidak memiliki tunggakan UKT pada semester sebelumnya (khusus mahasiswa lama — jika ada tunggakan wajib dilunasi dulu)\n- Mahasiswa baru jalur mandiri hanya bisa mengajukan angsuran IPI, bukan UKT\n- Angsuran pertama minimal 60% dari total UKT/IPI yang wajib dibayarkan\n- Mengisi dan menandatangani surat pernyataan angsuran di atas materai berisi:\n  - Data mahasiswa dan orang tua\n  - Rincian angsuran\n  - Jadwal jatuh tempo pelunasan"
+            "jawaban": "Syarat pengajuan angsuran UKT:\n\n- Mahasiswa kurang mampu dan belum bisa melunasi UKT pada jadwal daftar ulang\n- Tidak memiliki tunggakan UKT pada semester sebelumnya (khusus mahasiswa lama â€” jika ada tunggakan wajib dilunasi dulu)\n- Mahasiswa baru jalur mandiri hanya bisa mengajukan angsuran IPI, bukan UKT\n- Angsuran pertama minimal 60% dari total UKT/IPI yang wajib dibayarkan\n- Mengisi dan menandatangani surat pernyataan angsuran di atas materai berisi:\n  - Data mahasiswa dan orang tua\n  - Rincian angsuran\n  - Jadwal jatuh tempo pelunasan"
         },
         {
             "id_kategori": 3,
@@ -397,7 +397,7 @@
         {
             "id_kategori": 4,
             "pertanyaan": "Apa saja predikat kelulusan dan berapa IPK yang dibutuhkan?",
-            "jawaban": "Predikat kelulusan ditentukan berdasarkan IPK:\n\nProgram D-II, D-III, dan Sarjana Terapan:\n- Lulus Dengan Pujian             : IPK 3,51 – 4,00\n- Lulus Sangat Memuaskan: IPK 3,01 – 3,50\n- Lulus Memuaskan                  : IPK 2,76 – 3,00\n- Lulus                                                : IPK 2,00 – 2,75\n\nProgram Magister Terapan:\n- Lulus Dengan Pujian            : IPK 3,76 – 4,00\n- Lulus Sangat Memuaskan: IPK 3,51 – 3,75\n- Lulus Memuaskan                 : IPK 3,00 – 3,50\n\nSyarat Lulus Dengan Pujian:\n- Masa studi normal: D-III 6 semester, D-IV 8 semester, Magister Terapan 4 semester\n- Tidak ada nilai lebih kecil dari B\n- Tidak pernah mendapat sanksi pelanggaran dan ketidakhadiran\n\nCatatan: Mahasiswa yang pernah cuti akademik atau terminal, predikat kelulusan maksimal adalah Sangat Memuaskan."
+            "jawaban": "Predikat kelulusan ditentukan berdasarkan IPK:\n\nProgram D-II, D-III, dan Sarjana Terapan:\n- Lulus Dengan Pujian             : IPK 3,51 â€“ 4,00\n- Lulus Sangat Memuaskan: IPK 3,01 â€“ 3,50\n- Lulus Memuaskan                  : IPK 2,76 â€“ 3,00\n- Lulus                                                : IPK 2,00 â€“ 2,75\n\nProgram Magister Terapan:\n- Lulus Dengan Pujian            : IPK 3,76 â€“ 4,00\n- Lulus Sangat Memuaskan: IPK 3,51 â€“ 3,75\n- Lulus Memuaskan                 : IPK 3,00 â€“ 3,50\n\nSyarat Lulus Dengan Pujian:\n- Masa studi normal: D-III 6 semester, D-IV 8 semester, Magister Terapan 4 semester\n- Tidak ada nilai lebih kecil dari B\n- Tidak pernah mendapat sanksi pelanggaran dan ketidakhadiran\n\nCatatan: Mahasiswa yang pernah cuti akademik atau terminal, predikat kelulusan maksimal adalah Sangat Memuaskan."
         },
         {
             "id_kategori": 4,
@@ -442,27 +442,27 @@
         {
             "id_kategori": 4,
             "pertanyaan": "Apa syarat dan ketentuan legalisir ijazah di Polinema?",
-            "jawaban": "Syarat dan ketentuan legalisir ijazah Polinema:\n\n- Mengisi Tracer Study terlebih dahulu melalui https://alumni.polinema.ac.id\n- Fotokopi ijazah sesuai aslinya, tidak boleh ada bagian yang terpotong\n- Menunjukkan ijazah asli saat pengajuan\n- Legalisir maksimal 5 lembar per pengajuan\n- Proses legalisir maksimal 5 hari kerja\n- Batas pengambilan maksimal 1 tahun sejak permintaan — lewat dari itu dokumen akan dimusnahkan"
+            "jawaban": "Syarat dan ketentuan legalisir ijazah Polinema:\n\n- Mengisi Tracer Study terlebih dahulu melalui https://alumni.polinema.ac.id\n- Fotokopi ijazah sesuai aslinya, tidak boleh ada bagian yang terpotong\n- Menunjukkan ijazah asli saat pengajuan\n- Legalisir maksimal 5 lembar per pengajuan\n- Proses legalisir maksimal 5 hari kerja\n- Batas pengambilan maksimal 1 tahun sejak permintaan â€” lewat dari itu dokumen akan dimusnahkan"
         },
         {
             "id_kategori": 4,
             "pertanyaan": "Bagaimana prosedur legalisir ijazah di Polinema?",
-            "jawaban": "Prosedur legalisir ijazah Polinema:\n\n1. Isi Tracer Study terlebih dahulu di https://alumni.polinema.ac.id\n2. Siapkan fotokopi ijazah sesuai aslinya (tidak boleh terpotong) dan ijazah asli\n3. Serahkan fotokopi ijazah ke loket Akademik Gedung AA\n4. Dokumen diproses maksimal 5 hari kerja\n5. Pengambilan bisa diwakilkan dengan surat kuasa\n6. Pastikan diambil sebelum 1 tahun sejak permintaan — lewat batas waktu dokumen akan dimusnahkan"
+            "jawaban": "Prosedur legalisir ijazah Polinema:\n\n1. Isi Tracer Study terlebih dahulu di https://alumni.polinema.ac.id\n2. Siapkan fotokopi ijazah sesuai aslinya (tidak boleh terpotong) dan ijazah asli\n3. Serahkan fotokopi ijazah ke loket Akademik Gedung AA\n4. Dokumen diproses maksimal 5 hari kerja\n5. Pengambilan bisa diwakilkan dengan surat kuasa\n6. Pastikan diambil sebelum 1 tahun sejak permintaan â€” lewat batas waktu dokumen akan dimusnahkan"
         },
         {
             "id_kategori": 4,
             "pertanyaan": "Bagaimana prosedur perbaikan ijazah atau transkrip yang salah ketik?",
-            "jawaban": "Prosedur Perbaikan Ijazah/Transkrip Salah Ketik:\n\nKetentuan:\n- Hanya untuk alumni yang telah menyelesaikan bebas tanggungan dan telah menerima Ijazah, Transkrip, dan SKPI\n- Surat Keterangan Ijazah/Transkrip Salah hanya diproses 1 kali — jika mengajukan ulang tidak dapat diproses kembali\n- Waktu proses: 3–5 hari kerja sejak tanggal permohonan\n- Pengambilan fisik maksimal 1 bulan sejak tanggal penerbitan — lewat batas waktu Polinema tidak bertanggung jawab atas kehilangan/kerusakan dokumen\n- Pengambilan dapat diwakilkan dengan surat kuasa bermaterai dan KTP kedua belah pihak\n\nProsedur:\n1. Alumni mengajukan surat permohonan Keterangan Ijazah/Transkrip Salah ditujukan kepada Direktur\n2. Lampirkan dokumen pendukung:\n   - Fotokopi Ijazah/Transkrip\n   - Akta Kelahiran\n   - Ijazah SMA/SMK/MA\n   - KTP\n3. Serahkan ke loket Akademik Pusat\n4. Jika dokumen pendukung tidak lengkap, surat tidak dapat diproses\n5. Tunggu proses 3–5 hari kerja\n6. Ambil surat keterangan sebelum batas 1 bulan sejak penerbitan"
+            "jawaban": "Prosedur Perbaikan Ijazah/Transkrip Salah Ketik:\n\nKetentuan:\n- Hanya untuk alumni yang telah menyelesaikan bebas tanggungan dan telah menerima Ijazah, Transkrip, dan SKPI\n- Surat Keterangan Ijazah/Transkrip Salah hanya diproses 1 kali â€” jika mengajukan ulang tidak dapat diproses kembali\n- Waktu proses: 3â€“5 hari kerja sejak tanggal permohonan\n- Pengambilan fisik maksimal 1 bulan sejak tanggal penerbitan â€” lewat batas waktu Polinema tidak bertanggung jawab atas kehilangan/kerusakan dokumen\n- Pengambilan dapat diwakilkan dengan surat kuasa bermaterai dan KTP kedua belah pihak\n\nProsedur:\n1. Alumni mengajukan surat permohonan Keterangan Ijazah/Transkrip Salah ditujukan kepada Direktur\n2. Lampirkan dokumen pendukung:\n   - Fotokopi Ijazah/Transkrip\n   - Akta Kelahiran\n   - Ijazah SMA/SMK/MA\n   - KTP\n3. Serahkan ke loket Akademik Pusat\n4. Jika dokumen pendukung tidak lengkap, surat tidak dapat diproses\n5. Tunggu proses 3â€“5 hari kerja\n6. Ambil surat keterangan sebelum batas 1 bulan sejak penerbitan"
         },
         {
             "id_kategori": 4,
             "pertanyaan": "Apa syarat penggantian ijazah hilang?",
-            "jawaban": "Syarat pengajuan Surat Keterangan Ijazah/Transkrip Hilang:\n\n??Ijazah/Transkrip hanya bisa dicetak satu kali dan tidak dapat dicetak kembali jika hilang atau rusak.\n\nDokumen yang wajib dilampirkan:\n- Surat Permohonan penerbitan Surat Keterangan Ijazah/Transkrip Hilang ditujukan kepada Direktur\n- Surat Kehilangan dari kepolisian setempat\n- Fotokopi Ijazah\n- Fotokopi Transkrip\n- Fotokopi KTP\n\nKetentuan verifikasi:\n- Data diverifikasi dengan mencocokkan nama, NIM, Program Studi, IPK, Nomor Ijazah, dan Nomor Transkrip pada fotokopi dengan database Sub. Bag. Akademik Polinema\n- Jika data valid ? surat diproses\n- Jika data tidak valid ? surat tidak diproses\n- Surat diparaf Wakil Direktur I, ditandatangani dan disahkan oleh Direktur\n- Waktu proses: 3–5 hari kerja"
+            "jawaban": "Syarat pengajuan Surat Keterangan Ijazah/Transkrip Hilang:\r\n\r\n*Ijazah/Transkrip hanya bisa dicetak satu kali dan tidak dapat dicetak kembali jika hilang atau rusak.\r\n\r\nDokumen yang wajib dilampirkan:\r\n- Surat Permohonan penerbitan Surat Keterangan Ijazah/Transkrip Hilang ditujukan kepada Direktur\r\n- Surat Kehilangan dari kepolisian setempat\r\n- Fotokopi Ijazah\r\n- Fotokopi Transkrip\r\n- Fotokopi KTP\r\n\r\nKetentuan verifikasi:\r\n- Data diverifikasi dengan mencocokkan nama, NIM, Program Studi, IPK, Nomor Ijazah, dan Nomor Transkrip pada fotokopi dengan database Sub. Bag. Akademik Polinema\r\n- Jika data valid ? surat diproses\r\n- Jika data tidak valid ? surat tidak diproses\r\n- Surat diparaf Wakil Direktur I, ditandatangani dan disahkan oleh Direktur\r\n- Waktu proses: 3â€“5 hari kerja"
         },
         {
             "id_kategori": 4,
             "pertanyaan": "Apa itu Ijazah Hybrid",
-            "jawaban": "Ijazah Hybrid adalah ijazah yang terdiri dari 2 dokumen sekaligus:\n- Ijazah Fisik — dicetak pada blanko ijazah khusus\n- Ijazah Digital — berformat PDF dilengkapi tanda tangan elektronik tersertifikasi dan stempel digital TERA PERURI\nKeduanya ditandatangani secara elektronik oleh Ketua Jurusan dan Direktur Polinema, serta dapat diverifikasi keasliannya melalui https://tte.kominfo.go.id/verifyPDF atau aplikasi PERURI Scanner.\n\nKetentuan:\n\n- Hanya untuk mahasiswa yang dinyatakan lulus setelah 14 Februari 2022 (mulai Semester Genap 2021/2022)\n- Dapat diproses jika mahasiswa telah dinyatakan lulus, data dan foto ijazah sudah valid\n- Ditulis dalam 2 bahasa: Indonesia dan Inggris\n- Proses penerbitan diselesaikan dalam kurang lebih 1 hari kerja\n- Penandatanganan tidak dapat diwakilkan"
+            "jawaban": "Ijazah Hybrid adalah ijazah yang terdiri dari 2 dokumen sekaligus:\n- Ijazah Fisik â€” dicetak pada blanko ijazah khusus\n- Ijazah Digital â€” berformat PDF dilengkapi tanda tangan elektronik tersertifikasi dan stempel digital TERA PERURI\nKeduanya ditandatangani secara elektronik oleh Ketua Jurusan dan Direktur Polinema, serta dapat diverifikasi keasliannya melalui https://tte.kominfo.go.id/verifyPDF atau aplikasi PERURI Scanner.\n\nKetentuan:\n\n- Hanya untuk mahasiswa yang dinyatakan lulus setelah 14 Februari 2022 (mulai Semester Genap 2021/2022)\n- Dapat diproses jika mahasiswa telah dinyatakan lulus, data dan foto ijazah sudah valid\n- Ditulis dalam 2 bahasa: Indonesia dan Inggris\n- Proses penerbitan diselesaikan dalam kurang lebih 1 hari kerja\n- Penandatanganan tidak dapat diwakilkan"
         },
         {
             "id_kategori": 4,
@@ -472,7 +472,7 @@
         {
             "id_kategori": 4,
             "pertanyaan": "Apa syarat dan prosedur pengajuan surat keterangan pengganti ijazah atau transkrip yang hilang?",
-            "jawaban": "Ijazah dan transkrip hanya bisa dicetak satu kali dan tidak dapat dicetak ulang jika hilang atau rusak. Sebagai gantinya, Polinema menerbitkan Surat Keterangan Ijazah/Transkrip Hilang atas permohonan alumni. Syarat pengajuan sebagai berikut,\n\nAjukan Surat Permohonan kepada Direktur dengan melampirkan:\n- Surat Kehilangan dari Kepolisian setempat\n- Fotokopi Ijazah\n- Fotokopi Transkrip\n- Fotokopi KTP\n\nProses:\n- Data diverifikasi: nama, NIM, Program Studi, IPK, Nomor Ijazah, dan Nomor Transkrip harus sesuai dengan database Akademik Polinema\nJika data valid, surat diproses; jika tidak valid, surat tidak dapat diproses\n- Surat diparaf Wakil Direktur I dan ditandatangani Direktur\n- Proses selesai dalam 3–5 hari kerja"
+            "jawaban": "Ijazah dan transkrip hanya bisa dicetak satu kali dan tidak dapat dicetak ulang jika hilang atau rusak. Sebagai gantinya, Polinema menerbitkan Surat Keterangan Ijazah/Transkrip Hilang atas permohonan alumni. Syarat pengajuan sebagai berikut,\n\nAjukan Surat Permohonan kepada Direktur dengan melampirkan:\n- Surat Kehilangan dari Kepolisian setempat\n- Fotokopi Ijazah\n- Fotokopi Transkrip\n- Fotokopi KTP\n\nProses:\n- Data diverifikasi: nama, NIM, Program Studi, IPK, Nomor Ijazah, dan Nomor Transkrip harus sesuai dengan database Akademik Polinema\nJika data valid, surat diproses; jika tidak valid, surat tidak dapat diproses\n- Surat diparaf Wakil Direktur I dan ditandatangani Direktur\n- Proses selesai dalam 3â€“5 hari kerja"
         },
         {
             "id_kategori": 4,
@@ -492,12 +492,12 @@
         {
             "id_kategori": 4,
             "pertanyaan": "Bagaimana prosedur pengajuan surat keterangan program studi serumpun?",
-            "jawaban": "Prosedur pengajuan Surat Keterangan Program Studi Serumpun:\n\n1. Alumni mengajukan surat permohonan ditujukan kepada Direktur\n2. Kasubag Akademik mengkonfirmasi kepada Ketua Jurusan mengenai serumpun atau tidaknya program studi di Polinema dengan program studi di luar Polinema\n3. Jika kedua program studi serumpun  — surat dapat diproses\n4. Jika tidak serumpun ? surat tidak dapat diterbitkan\n5. Surat diproses oleh Admin Akademik Pusat dan ditandatangani Wakil Direktur I\n6. Surat diterbitkan dalam bentuk hardfile dengan stempel basah — tidak tersedia dalam bentuk softfile\n7. Waktu proses: 3–5 hari kerja"
+            "jawaban": "Prosedur pengajuan Surat Keterangan Program Studi Serumpun:\n\n1. Alumni mengajukan surat permohonan ditujukan kepada Direktur\n2. Kasubag Akademik mengkonfirmasi kepada Ketua Jurusan mengenai serumpun atau tidaknya program studi di Polinema dengan program studi di luar Polinema\n3. Jika kedua program studi serumpun  â€” surat dapat diproses\n4. Jika tidak serumpun ? surat tidak dapat diterbitkan\n5. Surat diproses oleh Admin Akademik Pusat dan ditandatangani Wakil Direktur I\n6. Surat diterbitkan dalam bentuk hardfile dengan stempel basah â€” tidak tersedia dalam bentuk softfile\n7. Waktu proses: 3â€“5 hari kerja"
         },
         {
             "id_kategori": 4,
             "pertanyaan": "Bagaimana prosedur pengajuan surat keterangan alumni?",
-            "jawaban": "Prosedur pengajuan Surat Keterangan Alumni:\n\n1. Alumni mengajukan surat permohonan ditujukan kepada Direktur\n2. Lampirkan dokumen:\n   - Fotokopi Ijazah\n   - Fotokopi Transkrip\n   - Fotokopi KTP\n3. Admin memverifikasi kesesuaian nama, NIM, Program Studi, IPK, Nomor Ijazah, dan Nomor Transkrip dengan database Sub. Bag. Akademik Polinema\n4. Jika data valid -> surat diproses\n5. Jika data tidak valid  -> surat tidak diproses\n6. Surat ditandatangani dan disahkan oleh Ka. BAK\n7. Waktu proses: 3–5 hari kerja"
+            "jawaban": "Prosedur pengajuan Surat Keterangan Alumni:\n\n1. Alumni mengajukan surat permohonan ditujukan kepada Direktur\n2. Lampirkan dokumen:\n   - Fotokopi Ijazah\n   - Fotokopi Transkrip\n   - Fotokopi KTP\n3. Admin memverifikasi kesesuaian nama, NIM, Program Studi, IPK, Nomor Ijazah, dan Nomor Transkrip dengan database Sub. Bag. Akademik Polinema\n4. Jika data valid -> surat diproses\n5. Jika data tidak valid  -> surat tidak diproses\n6. Surat ditandatangani dan disahkan oleh Ka. BAK\n7. Waktu proses: 3â€“5 hari kerja"
         },
         {
             "id_kategori": 4,
@@ -552,7 +552,7 @@
         {
             "id_kategori": 5,
             "pertanyaan": "Bagaimana cara upload dan validasi foto KTM di SIAKAD?",
-            "jawaban": "Validasi foto KTM adalah proses yang dilakukan Admin Akademik Pusat untuk memverifikasi foto mahasiswa yang akan digunakan pada KTM. Proses dilakukan di akademik.polinema.ac.id ? menu Info Mahasiswa ? Validasi Foto KTM.\n\nKetentuan Pakaian Pria:\n- Jas polos warna biru tua/hitam\n- Kemeja berkerah warna putih polos\n- Berdasi warna hitam\n- Rambut tertata rapi, tidak menutupi telinga, tidak memakai penutup kepala\n- Tidak memakai anting atau aksesori lainnya\n- Tidak berkacamata dan tidak memakai softlens\n- Foto terbaru, tidak boleh diedit\n\nKetentuan Pakaian Wanita:\n- Jas polos warna biru tua/hitam\n- Kemeja berkerah warna putih polos, kerah tidak boleh dikeluarkan\n- Tidak berdasi\n- Jika berkerudung: warna putih, di dalam jas, tidak bervariasi\n- Tidak berkacamata dan tidak memakai softlens\n- Foto terbaru, tidak boleh diedit\n\nKetentuan Format File:\n- Ukuran foto: 3x4 cm (354px x 472px)\n- Ukuran file maksimal: 2 MB\n- Format file: .jpg/.jpeg\n- Nama file: NIM (contoh: 1231310001.jpg)\n- Warna background: #46b4f0\n\nJika foto tidak sesuai ketentuan, notifikasi akan muncul di SIAKAD mahasiswa."
+            "jawaban": "Validasi foto KTM adalah proses yang dilakukan Admin Akademik Pusat untuk memverifikasi foto mahasiswa yang akan digunakan pada KTM. Proses dilakukan di akademik.polinema.ac.id -> menu Info Mahasiswa -> Validasi Foto KTM.\r\n\r\nKetentuan Pakaian Pria:\r\n- Jas polos warna biru tua/hitam\r\n- Kemeja berkerah warna putih polos\r\n- Berdasi warna hitam\r\n- Rambut tertata rapi, tidak menutupi telinga, tidak memakai penutup kepala\r\n- Tidak memakai anting atau aksesori lainnya\r\n- Tidak berkacamata dan tidak memakai softlens\r\n- Foto terbaru, tidak boleh diedit\r\n\r\nKetentuan Pakaian Wanita:\r\n- Jas polos warna biru tua/hitam\r\n- Kemeja berkerah warna putih polos, kerah tidak boleh dikeluarkan\r\n- Tidak berdasi\r\n- Jika berkerudung: warna putih, di dalam jas, tidak bervariasi\r\n- Tidak berkacamata dan tidak memakai softlens\r\n- Foto terbaru, tidak boleh diedit\r\n\r\nKetentuan Format File:\r\n- Ukuran foto: 3x4 cm (354px x 472px)\r\n- Ukuran file maksimal: 2 MB\r\n- Format file: .jpg/.jpeg\r\n- Nama file: NIM (contoh: 1231310001.jpg)\r\n- Warna background: #46b4f0\r\n\r\nJika foto tidak sesuai ketentuan, notifikasi akan muncul di SIAKAD mahasiswa."
         },
         {
             "id_kategori": 6,
@@ -592,7 +592,7 @@
         {
             "id_kategori": 6,
             "pertanyaan": "Apa itu Program Kreativitas Mahasiswa PKM dan bagaimana ketentuan pendaftaran PKM?",
-            "jawaban": "PKM (Program Kreativitas Mahasiswa) adalah program untuk menumbuhkan, mewadahi, dan mewujudkan ide kreatif serta inovatif mahasiswa. PKM berdampak pada peningkatan prestasi mahasiswa dan perguruan tinggi dalam pemeringkatan Kemendikbudristek.\n\nKetentuan:\n- Mahasiswa membuat proposal PKM sesuai jadwal seleksi internal atau nasional\n- Tim pengusul wajib mencari dosen pembimbing dari jurusan yang sama atau berbeda\n- Proposal yang disetujui dosen pembimbing diajukan ke seleksi PKM Internal Polinema\n- PKM yang lolos seleksi internal dilanjutkan ke seleksi nasional\n- PKM yang lolos pendanaan nasional wajib membuat laporan kemajuan dan laporan akhir\n- PKM yang lolos PIMNAS wajib mengikuti kegiatan tersebut\n- Semua ketentuan mengacu pada pedoman terbaru dari Direktorat Pembelajaran dan Kemahasiswaan Kemendikbudristek\n- Proses layanan kurang lebih 3–4 bulan"
+            "jawaban": "PKM (Program Kreativitas Mahasiswa) adalah program untuk menumbuhkan, mewadahi, dan mewujudkan ide kreatif serta inovatif mahasiswa. PKM berdampak pada peningkatan prestasi mahasiswa dan perguruan tinggi dalam pemeringkatan Kemendikbudristek.\n\nKetentuan:\n- Mahasiswa membuat proposal PKM sesuai jadwal seleksi internal atau nasional\n- Tim pengusul wajib mencari dosen pembimbing dari jurusan yang sama atau berbeda\n- Proposal yang disetujui dosen pembimbing diajukan ke seleksi PKM Internal Polinema\n- PKM yang lolos seleksi internal dilanjutkan ke seleksi nasional\n- PKM yang lolos pendanaan nasional wajib membuat laporan kemajuan dan laporan akhir\n- PKM yang lolos PIMNAS wajib mengikuti kegiatan tersebut\n- Semua ketentuan mengacu pada pedoman terbaru dari Direktorat Pembelajaran dan Kemahasiswaan Kemendikbudristek\n- Proses layanan kurang lebih 3â€“4 bulan"
         },
         {
             "id_kategori": 6,
@@ -647,12 +647,12 @@
         {
             "id_kategori": 7,
             "pertanyaan": "Cara Menggunakan Helpdesk Akademik",
-            "jawaban": "Helpdesk akademik Polinema dapat diakses di https://helpakademik.polinema.ac.id/ untuk mengajukan pertanyaan atau pengaduan seputar akademik.\n\nKetentuan penggunaan helpdesk:\n- Baca FAQ terlebih dahulu sebelum bertanya\n- Pilih kategori pertanyaan yang sesuai\n- Jam layanan: Senin–Jumat pukul 07.30–16.00 WIB\n- Di luar jam layanan, pertanyaan akan direspons pada hari kerja berikutnya\n- Direkomendasikan menggunakan PC/Laptop, tidak disarankan via HP\n- Gunakan Bahasa Indonesia yang jelas dan sopan\n- Pertanyaan di luar topik akademik akan diarahkan ke unit terkait"
+            "jawaban": "Helpdesk akademik Polinema dapat diakses di https://helpakademik.polinema.ac.id/ untuk mengajukan pertanyaan atau pengaduan seputar akademik.\n\nKetentuan penggunaan helpdesk:\n- Baca FAQ terlebih dahulu sebelum bertanya\n- Pilih kategori pertanyaan yang sesuai\n- Jam layanan: Seninâ€“Jumat pukul 07.30â€“16.00 WIB\n- Di luar jam layanan, pertanyaan akan direspons pada hari kerja berikutnya\n- Direkomendasikan menggunakan PC/Laptop, tidak disarankan via HP\n- Gunakan Bahasa Indonesia yang jelas dan sopan\n- Pertanyaan di luar topik akademik akan diarahkan ke unit terkait"
         },
         {
             "id_kategori": 7,
             "pertanyaan": "Bagaimana cara izin sakit dan ketentuan presensi activity control mahasiswa?",
-            "jawaban": "Prosedur Izin Sakit Mahasiswa & Ketentuan Presensi Activity Control\nPresensi dan activity control adalah pencatatan kehadiran mahasiswa dan materi perkuliahan setiap pertemuan untuk tiap mata kuliah.\n\nKetentuan umum:\n- Diinput oleh dosen pengampu setiap pertemuan\n- Pencatatan sesuai semester yang sedang berjalan\n- Jam ketidakhadiran mahasiswa terlambat dihitung sesuai kesepakatan dosen dan mahasiswa\n\nProsedur izin ketidakhadiran:\n- Sakit >1 hari ? wajib menyerahkan surat keterangan dokter\n- Izin  — wajib ada surat keterangan orang tua/wali atau ditandatangani DPA/DPK\n- Mata kuliah tertentu ? gunakan form ketidakhadiran, ditandatangani dosen/Kaprodi/Sekjur/Kajur\n- Perubahan data di SIAKAD dilakukan oleh admin program studi dengan persetujuan dosen pengampu\n\nBatas waktu pengajuan:\nSurat keterangan dan perubahan data SIAKAD paling lambat 3 hari kerja sejak ketidakhadiran tercatat. Lewat dari itu, data tidak dapat diubah."
+            "jawaban": "Prosedur Izin Sakit Mahasiswa & Ketentuan Presensi Activity Control\nPresensi dan activity control adalah pencatatan kehadiran mahasiswa dan materi perkuliahan setiap pertemuan untuk tiap mata kuliah.\n\nKetentuan umum:\n- Diinput oleh dosen pengampu setiap pertemuan\n- Pencatatan sesuai semester yang sedang berjalan\n- Jam ketidakhadiran mahasiswa terlambat dihitung sesuai kesepakatan dosen dan mahasiswa\n\nProsedur izin ketidakhadiran:\n- Sakit >1 hari ? wajib menyerahkan surat keterangan dokter\n- Izin  â€” wajib ada surat keterangan orang tua/wali atau ditandatangani DPA/DPK\n- Mata kuliah tertentu ? gunakan form ketidakhadiran, ditandatangani dosen/Kaprodi/Sekjur/Kajur\n- Perubahan data di SIAKAD dilakukan oleh admin program studi dengan persetujuan dosen pengampu\n\nBatas waktu pengajuan:\nSurat keterangan dan perubahan data SIAKAD paling lambat 3 hari kerja sejak ketidakhadiran tercatat. Lewat dari itu, data tidak dapat diubah."
         },
         {
             "id_kategori": 7,
@@ -697,7 +697,7 @@
         {
             "id_kategori": 7,
             "pertanyaan": "akibat dan konsekuensi jika tidak menyelesaikan tanggungan jam kompen",
-            "jawaban": "Konsekuensi tidak menyelesaikan kompen:\r\n\r\nJangka pendek:\r\n- Tidak dapat mencetak Kartu Hasil Studi (KHS)\r\n- Tidak dapat mengikuti ujian\r\n\r\nJangka panjang:\r\n- Menghambat proses kelulusan\r\n- Tidak dapat memenuhi syarat bebas tanggungan\r\n- Tidak dapat mengikuti ujian tugas akhir\r\n\r\nKetentuan tambahan:\r\n- Jika kompen tidak diselesaikan pada semester yang sama, jumlah jam kompen dikalikan dua pada semester berikutnya\r\n- Jika semester berikutnya masih tidak diselesaikan, dikalikan dua lagi — berlaku seterusnya"
+            "jawaban": "Konsekuensi tidak menyelesaikan kompen:\r\n\r\nJangka pendek:\r\n- Tidak dapat mencetak Kartu Hasil Studi (KHS)\r\n- Tidak dapat mengikuti ujian\r\n\r\nJangka panjang:\r\n- Menghambat proses kelulusan\r\n- Tidak dapat memenuhi syarat bebas tanggungan\r\n- Tidak dapat mengikuti ujian tugas akhir\r\n\r\nKetentuan tambahan:\r\n- Jika kompen tidak diselesaikan pada semester yang sama, jumlah jam kompen dikalikan dua pada semester berikutnya\r\n- Jika semester berikutnya masih tidak diselesaikan, dikalikan dua lagi â€” berlaku seterusnya"
         },
         {
             "id_kategori": 7,
@@ -747,7 +747,7 @@
         {
             "id_kategori": 7,
             "pertanyaan": "Berapa jumlah dan besar kompensasi kompen yang harus diselesaikan mahasiswa?",
-            "jawaban": "Besarnya kompensasi (kompen) ditentukan berdasarkan jumlah jam alpha dikalikan dua.\n\nContoh: Jika mahasiswa memiliki 5 jam alpha, maka kompen yang harus diselesaikan adalah 5 × 2 = 10 jam.\n\nKetentuan tambahan:\n- Kompen tidak boleh digantikan dalam bentuk uang atau barang\n- Kompen dilaksanakan setelah jam pelajaran resmi berakhir atau saat liburan\n- Bentuk dan sanksi kompen ditentukan oleh jurusan\n- Jika kompen tidak diselesaikan pada semester yang sama, jumlah kompen dikalikan dua pada semester berikutnya\n- Penyelesaian kompen menjadi syarat mengikuti ujian tugas akhir"
+            "jawaban": "Besarnya kompensasi (kompen) ditentukan berdasarkan jumlah jam alpha dikalikan dua.\r\n\r\nContoh: Jika mahasiswa memiliki 5 jam alpha, maka kompen yang harus diselesaikan adalah 5 x 2 = 10 jam.\r\n\r\nKetentuan tambahan:\r\n- Kompen tidak boleh digantikan dalam bentuk uang atau barang\r\n- Kompen dilaksanakan setelah jam pelajaran resmi berakhir atau saat liburan\r\n- Bentuk dan sanksi kompen ditentukan oleh jurusan\r\n- Jika kompen tidak diselesaikan pada semester yang sama, jumlah kompen dikalikan dua pada semester berikutnya\r\n- Penyelesaian kompen menjadi syarat mengikuti ujian tugas akhir"
         },
         {
             "id_kategori": 7,
@@ -777,22 +777,22 @@
         {
             "id_kategori": 8,
             "pertanyaan": "Apa itu AEGIS, siapa pembuatnya, dan apa fungsinya?",
-            "jawaban": "AEGIS adalah asisten virtual akademik JTI Politeknik Negeri Malang yang siap membantu mahasiswa mendapatkan informasi akademik kapan saja. 🤖\r\n\r\nAEGIS dibuat oleh tim pengembang JTI Polinema untuk memudahkan mahasiswa dalam mencari informasi seputar akademik tanpa harus datang langsung ke kantor.\r\n\r\nAEGIS bukan manusia, melainkan chatbot otomatis yang dirancang khusus untuk menjawab pertanyaan akademik mahasiswa Polinema.\r\n\r\nKetik \"menu\" untuk melihat topik yang bisa ditanyakan! 😊"
+            "jawaban": "AEGIS adalah asisten virtual akademik JTI Politeknik Negeri Malang yang siap membantu mahasiswa mendapatkan informasi akademik kapan saja. ðŸ¤–\r\n\r\nAEGIS dibuat oleh tim pengembang JTI Polinema untuk memudahkan mahasiswa dalam mencari informasi seputar akademik tanpa harus datang langsung ke kantor.\r\n\r\nAEGIS bukan manusia, melainkan chatbot otomatis yang dirancang khusus untuk menjawab pertanyaan akademik mahasiswa Polinema.\r\n\r\nKetik \"menu\" untuk melihat topik yang bisa ditanyakan! ðŸ˜Š"
         },
         {
             "id_kategori": 9,
             "pertanyaan": "Kontak atau nomor WhatsApp dosen",
-            "jawaban": "Berikut adalah informasi kontak yang berhasil saya temukan:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 Jabatan: [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
+            "jawaban": "Berikut adalah informasi kontak yang berhasil saya temukan:<br><br>ðŸ‘¤ <b>[NAMA_GELAR]</b><br>ðŸ’¼ Jabatan: [JABATAN]<br>ðŸ“ž WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
         },
         {
             "id_kategori": 9,
             "pertanyaan": "Tolong carikan nomor kontak staf atau admin",
-            "jawaban": "Tentu, ini dia kontak yang kamu cari:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a><br><br><i>Jangan lupa ucapkan salam dan perkenalkan diri saat menghubungi ya!</i>"
+            "jawaban": "Tentu, ini dia kontak yang kamu cari:<br><br>ðŸ‘¤ <b>[NAMA_GELAR]</b><br>ðŸ’¼ [JABATAN]<br>ðŸ“ž WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a><br><br><i>Jangan lupa ucapkan salam dan perkenalkan diri saat menghubungi ya!</i>"
         },
         {
             "id_kategori": 9,
             "pertanyaan": "Nomor layanan akademik",
-            "jawaban": "Data yang kamu butuhkan sudah saya temukan. Silakan hubungi kontak di bawah ini pada jam kerja:<br><br>👤 <b>[NAMA_GELAR]</b><br>💼 [JABATAN]<br>📞 WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
+            "jawaban": "Data yang kamu butuhkan sudah saya temukan. Silakan hubungi kontak di bawah ini pada jam kerja:<br><br>ðŸ‘¤ <b>[NAMA_GELAR]</b><br>ðŸ’¼ [JABATAN]<br>ðŸ“ž WhatsApp: <a href=\"https://wa.me/[LINK_WA]\" class=\"text-green-600 font-semibold underline\" target=\"_blank\">[NO_TELPON]</a>"
         },
         {
             "id_kategori": 9,
@@ -823,11 +823,6 @@
             "id_kategori": 9,
             "pertanyaan": "informasi info dosen",
             "jawaban": "Silakan sebutkan nama dosen yang ingin kamu cari infonya ya, contoh: 'nomor hp Pak/Bu [nama dosen]' atau 'ruangan Pak/Bu [nama dosen]'."
-        },
-        {
-            "id_kategori": 10,
-            "pertanyaan": "Syarat Mendaftar Skripsi JTI",
-            "jawaban": "Untuk mendaftar skripsi di lingkungan JTI, pastikan kamu sudah memenuhi minimal SKS, IPK, lulus mata kuliah prasyarat, dan menyiapkan skor TOEIC sesuai standar prodi D4 TI atau SIB."
         },
         {
             "id_kategori": 10,
@@ -892,7 +887,7 @@
         {
             "id_kategori": 10,
             "pertanyaan": "Informasi  skripsi dan tugas akhir JTI",
-            "jawaban": "Mengenai Informasi Skripsi, AEGIS bisa membantu menjawab pertanyaan seputar Skripsi/TA, antara lain:\n   • Syarat pendaftaran Seminar Proposal (Sempro)\n   • Syarat pendaftaran Sidang Akhir\n   • Minimal bimbingan sebelum sidang\n   • Minimal poin SKKM untuk daftar sidang\n\nSilakan tanyakan topik yang spesifik, contoh:\n   \"syarat daftar sempro\" atau \"minimal bimbingan sidang TA\""
+            "jawaban": "Mengenai Informasi Skripsi, AEGIS bisa membantu menjawab pertanyaan seputar Skripsi/TA, antara lain:\n   â€¢ Syarat pendaftaran Seminar Proposal (Sempro)\n   â€¢ Syarat pendaftaran Sidang Akhir\n   â€¢ Minimal bimbingan sebelum sidang\n   â€¢ Minimal poin SKKM untuk daftar sidang\n\nSilakan tanyakan topik yang spesifik, contoh:\n   \"syarat daftar sempro\" atau \"minimal bimbingan sidang TA\""
         },
         {
             "id_kategori": 10,
@@ -917,22 +912,22 @@
         {
             "id_kategori": 10,
             "pertanyaan": "Bagaimana cara mencari dosen pembimbing untuk topik mandiri skripsi?",
-            "jawaban": "Topik Mandiri adalah judul/topik skripsi yang ditentukan sendiri oleh mahasiswa.\n\nLangkah mencari dosen pembimbing:\n1. Buat draft proposal atau gambaran umum topik yang ingin dikerjakan\n2. Hubungi dosen yang bersedia membimbing topik tersebut\n3. Berdiskusi dengan sopan mengenai topik yang diinginkan\n\nEtika menghubungi dosen:\n- Dilarang mengirim pesan ke banyak dosen sekaligus dalam waktu bersamaan\n- Berikan jeda minimal 1–2 hari kepada dosen untuk membalas pesan\n- Jika belum dibalas setelah 1–2 hari, baru hubungi dosen lain\n- Sebelum menghubungi dosen berikutnya, kirim pesan berpamitan ke dosen sebelumnya\n- Lebih baik menemui dosen secara langsung"
+            "jawaban": "Topik Mandiri adalah judul/topik skripsi yang ditentukan sendiri oleh mahasiswa.\n\nLangkah mencari dosen pembimbing:\n1. Buat draft proposal atau gambaran umum topik yang ingin dikerjakan\n2. Hubungi dosen yang bersedia membimbing topik tersebut\n3. Berdiskusi dengan sopan mengenai topik yang diinginkan\n\nEtika menghubungi dosen:\n- Dilarang mengirim pesan ke banyak dosen sekaligus dalam waktu bersamaan\n- Berikan jeda minimal 1â€“2 hari kepada dosen untuk membalas pesan\n- Jika belum dibalas setelah 1â€“2 hari, baru hubungi dosen lain\n- Sebelum menghubungi dosen berikutnya, kirim pesan berpamitan ke dosen sebelumnya\n- Lebih baik menemui dosen secara langsung"
         },
         {
             "id_kategori": 10,
             "pertanyaan": "Apa ketentuan topik skripsi JTI?",
-            "jawaban": "Ketentuan topik skripsi JTI:\n\n- Harus sesuai dengan keilmuan program studi\n- Harus disetujui oleh dosen pembimbing utama\n- Sebisa mungkin sesuai dengan atau berkontribusi pada peta jalan penelitian lab yang menaungi dosen pembimbing\n- Jika topik di luar keilmuan lab tersebut, harus mengikuti aturan dari lab yang terkait keilmuannya\n- Harus sesuai dengan tingkat kedalaman yang ditentukan oleh lab (lihat dokumen Ruang Lingkup Skripsi)\n- Skripsi tidak boleh terlalu mudah namun juga tidak terlalu sulit — kriteria ditentukan oleh dokumen Ruang Lingkup Skripsi masing-masing lab"
+            "jawaban": "Ketentuan topik skripsi JTI:\n\n- Harus sesuai dengan keilmuan program studi\n- Harus disetujui oleh dosen pembimbing utama\n- Sebisa mungkin sesuai dengan atau berkontribusi pada peta jalan penelitian lab yang menaungi dosen pembimbing\n- Jika topik di luar keilmuan lab tersebut, harus mengikuti aturan dari lab yang terkait keilmuannya\n- Harus sesuai dengan tingkat kedalaman yang ditentukan oleh lab (lihat dokumen Ruang Lingkup Skripsi)\n- Skripsi tidak boleh terlalu mudah namun juga tidak terlalu sulit â€” kriteria ditentukan oleh dokumen Ruang Lingkup Skripsi masing-masing lab"
         },
         {
             "id_kategori": 10,
             "pertanyaan": "Apakah skripsi JTI wajib membuat aplikasi?",
-            "jawaban": "Ya, semua mahasiswa yang mengerjakan skripsi dengan topik apapun wajib membuat perangkat lunak aplikasi.\n\nKetentuan:\n- Aplikasi tidak harus memiliki UI/tampilan — yang penting adalah software yang dirancang untuk menangani tugas tertentu\n- Aplikasi dapat menjadi komponen utama atau komponen tambahan dalam skripsi\n\nContoh aplikasi sebagai komponen tambahan:\n- Topik UI/UX web ? mockup high fidelity dalam bentuk HTML + CSS yang bisa diklik\n- Topik pengolahan citra ? aplikasi desktop sederhana untuk menerapkan model klasifikasi\n- Topik analisis data ? dashboard sederhana berbasis web yang dikoding sendiri\n\nPengecualian:\n- Topik Jaringan\n- Topik Tata Kelola\n- Bidang lain yang disepakati oleh program studi dan laboratorium terkait"
+            "jawaban": "Ya, semua mahasiswa yang mengerjakan skripsi dengan topik apapun wajib membuat perangkat lunak aplikasi.\n\nKetentuan:\n- Aplikasi tidak harus memiliki UI/tampilan â€” yang penting adalah software yang dirancang untuk menangani tugas tertentu\n- Aplikasi dapat menjadi komponen utama atau komponen tambahan dalam skripsi\n\nContoh aplikasi sebagai komponen tambahan:\n- Topik UI/UX web ? mockup high fidelity dalam bentuk HTML + CSS yang bisa diklik\n- Topik pengolahan citra ? aplikasi desktop sederhana untuk menerapkan model klasifikasi\n- Topik analisis data ? dashboard sederhana berbasis web yang dikoding sendiri\n\nPengecualian:\n- Topik Jaringan\n- Topik Tata Kelola\n- Bidang lain yang disepakati oleh program studi dan laboratorium terkait"
         },
         {
             "id_kategori": 10,
             "pertanyaan": "Bagaimana jadwal pelaksanaan proposal skripsi 2025-2026?",
-            "jawaban": "Jadwal Pelaksanaan Proposal TA (Skripsi) 2025-2026:\n\n- 6 Oktober – 28 November 2025: Mahasiswa mencari pembimbing dan mengajukan di SIMTA\n- 1 – 31 Desember 2025: Pendaftaran Seminar Proposal di SIMTA\n- 4 Januari 2026: Batas akhir ACC Pembimbing di SIMTA\n- 5 – 9 Januari 2026: Penjadwalan Seminar Proposal\n- 12 – 23 Januari 2026: Pelaksanaan Seminar Proposal\n\nPendaftaran dan pengajuan dilakukan melalui: <a href='http://simta.sytes.net' target='_blank' style='color: blue;'>http://simta.sytes.net</a>"
+            "jawaban": "Jadwal Pelaksanaan Proposal TA (Skripsi) 2025-2026:\n\n- 6 Oktober â€“ 28 November 2025: Mahasiswa mencari pembimbing dan mengajukan di SIMTA\n- 1 â€“ 31 Desember 2025: Pendaftaran Seminar Proposal di SIMTA\n- 4 Januari 2026: Batas akhir ACC Pembimbing di SIMTA\n- 5 â€“ 9 Januari 2026: Penjadwalan Seminar Proposal\n- 12 â€“ 23 Januari 2026: Pelaksanaan Seminar Proposal\n\nPendaftaran dan pengajuan dilakukan melalui: <a href='http://simta.sytes.net' target='_blank' style='color: blue;'>http://simta.sytes.net</a>"
         },
         {
             "id_kategori": 11,
@@ -1136,8 +1131,8 @@
         },
         {
             "id_kategori": 8,
-            "pertanyaan": "Ada apa saja di AEGIS?",
-            "jawaban": "Berikut topik yang bisa kamu tanyakan ke AEGIS: 😊\r\n\r\n📋 Status Akademik — cuti, terminal, aktif kembali, pengunduran diri\r\n📄 Administrasi Surat — SKK, SKU, SKLA, surat model C, bebas tanggungan, dll\r\n💰 Keuangan UKT — pembayaran, cicilan, keringanan, penurunan UKT\r\n🎓 Kelulusan & Wisuda — ijazah, legalisir, wisuda, transkrip\r\n👤 Data Mahasiswa — NIM, KTM, verifikasi data, foto ijazah\r\n🏆 Kemahasiswaan — beasiswa, SKKM, PKM, asuransi, kompetisi\r\n📚 Akademik Umum — jadwal, helpdesk, activity control, presensi\r\n📝 Tugas Akhir — syarat ujian TA, pendaftaran TA\r\n🏢 Magang/PKL — informasi PKL\r\n📥 Unduhan Form — download formulir berbagai keperluan\r\n\r\nKetik \"menu\" untuk melihat pertanyaan yang sering ditanyakan! 😊"
+            "pertanyaan": "Ada informasi dan topik apa saja disini",
+            "jawaban": "Berikut topik yang bisa kamu tanyakan ke AEGIS: ðŸ˜Š\r\n\r\nðŸ“‹ Status Akademik â€” cuti, terminal, aktif kembali, pengunduran diri\r\nðŸ“„ Administrasi Surat â€” SKK, SKU, SKLA, surat model C, bebas tanggungan, dll\r\nðŸ’° Keuangan UKT â€” pembayaran, cicilan, keringanan, penurunan UKT\r\nðŸŽ“ Kelulusan & Wisuda â€” ijazah, legalisir, wisuda, transkrip\r\nðŸ‘¤ Data Mahasiswa â€” NIM, KTM, verifikasi data, foto ijazah\r\nðŸ† Kemahasiswaan â€” beasiswa, SKKM, PKM, asuransi, kompetisi\r\nðŸ“š Akademik Umum â€” jadwal, helpdesk, activity control, presensi\r\nðŸ“ Tugas Akhir â€” syarat ujian TA, pendaftaran TA\r\nðŸ¢ Magang/PKL â€” informasi PKL\r\nðŸ“¥ Unduhan Form â€” download formulir berbagai keperluan\r\n\r\nKetik \"menu\" untuk melihat pertanyaan yang sering ditanyakan! ðŸ˜Š"
         },
         {
             "id_kategori": 9,
@@ -1163,6 +1158,11 @@
             "id_kategori": 6,
             "pertanyaan": "informasi beasiswa",
             "jawaban": "Halo! AEGIS siap membantu informasi seputar Beasiswa dan Kemahasiswaan. Berikut hal yang bisa AEGIS bantu: \r\n- \"syarat daftar beasiswa KIP\" \r\n- \"berkas beasiswa apa aja\"\r\n- \"prosedur klaim asuransi mahasiswa\"  \r\n\r\nUntuk info lebih lanjut bisa menghubungi Admin Akademik."
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan": "dimana ruangan admin jti",
+            "jawaban": "Ruang admin akademik JTI berada di lantai 6 Gedung Sipil dan Teknologi Informatika Politeknik Negeri Malang. ðŸ¢"
         }
     ],
     "dataset_nlu": [
@@ -1636,10 +1636,6 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan_variasi": "mau tahu informasi cuti akademik"
-        },
-        {
-            "id_kategori": 1,
             "pertanyaan_variasi": "masa studi normal syarat lulus dengan pujian"
         },
         {
@@ -2080,23 +2076,11 @@
         },
         {
             "id_kategori": 1,
-            "pertanyaan_variasi": "informasi tentang cuti akademik"
-        },
-        {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "informasi dan ketentuan cuti akademik"
-        },
-        {
-            "id_kategori": 1,
             "pertanyaan_variasi": "informasi cuti akademik"
         },
         {
             "id_kategori": 1,
             "pertanyaan_variasi": "info tentang cuti akademik"
-        },
-        {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "info dong terminal mahasiswa itu apa dan syarat ketentuannya"
         },
         {
             "id_kategori": 1,
@@ -2117,10 +2101,6 @@
         {
             "id_kategori": 1,
             "pertanyaan_variasi": "dokumen pengunduran diri mahasiswa lama"
-        },
-        {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "definisi terminal mahasiswa dan apa syarat ketentuannya"
         },
         {
             "id_kategori": 1,
@@ -2205,10 +2185,6 @@
         {
             "id_kategori": 1,
             "pertanyaan_variasi": "cuti akademik itu apa"
-        },
-        {
-            "id_kategori": 1,
-            "pertanyaan_variasi": "cuti akademik informasinya gimana"
         },
         {
             "id_kategori": 1,
@@ -8836,19 +8812,11 @@
         },
         {
             "id_kategori": 8,
-            "pertanyaan_variasi": "waalaikumsalam"
-        },
-        {
-            "id_kategori": 8,
             "pertanyaan_variasi": "Sore nih"
         },
         {
             "id_kategori": 8,
             "pertanyaan_variasi": "Sore"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Slmkm"
         },
         {
             "id_kategori": 8,
@@ -8861,10 +8829,6 @@
         {
             "id_kategori": 8,
             "pertanyaan_variasi": "Sibuk ga?"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "siapa yang buat aegis"
         },
         {
             "id_kategori": 8,
@@ -8925,14 +8889,6 @@
         {
             "id_kategori": 8,
             "pertanyaan_variasi": "selamat datang"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "samlekom"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Salken"
         },
         {
             "id_kategori": 8,
@@ -9028,10 +8984,6 @@
         },
         {
             "id_kategori": 8,
-            "pertanyaan_variasi": "Mikum"
-        },
-        {
-            "id_kategori": 8,
             "pertanyaan_variasi": "Met sore"
         },
         {
@@ -9089,10 +9041,6 @@
         {
             "id_kategori": 8,
             "pertanyaan_variasi": "Maaf ganggu ya"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Lagi apa?"
         },
         {
             "id_kategori": 8,
@@ -9552,14 +9500,6 @@
         },
         {
             "id_kategori": 8,
-            "pertanyaan_variasi": "Assalam"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "Aslmkm"
-        },
-        {
-            "id_kategori": 8,
             "pertanyaan_variasi": "Apa kabar?"
         },
         {
@@ -9577,10 +9517,6 @@
         {
             "id_kategori": 8,
             "pertanyaan_variasi": "apa kabar"
-        },
-        {
-            "id_kategori": 8,
-            "pertanyaan_variasi": "apa itu aegis"
         },
         {
             "id_kategori": 8,
@@ -16408,10 +16344,6 @@
         },
         {
             "id_kategori": 8,
-            "pertanyaan_variasi": "informasi apa yang ada di aegis"
-        },
-        {
-            "id_kategori": 8,
             "pertanyaan_variasi": "aegis menyediakan info apa saja"
         },
         {
@@ -16745,6 +16677,78 @@
         {
             "id_kategori": 6,
             "pertanyaan_variasi": "tutorial input prestasi mahasiswa siakad"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "dimana ruangan admin jti"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruangan admin jti dimana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruang admin jti ada di mana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "lokasi ruang admin jti"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "admin jti ruangannya di mana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruang admin akademik jti di mana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "kantor admin jti di mana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "letak ruang admin jti"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruangan admin jti lantai berapa"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "admin jti ada di gedung mana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruang admin jti gedung apa"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "dimana letak ruang admin jti"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "ruang administrasi jti di mana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "kantor akademik jti ada di mana"
+        },
+        {
+            "id_kategori": 9,
+            "pertanyaan_variasi": "admin jti lokasinya di mana"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "batas waktu kuliah berapa tahun"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "berapa lama batas kuliah mahasiswa jti"
+        },
+        {
+            "id_kategori": 1,
+            "pertanyaan_variasi": "batas maksimal kuliah di polinema berapa tahun"
         }
     ]
 }

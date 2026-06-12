@@ -72,6 +72,6 @@ if __name__ == '__main__':
         except Exception as e:
             print(f"❌ Gagal melatih: {e}")
     else:
-        ## app.run(debug=True, host='127.0.0.1', port=5000)
-        port = int(os.environ.get('PORT', 8080))  # Railway inject PORT otomatis
-        app.run(debug=False, host='0.0.0.0', port=port)
+        app.run(debug=True, host='127.0.0.1', port=5000)
+        ##port = int(os.environ.get('PORT', 8080))  # Railway inject PORT otomatis
+        ##app.run(debug=False, host='0.0.0.0', port=port)

@@ -14,11 +14,15 @@ import joblib
 import numpy as np
 import pandas as pd
 from collections import Counter
+from functools import lru_cache
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics import classification_report
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
-from sklearn.model_selection import StratifiedKFold, cross_val_score
-
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
+from sklearn.metrics import classification_report
+from sklearn.pipeline import make_pipeline
+from sklearn.feature_extraction.text import TfidfVectorizer
 from core.preprocessor import preprocess
 from core import retriever
 
@@ -43,6 +47,53 @@ _ID_KATEGORI_SAPAAN = 8
 _model:        object       | None = None
 _df_kategori:  pd.DataFrame | None = None
 _df_knowledge: pd.DataFrame | None = None
+
+# ==========================================================
+# 🔹 CACHE PREDIKSI NAIVE BAYES
+#
+# Menyimpan hasil predict_proba() per (clean_input, threshold).
+# Query identik hanya diproses NB SEKALI selama server hidup —
+# query berikutnya langsung ambil dari RAM (0 ms overhead NB).
+#
+# maxsize=512 : simpan maks 512 query unik (~< 1 MB RAM).
+# Jika penuh, entri paling lama otomatis dibuang (LRU eviction).
+#
+# Dipisah ke _nb_compute() karena @lru_cache mensyaratkan fungsi
+# yang pure — semua input harus ada di argumen, tidak boleh
+# mengakses state global secara implisit di dalam cache key.
+# predict() tetap jadi satu-satunya fungsi publik yang dipanggil
+# dari luar — _nb_compute() tidak boleh dipanggil langsung.
+# ==========================================================
+
+@lru_cache(maxsize=512)
+def _nb_compute(clean_input: str, threshold: float) -> tuple:
+    """
+    Komputasi NB murni — aman di-cache karena tidak ada side effect.
+    Cache otomatis di-reset saat retrain via clear_predict_cache().
+    """
+    if _model is None:
+        return None, 0.0
+
+    probabilitas = _model.predict_proba([clean_input])[0]
+    confidence   = float(np.max(probabilitas))
+    id_kategori  = _model.classes_[np.argmax(probabilitas)]
+
+    if confidence < threshold:
+        return None, float(confidence)
+
+    return id_kategori, float(confidence)
+
+
+def clear_predict_cache():
+    """
+    Kosongkan cache prediksi NB.
+    WAJIB dipanggil setiap retrain agar model baru tidak
+    terkontaminasi hasil prediksi model lama di cache.
+    Dipanggil otomatis oleh train().
+    """
+    _nb_compute.cache_clear()
+    print("[classifier] Cache prediksi NB dikosongkan.")
+
 
 # ==========================================================
 # 🔹 FUNGSI PUBLIK — AKSES STATE
@@ -70,6 +121,8 @@ def get_nama_kategori(id_kategori) -> str | None:
 def predict(clean_input: str, threshold: float = 0.50) -> tuple[str | None, float]:
     """
     Prediksi kategori dari teks yang sudah di-preprocess.
+    Hasil di-cache via _nb_compute() — query sama tidak memanggil
+    sklearn ulang, langsung return dari RAM.
 
     Parameters
     ----------
@@ -80,17 +133,7 @@ def predict(clean_input: str, threshold: float = 0.50) -> tuple[str | None, floa
     -------
     (id_kategori, confidence) : id_kategori = None jika di bawah threshold
     """
-    if _model is None:
-        return None, 0.0
-
-    probabilitas = _model.predict_proba([clean_input])[0]
-    confidence   = float(np.max(probabilitas))
-    id_kategori  = _model.classes_[np.argmax(probabilitas)]
-
-    if confidence < threshold:
-        return None, confidence
-
-    return id_kategori, confidence
+    return _nb_compute(clean_input, threshold)
 
 
 # ==========================================================
@@ -154,6 +197,10 @@ def train(data_json: dict, jalankan_evaluasi: bool = True):
     # --- EVALUASI (opsional) ---
     if jalankan_evaluasi:
         _evaluasi(X, Y)
+
+    # Reset cache prediksi agar model baru tidak terkontaminasi
+    # hasil prediksi model lama yang masih tersimpan di RAM.
+    clear_predict_cache()
 
     # --- TRAINING NAIVE BAYES ---
     print("[classifier] Melatih Naive Bayes...")
@@ -232,33 +279,40 @@ def _buat_pipeline() -> object:
         TfidfVectorizer(
             ngram_range=(1, 2),
             max_df=0.85,
-            min_df=1,
+            min_df=2,
             sublinear_tf=True,
         ),
         MultinomialNB(alpha=0.5)
     )
 
 
-def _evaluasi(X: list, Y: list, n_splits: int = 10):
-    counts    = Counter(Y)
-    min_count = min(counts.values())
-
-    if min_count < n_splits:
-        n_splits = min_count
-        print(f"[classifier] Sampel terlalu sedikit, n_splits → {n_splits}")
-
-    if n_splits < 2:
-        print("[classifier] Data terlalu sedikit untuk cross validation. Dilewati.")
-        return
-
+def _evaluasi(X, y, n_splits: int = 5) -> None:
+    # ─── 1. Split data ────────────────────────────────────────────────────
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y,
+        test_size=0.2,
+        random_state=42,
+        stratify=y      # jaga proporsi kelas tetap seimbang
+    )
+    
     pipeline = _buat_pipeline()
-    cv       = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
-    scores   = cross_val_score(pipeline, X, Y, cv=cv, scoring='accuracy')
+    pipeline.fit(X_train, y_train)
 
-    print(f"\n[classifier] Cross Validation ({n_splits}-Fold):")
-    print(f"  Akurasi tiap fold : {[round(s, 2) for s in scores]}")
-    print(f"  Rata-rata akurasi : {scores.mean():.2f} ± {scores.std():.2f}\n")
+    # ─── 2. Evaluasi pada Test Set ────────────────────────────────────────
+    y_pred = pipeline.predict(X_test)
+    print("\n[evaluasi] Classification Report (Test Set 20%):")
+    print(classification_report(y_test, y_pred))
 
+    # ─── 3. Cross-Validation ──────────────────────────────────────────────
+    cv     = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
+    scores = cross_val_score(_buat_pipeline(), X, y, cv=cv, scoring='accuracy')
+    #                       NB dilatih ulang di tiap fold, jadi tidak ada kebocoran data.
+
+    print(f"[evaluasi] Cross-Validation ({n_splits}-Fold):")
+    print(f"  Akurasi tiap fold : {[round(s, 4) for s in scores]}")
+    print(f"  Rata-rata akurasi : {scores.mean():.4f} ± {scores.std():.4f}\n")
+
+    
 
 # ==========================================================
 # 🔹 AUTO LOAD SAAT IMPORT
